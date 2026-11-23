@@ -2,7 +2,7 @@
 
 Code, frozen evaluation suites and results for the paper *Predicting the
 synaptic partners of masked neurons in a second fly connectome with
-region-specific graph models* (Hassan, Ho and Aslam).
+region-specific graph models* (Hassan, Ho, and Aslam).
 
 ## What the study tests
 
