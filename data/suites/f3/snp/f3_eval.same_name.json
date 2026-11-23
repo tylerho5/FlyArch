@@ -1,0 +1,23 @@
+{
+  "name": "f3_eval",
+  "instances": {
+    "f3-snp-T-s3003": {
+      "cell_type": "WED012",
+      "size": 5,
+      "single_masked_positives": 8,
+      "same_name_unmasked": 0
+    },
+    "f3-snp-T-s3008": {
+      "cell_type": "SMP384",
+      "size": 2,
+      "single_masked_positives": 202,
+      "same_name_unmasked": 0
+    },
+    "f3-snp-T-s3013": {
+      "cell_type": "AOTU038",
+      "size": 10,
+      "single_masked_positives": 31,
+      "same_name_unmasked": 0
+    }
+  }
+}

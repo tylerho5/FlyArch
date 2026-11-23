@@ -1,0 +1,12 @@
+{
+  "digests": {
+    "f2-vmnp-HL-s4000": "ff3cc18876b5cef11cc28e880e9a9423daf1dd90740ff6ca05602368b940d403",
+    "f2-vmnp-HR-s4001": "b6516b83f05094a99e47dccc92a4fc9268096e4265575e333e87e9aa309a58f0"
+  },
+  "name": "f2_side",
+  "spec": {
+    "alpha": 1.0,
+    "k": 100,
+    "master_seed": 20260818
+  }
+}

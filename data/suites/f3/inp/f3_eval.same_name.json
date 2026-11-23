@@ -1,0 +1,23 @@
+{
+  "name": "f3_eval",
+  "instances": {
+    "f3-inp-T-s3003": {
+      "cell_type": "cL05",
+      "size": 2,
+      "single_masked_positives": 23,
+      "same_name_unmasked": 0
+    },
+    "f3-inp-T-s3008": {
+      "cell_type": "CRE088",
+      "size": 2,
+      "single_masked_positives": 32,
+      "same_name_unmasked": 2
+    },
+    "f3-inp-T-s3013": {
+      "cell_type": "CB2088",
+      "size": 3,
+      "single_masked_positives": 23,
+      "same_name_unmasked": 0
+    }
+  }
+}

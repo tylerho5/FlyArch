@@ -1,0 +1,23 @@
+{
+  "name": "f3_eval",
+  "instances": {
+    "f3-vlnp-T-s3003": {
+      "cell_type": "AVLP454_b",
+      "size": 10,
+      "single_masked_positives": 771,
+      "same_name_unmasked": 0
+    },
+    "f3-vlnp-T-s3008": {
+      "cell_type": "vCal1",
+      "size": 2,
+      "single_masked_positives": 194,
+      "same_name_unmasked": 0
+    },
+    "f3-vlnp-T-s3013": {
+      "cell_type": "CB3437",
+      "size": 2,
+      "single_masked_positives": 25,
+      "same_name_unmasked": 0
+    }
+  }
+}

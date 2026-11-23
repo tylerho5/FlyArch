@@ -1,0 +1,14 @@
+{
+  "cohort": "c680f1c420d6998190a311bce40a9ad7fd2f1e735bfcbeb752066a3029b5b4f0",
+  "delta": 0.01,
+  "region": "SNP",
+  "run_ids": [
+    "f1-snp-s000-78a94204",
+    "f1-snp-s001-78a94204",
+    "f1-snp-s002-78a94204",
+    "f1-snp-s003-78a94204",
+    "f1-snp-s004-78a94204"
+  ],
+  "s": 0.005123103133336367,
+  "tag": "delta-snp-c680f1c4"
+}

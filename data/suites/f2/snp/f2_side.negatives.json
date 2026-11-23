@@ -1,0 +1,12 @@
+{
+  "digests": {
+    "f2-snp-HL-s4000": "2e4d8527c9bd5277fc0517e2a5a449f8e5e11497d622a89952639a7a5c5ae5f6",
+    "f2-snp-HR-s4001": "fed72c2eeeac1ee0577811780a00b1a46aaca5145c17e713b5123944d92735dc"
+  },
+  "name": "f2_side",
+  "spec": {
+    "alpha": 1.0,
+    "k": 100,
+    "master_seed": 20260818
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "digests": {
+    "f1-union12-R01-s5000": "b7f8496a66df540af403b59b319d9bbf910da54fc0c6168fa0bd9a7bf629a6ac",
+    "f1-union12-R05-s5001": "a74c0a9635653d7563504aed82d0a5ced45babf37a82c957d5a18104eaf13981",
+    "f1-union12-R10-s5002": "0bb9b96bedd7f8d8b2fa254df23a63fa3e6cde5949c76431cceb31864041c9cf",
+    "f1-union12-S05-s5004": "57a67140a9066facc4a2acb3a54459da84f779fa382db25f3890f7a6a01bacc2",
+    "f1-union12-T-s5003": "60731187fb17ae7a52e63dbfaadb77223b26648356d931b7590520490ab035b6"
+  },
+  "name": "phase3_boundary_f1_val",
+  "spec": {
+    "alpha": 1.0,
+    "k": 100,
+    "master_seed": 20260818
+  }
+}

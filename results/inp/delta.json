@@ -1,0 +1,14 @@
+{
+  "cohort": "c9f35a03439d35e8ff4c6e5b7a059834614800a3a2ba2c8f42edd8ba94994526",
+  "delta": 0.01,
+  "region": "INP",
+  "run_ids": [
+    "f1-inp-s000-57e09e32",
+    "f1-inp-s001-57e09e32",
+    "f1-inp-s002-57e09e32",
+    "f1-inp-s003-57e09e32",
+    "f1-inp-s004-57e09e32"
+  ],
+  "s": 0.006358947946932345,
+  "tag": "delta-inp-c9f35a03"
+}

@@ -1,0 +1,92 @@
+{
+  "best_epoch": 200,
+  "best_val_mrr": 0.6416323962338257,
+  "code_digest": "5a68a426878be8af482033814ffd6292723666027fec342e06b35ef328e7f5599ac383dcd9639d1a5c4c38f0212e16083d17ba11a914a5bf5465a0004c0e23ea",
+  "config": {
+    "aggregation": "sum",
+    "annotation_groups": false,
+    "aux_weight": 0.3,
+    "branch_norm": true,
+    "decoder_dropout": 0.1,
+    "decoder_product_rank": 64,
+    "edge_weight": "fraction",
+    "ema_decay": 0.0,
+    "encoder_dropout": 0.1,
+    "epochs": 600,
+    "eval_every": 5,
+    "feature_noise": 0.0,
+    "gap_fraction": 0.05,
+    "gap_regimes": [
+      "R"
+    ],
+    "grad_clip": 0.0,
+    "hidden": 128,
+    "holdout_probe": false,
+    "layer_norm": true,
+    "layers": 2,
+    "lr": 0.003,
+    "lr_schedule": "cosine",
+    "nt_edges": false,
+    "nt_pair_features": false,
+    "pair_batch": 2048,
+    "pair_geometry": true,
+    "patience": 100,
+    "residual": true,
+    "sampling": "full",
+    "sibling_features": true,
+    "sibling_pooling": false,
+    "steps_per_epoch": 8,
+    "suites_dir": "data\\suites",
+    "train_negatives": 0,
+    "type_negatives": 0,
+    "type_pair_features": true,
+    "type_pair_shares": false,
+    "type_profile_rank": 0,
+    "warmup_epochs": 0,
+    "weight_decay": 0.01
+  },
+  "cuda_version": "12.8",
+  "device": "cuda:0",
+  "feature_digest": "a4d91444943df68579185b589c3e2673b6e3d8ef0c960c197aadd2c1f0ee161b9266cae2a8821351e93456ff02b5dedd5358d1b800f66402d1361d966eb00bbf",
+  "git_commit": "f46394ca861e70d3fc0bd0e9dd6d88408387c05d",
+  "gpu_name": "NVIDIA GeForce RTX 3070 Ti",
+  "graph_digest": "3e89ab66cc8f8e4323ab3e61918a58d7bc62fcfa40bc6fee28e2707f9dbeec8e",
+  "image_identifier": null,
+  "invocations": [
+    {
+      "device": "cuda:0",
+      "git": {
+        "commit": "f46394ca861e70d3fc0bd0e9dd6d88408387c05d",
+        "dirty": null
+      },
+      "image_identifier": null,
+      "metadata_unavailable": [
+        "image_identifier"
+      ],
+      "precision": "fp32",
+      "resumed": false,
+      "runtime": {
+        "cuda": "12.8",
+        "cudnn_tf32": true,
+        "deterministic": true,
+        "fused_adamw": true,
+        "gpu": "NVIDIA GeForce RTX 3070 Ti",
+        "tf32": false,
+        "torch": "2.7.0+cu128"
+      },
+      "timestamp_utc": "2026-11-03T21:16:44.829139Z",
+      "title": "Phase 2 gate cohort"
+    }
+  ],
+  "metadata_unavailable": [
+    "image_identifier"
+  ],
+  "precision": "fp32",
+  "region": "AL",
+  "run_id": "f1-al-s002-607e8a0e",
+  "schema_digest": "53876e5c8dd786518d3fe0aa7884fe7885b803f7c722bffcfbc1dd3ac6154d89",
+  "seed": 2,
+  "suite_digest": "c30b1f66145c535ebe0a6e74e8d1426dcc48be14ef257d46f6760e06125d17b9",
+  "tf32": false,
+  "torch_version": "2.7.0+cu128"
+}

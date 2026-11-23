@@ -1,0 +1,88 @@
+# Create data/{raw,interim,processed,runs} and the cache directory before
+# `docker compose up`; Compose never creates host directories for these mounts.
+# Relative paths resolve against this file's directory. Set FLYARCH_DATA_ROOT and
+# FLYARCH_CACHE_ROOT to use other locations.
+x-flyarch-common: &flyarch-common
+  image: ${FLYARCH_IMAGE_IDENTIFIER:-flyarch-training:dev}
+  build:
+    context: .
+    dockerfile: docker/training.Dockerfile
+  user: "${LOCAL_UID:?set LOCAL_UID}:${LOCAL_GID:?set LOCAL_GID}"
+  working_dir: /workspace
+  entrypoint: [/opt/flyarch/training-entrypoint.sh]
+  environment: &flyarch-environment
+    HOME: /cache/home/${LOCAL_UID:?set LOCAL_UID}
+    XDG_CACHE_HOME: /cache/home/${LOCAL_UID:?set LOCAL_UID}/.cache
+    FLYARCH_SOURCE_STATE: ${FLYARCH_SOURCE_STATE:-}
+    FLYARCH_GIT_STATE: ${FLYARCH_GIT_STATE:-}
+    FLYARCH_GIT_BRANCH: ${FLYARCH_GIT_BRANCH:-}
+    FLYARCH_GIT_SUBJECT: ${FLYARCH_GIT_SUBJECT:-}
+    FLYARCH_IMAGE_IDENTIFIER: ${FLYARCH_IMAGE_IDENTIFIER:-}
+    FLYARCH_REQUIRE_METADATA: "0"
+  command: [bash]
+  restart: "no"
+  network_mode: bridge
+  volumes:
+    - type: bind
+      source: .
+      target: /workspace
+      bind:
+        create_host_path: false
+    - type: bind
+      source: ${FLYARCH_DATA_ROOT:-./data}/raw
+      target: /workspace/data/raw
+      read_only: true
+      bind:
+        create_host_path: false
+    - type: bind
+      source: ${FLYARCH_DATA_ROOT:-./data}/interim
+      target: /workspace/data/interim
+      bind:
+        create_host_path: false
+    - type: bind
+      source: ${FLYARCH_DATA_ROOT:-./data}/processed
+      target: /workspace/data/processed
+      bind:
+        create_host_path: false
+    - type: bind
+      source: ${FLYARCH_DATA_ROOT:-./data}/runs
+      target: /workspace/data/runs
+      bind:
+        create_host_path: false
+    - type: bind
+      source: ${FLYARCH_CACHE_ROOT:-./.cache/training}
+      target: /cache
+      bind:
+        create_host_path: false
+
+services:
+  dev:
+    <<: *flyarch-common
+    stdin_open: true
+    tty: true
+
+  trainer:
+    <<: *flyarch-common
+    gpus: all
+    ipc: host
+
+  tensorboard:
+    <<: *flyarch-common
+    profiles: [tools]
+    entrypoint: [/opt/conda/bin/python, -m, tensorboard.main]
+    command: [--logdir=/workspace/data/runs, --host=0.0.0.0, --port=6006]
+    ports:
+      - "127.0.0.1:${FLYARCH_TENSORBOARD_PORT:-6006}:6006"
+    # Replace the anchor's mounts; TensorBoard only needs read access to runs.
+    volumes:
+      - type: bind
+        source: ${FLYARCH_DATA_ROOT:-./data}/runs
+        target: /workspace/data/runs
+        read_only: true
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ${FLYARCH_CACHE_ROOT:-./.cache/training}
+        target: /cache
+        bind:
+          create_host_path: false

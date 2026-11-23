@@ -1,0 +1,15 @@
+{
+  "digests": {
+    "f1-penp-R01-s000": "618cb4f57ef4e504be0a1d230c938ce3565477f682db8721518da730f84d43bb",
+    "f1-penp-R05-s001": "29f7a477e0eefdc07e468751b4bbe656f4d054ed0e1aa27f02e7b6367a66b763",
+    "f1-penp-R10-s002": "23ced7893666e421edfc4e7b7a32f8eb44886c930b1c8c3694210ce458de41a3",
+    "f1-penp-S05-s004": "8c91048293ad293797160ac5aed64ba51669567cb9e56d09817f8588a8d7e722",
+    "f1-penp-T-s003": "8cbbb17bdd8d6aaab3c0874a86f4d352b6c145762f22543b545f61e4459bfdd2"
+  },
+  "name": "f1_val",
+  "spec": {
+    "alpha": 1.0,
+    "k": 100,
+    "master_seed": 20260818
+  }
+}

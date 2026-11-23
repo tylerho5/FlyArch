@@ -1,0 +1,35 @@
+# Phase 3 plan 06, method A: one encoder on the union of all 12 regions. The recipe is VLNP's
+# (the largest region), a starting point for plan 04's resource probe, not a tuned config. It
+# early-stops on phase3_boundary_f1_val, whose roots are its whole holdout (decided 2026-11-06).
+region = "UNION12"
+f1_threshold = 5
+seeds = [0, 1, 2]
+calibration_seeds = [0, 1, 2, 3, 4]
+
+[train]
+epochs = 200
+hidden = 128
+layers = 2
+sibling_features = true
+lr = 0.003
+layer_norm = true
+residual = true
+branch_norm = true
+pair_batch = 2048
+encoder_dropout = 0.1
+decoder_dropout = 0.1
+steps_per_epoch = 8
+patience = 200
+gap_fraction = 0.05
+gap_regimes = ["R"]
+# A masked root's innervation counts its hidden edges, so it reads
+# uniform in training and validation, as it does at scoring.
+masked_innervation = "uniform"
+aux_weight = 0.3
+eval_every = 5
+warmup_epochs = 0
+lr_schedule = "cosine"
+sampling = "full"
+decoder_product_rank = 64
+type_pair_features = true
+pair_geometry = true

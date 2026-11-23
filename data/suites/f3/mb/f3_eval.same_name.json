@@ -1,0 +1,23 @@
+{
+  "name": "f3_eval",
+  "instances": {
+    "f3-mb-T-s3003": {
+      "cell_type": "MBON30",
+      "size": 2,
+      "single_masked_positives": 462,
+      "same_name_unmasked": 0
+    },
+    "f3-mb-T-s3008": {
+      "cell_type": "CSD",
+      "size": 2,
+      "single_masked_positives": 6,
+      "same_name_unmasked": 0
+    },
+    "f3-mb-T-s3013": {
+      "cell_type": "DNp32",
+      "size": 1,
+      "single_masked_positives": 1,
+      "same_name_unmasked": 0
+    }
+  }
+}

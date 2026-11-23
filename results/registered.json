@@ -1,0 +1,92 @@
+{
+  "suites": {
+    "AL": {
+      "f1_val": "c30b1f66145c535ebe0a6e74e8d1426dcc48be14ef257d46f6760e06125d17b9",
+      "f2_dev": "f5af67d839028ccd42bcc24d74910ef862360b22bc8a3ad7d425f390ce50dbcb",
+      "f2_confirm": "e37fc7bfe116fc4d3f31eb59a92b4cdaedae428ac805a16bb0547e08d8411ea3"
+    },
+    "CX": {
+      "f1_val": "84d9c330afe25ad2bd4a76b8816f3aee5e551155188de608b6dd1fa5b5236d61",
+      "f2_dev": "af882f6057631dbe90d1236b79e981d46de90933cbff152a0dc99acf6e5a58ad",
+      "f2_confirm": "943796293dbdaaccc8af543874048051ec3c3bdf7534859a0baa8598993ddd6e"
+    },
+    "GNG": {
+      "f1_val": "d593f7a9bdc827bb7b62e4e7d28bebfab82a07b7cfcd3bb3c9b415104959c00d",
+      "f2_dev": "396a2349016a84f42271b3e808055ca093ccb33ab4df6580616486305d630784",
+      "f2_confirm": "60d7eb7ecae8b2fadaa6c33427e88b3a9ae5d1393eaaadc1a502dbd38f212235"
+    },
+    "INP": {
+      "f1_val": "25795350ac330aa9b3b3db1a251527d3bfeea5a281dca55d53e5fd6f38608ba8",
+      "f2_dev": "b6087bb076f905d95f20f8c1a92cae52e03eaa0ceaabb204f08800e92e53246f",
+      "f2_confirm": "72d82b8fd2fdaa7e5e6451f8075705637c357ba6383fed3cdfc985341f54b2a9"
+    },
+    "LH": {
+      "f1_val": "df1b2a9586d8456ffd5fec7fd0bb2ef926b8de06980e72c717b67a18808e9f0b",
+      "f2_dev": "caa0bb17fa0c4a0f596ab48650d927e630d6e2565dccfe81cf0ba9371746e250",
+      "f2_confirm": "0a62be60fdfd60ccbdb81fca4eeebcc4b30b49f414b3be628ff47427b548d3f6"
+    },
+    "LX": {
+      "f1_val": "a97e2c6f3a1c9625ef45981f38f2051a68fffebc00e6ac8c914c7e053a99555d",
+      "f2_dev": "397272585451af1106b3bf745c335f2e01c83e30ff11c5a01afdb6e93c508202",
+      "f2_confirm": "65cfc043b792ded2e719d80899a699c8f49eeababa54ff747fa4a00860760779"
+    },
+    "MB": {
+      "f1_val": "2174003a2e2386727d2739a76d6f7c97bd75f044e75f48caa60dc1a8a720ac3f",
+      "f2_dev": "a66b5e0e6eab83804907fa0e1771d34c48f0f9ee880a92e317149504723e2436",
+      "f2_confirm": "672a3f8ecd3f14f8150991e1302ed95283b05e6832906045d0620102dcde92e0"
+    },
+    "OL": {
+      "f1_val": "7281ad51d3730dccae31c86f66c95f7ef6568fe101386c5890ba957e12710e23",
+      "f2_dev": "3c404fe521e4082516e973e063119be85563dd58346bc8f46b294e46014fd359",
+      "f2_confirm": "698973188ccd6b337c453824aa596377d338be181854e22933d5c75d125ae9ee"
+    },
+    "PENP": {
+      "f1_val": "84b7298ab8d1d2eb91be987c2eefde29b9af7c4f2523de990c4f1ac9d8b04505",
+      "f2_dev": "5e682d5fd45494da6e29a456024bd2d875b5285997071e63ca459d66be773135",
+      "f2_confirm": "d43df73fdb761fe79296b5abb5a97795c6e8bcb24e937285605fd161c1fc567f"
+    },
+    "SNP": {
+      "f1_val": "fcc4255054288603ce85a07aa426883e9b0245ac42ebb057486053158e3cfa71",
+      "f2_dev": "8713144b1655c18f49c5e6940a52dcaf01f596c75cf64648a9511505bd8aea37",
+      "f2_confirm": "67405ced77008195934dc67b3c97386b4f60d0b11b04a3d9e794a98f6af92d22"
+    },
+    "VLNP": {
+      "f1_val": "4cc61e9838ab0322d3666d2d93fae8c5fed2d54f4414c8092abf8239559aa95f",
+      "f2_dev": "1c7c7975d525f446048c9d225014a52fc8a7232a90d1b031333a619086ab3c1d",
+      "f2_confirm": "00480c06c7a765668bc1f277e1012542e6ac960817eb9bbc4b4b3ef712033e8c"
+    },
+    "VMNP": {
+      "f1_val": "1a874b93d03e449e62edfce05365531efbcff07901ea4c60e741270542e71db1",
+      "f2_dev": "ad0a58b9bdd072c582d70c6744775ec041fd11a0b9f1a81b27b4fe1d6deb67b8",
+      "f2_confirm": "0bae33c155ef2141692bfd2ac49ea34a9420e37f3694a0d3ad2f902bb9c834cc"
+    }
+  },
+  "boundary_suites": {
+    "phase3_boundary_f1_val": {
+      "suite": "9f8ea1790ab32fb2fde6aefc7f466336e3abb63c57e4651f722f9bce0fe4730a",
+      "selector": "e87ec809e417e5d9b60e6244f76ea1b2de70524b5ae9edcda438bdbee9d0b7de"
+    },
+    "phase3_boundary_f2_dev": {
+      "suite": "afee1138c6c48765103a602deeb908e1a2df2a2796cafd3014c3048fea87e751",
+      "selector": "2278812981a44f3c714bef0e608536a3f8523d984856e5e035397a9721d6b54a"
+    },
+    "phase3_boundary_f2_confirm": {
+      "suite": "8cf32a3a49493ae44b9a2bb8faab54b0efe399f7040b780499fd074a043eb30c",
+      "selector": "7da97fc45e4a52814947ae533b73ae3470a51fcf1ef77137fa77bef426f61580"
+    }
+  },
+  "phase2_verdicts": {
+    "AL": "PASS",
+    "CX": "PASS",
+    "GNG": "PASS",
+    "INP": "PASS",
+    "LH": "PASS",
+    "LX": "PASS",
+    "MB": "PASS",
+    "OL": "PASS",
+    "PENP": "PASS",
+    "SNP": "PASS",
+    "VLNP": "PASS",
+    "VMNP": "PASS"
+  }
+}

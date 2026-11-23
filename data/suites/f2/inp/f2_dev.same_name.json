@@ -1,0 +1,23 @@
+{
+  "name": "f2_dev",
+  "instances": {
+    "f2-inp-T-s1003": {
+      "cell_type": "SAD072",
+      "size": 2,
+      "single_masked_positives": 43,
+      "same_name_unmasked": 0
+    },
+    "f2-inp-T-s1008": {
+      "cell_type": "CB2721",
+      "size": 4,
+      "single_masked_positives": 74,
+      "same_name_unmasked": 0
+    },
+    "f2-inp-T-s1013": {
+      "cell_type": "M_smPN6t2",
+      "size": 2,
+      "single_masked_positives": 28,
+      "same_name_unmasked": 0
+    }
+  }
+}

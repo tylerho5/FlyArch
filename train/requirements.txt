@@ -1,0 +1,13 @@
+# Floor pins for the training stack.
+# Reviewable floors, not an install target: the pinned, reproducible
+# environment is requirements/training.lock, installed by
+# docker/training.Dockerfile.
+# Installed only on the training box; train/ tests must pass CPU-only.
+# src/ deps: numpy, pandas, scipy, pyarrow; pandas and pyarrow are shared here.
+torch>=2.4
+torch-geometric>=2.5
+scikit-learn>=1.5
+xgboost>=2.1
+pyarrow>=17
+pandas>=2.2
+tensorboard>=2.17

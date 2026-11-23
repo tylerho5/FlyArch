@@ -1,0 +1,23 @@
+{
+  "name": "f2_dev",
+  "instances": {
+    "f2-al-T-s1003": {
+      "cell_type": "DL4_adPN",
+      "size": 3,
+      "single_masked_positives": 280,
+      "same_name_unmasked": 0
+    },
+    "f2-al-T-s1008": {
+      "cell_type": "M_vPNml77",
+      "size": 2,
+      "single_masked_positives": 8,
+      "same_name_unmasked": 0
+    },
+    "f2-al-T-s1013": {
+      "cell_type": "ALIN1",
+      "size": 4,
+      "single_masked_positives": 266,
+      "same_name_unmasked": 0
+    }
+  }
+}

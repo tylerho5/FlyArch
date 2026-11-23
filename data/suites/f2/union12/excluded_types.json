@@ -1,0 +1,32 @@
+{
+  "rule": "lamina_fraction",
+  "min_fraction": 0.01,
+  "inputs": {
+    "Supplemental_file1_neuron_annotations.tsv": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be",
+    "per_neuron_neuropil_count_pre_783.feather": "35442a46f076892dff91bd6e55fa1489b3acc64fda1d35cee7dbbbbc509a3dff",
+    "per_neuron_neuropil_count_post_783.feather": "e2418f4794fe47984bb4bc15ffc194003ea8e349a428551f30af94947d85d712"
+  },
+  "types": [
+    "5-HT-IR  Tan",
+    "Am",
+    "C2",
+    "C3",
+    "HBeyelet",
+    "L1",
+    "L1-3",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "Lai",
+    "Lat1",
+    "Lat2",
+    "Lat5",
+    "Lawf1",
+    "Lawf2",
+    "R1-6",
+    "R7",
+    "R8",
+    "T1"
+  ]
+}

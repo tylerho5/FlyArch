@@ -1,0 +1,3 @@
+results/**/delta.json -text
+results/release-evidence.json -text
+data/suites/** linguist-generated=true

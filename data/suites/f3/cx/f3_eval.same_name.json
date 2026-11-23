@@ -1,0 +1,23 @@
+{
+  "name": "f3_eval",
+  "instances": {
+    "f3-cx-T-s3003": {
+      "cell_type": "SA2",
+      "size": 1,
+      "single_masked_positives": 1,
+      "same_name_unmasked": 0
+    },
+    "f3-cx-T-s3008": {
+      "cell_type": "FB4P_a",
+      "size": 4,
+      "single_masked_positives": 334,
+      "same_name_unmasked": 0
+    },
+    "f3-cx-T-s3013": {
+      "cell_type": "FC2C",
+      "size": 47,
+      "single_masked_positives": 1754,
+      "same_name_unmasked": 0
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "digests": {
+    "f2-inp-HL-s4000": "cda72fe7960cf2cba585edc67c5f7168fb2b9c9068ec7f239121dba3f103a043",
+    "f2-inp-HR-s4001": "fa2691636da8f6105bec6bfaaffb43dc1d56de62276f01a2d9a50ffa265e294f"
+  },
+  "name": "f2_side",
+  "spec": {
+    "alpha": 1.0,
+    "k": 100,
+    "master_seed": 20260818
+  }
+}

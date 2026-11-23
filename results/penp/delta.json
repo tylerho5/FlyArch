@@ -1,0 +1,14 @@
+{
+  "cohort": "bf8522e52f49828bc68ccf2a4103d4d9a0326bbca55f3280504241a7b0141e9d",
+  "delta": 0.02,
+  "region": "PENP",
+  "run_ids": [
+    "f1-penp-s000-3bd83bc2",
+    "f1-penp-s001-3bd83bc2",
+    "f1-penp-s002-3bd83bc2",
+    "f1-penp-s003-3bd83bc2",
+    "f1-penp-s004-3bd83bc2"
+  ],
+  "s": 0.007974707610052763,
+  "tag": "delta-penp-bf8522e5"
+}

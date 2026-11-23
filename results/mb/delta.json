@@ -1,0 +1,14 @@
+{
+  "cohort": "73627f3bd300bfc60b3a20d3f98c5fcc4015a684b54ce7a474802d245bbd13b8",
+  "delta": 0.03,
+  "region": "MB",
+  "run_ids": [
+    "f1-mb-s000-b8f7999c",
+    "f1-mb-s001-b8f7999c",
+    "f1-mb-s002-b8f7999c",
+    "f1-mb-s003-b8f7999c",
+    "f1-mb-s004-b8f7999c"
+  ],
+  "s": 0.01627571510390647,
+  "tag": "delta-mb-73627f3b"
+}

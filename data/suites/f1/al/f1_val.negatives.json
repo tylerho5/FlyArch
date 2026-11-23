@@ -1,0 +1,15 @@
+{
+  "digests": {
+    "f1-al-R01-s000": "457e0316aa6e35ec6001d72cc07133ca0d600bc8a96aecf3d4380bfd72df2e39",
+    "f1-al-R05-s001": "ddfcbe0909730c2083461efe0c7ff36660d5617ebecad1f1e3da70909cea0a37",
+    "f1-al-R10-s002": "2fb989e015b86237d400c4bad137a4a1fb07be797d712a17e8b5a114bb423711",
+    "f1-al-S05-s004": "f2d69b2ec12ec336306df04e6f575b1a65d80b8acc2a50d3bd2efa182846f533",
+    "f1-al-T-s003": "d33730c48c5e20e3635463b8e23cb439fe4baa5d03f63fdb878594c6745df3f7"
+  },
+  "name": "f1_val",
+  "spec": {
+    "alpha": 1.0,
+    "k": 100,
+    "master_seed": 20260818
+  }
+}

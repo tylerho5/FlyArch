@@ -1,0 +1,35 @@
+# M2, Antennal Lobe.
+region = "AL"
+f1_threshold = 5
+f2_threshold = 4
+f3_threshold = 11
+seeds = [0, 1, 2]
+calibration_seeds = [0, 1, 2, 3, 4]
+
+[train]
+epochs = 600
+hidden = 128
+layers = 2
+sibling_features = true
+lr = 0.003
+layer_norm = true
+residual = true
+branch_norm = true
+pair_batch = 2048
+encoder_dropout = 0.1
+decoder_dropout = 0.1
+steps_per_epoch = 8
+patience = 100
+gap_fraction = 0.05
+gap_regimes = ["R"]
+# A masked root's innervation counts its hidden edges, so it reads
+# uniform in training and validation, as it does at scoring.
+masked_innervation = "uniform"
+aux_weight = 0.3
+eval_every = 5
+warmup_epochs = 0
+lr_schedule = "cosine"
+sampling = "full"
+decoder_product_rank = 64
+type_pair_features = true
+pair_geometry = true

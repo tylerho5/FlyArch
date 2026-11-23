@@ -1,0 +1,13 @@
+region,name,f1_nodes,f1_edges,f2_threshold,f1val_model,f2dev_model,f2dev_champion,f2dev_champion_source,f2conf_model,champion,delta,rbar,ci_lo,ci_hi,wins,n_nonzero,p_sign,verdict,f2conf_match,f2conf_typemate
+CX,Central complex,3219,70830,3,0.734609,0.630782,0.386867,gate_rows,0.595587,xgboost,0.03,0.7526,0.6288,0.9708,19,19,1.907e-06,PASS,0.413,0.311
+AL,Antennal lobe,3827,67576,4,0.642301,0.583305,0.3129,pr195_body,0.591021,xgboost,0.02,0.8313,0.6328,1.1452,18,20,0.0002012,PASS,0.443,0.187
+LH,Lateral horn,5783,59218,1,0.621431,0.387367,0.312201,gate_rows,0.363369,xgboost,0.01,0.475,0.3812,0.571,19,20,2.003e-05,PASS,0.21,0.086
+MB,Mushroom body,8660,65557,3,0.652753,0.470379,0.304292,gate_rows,0.441744,xgboost,0.03,0.6712,0.5899,0.7965,20,20,9.537e-07,PASS,0.193,0.122
+LX,Lateral complex,3694,40508,2,0.661793,0.45644,0.260115,gate_rows,0.513938,xgboost,0.02,0.9474,0.6976,1.1393,19,20,2.003e-05,PASS,0.41,0.121
+SNP,Superior neuropils,14428,157849,2,0.625814,0.520903,0.36,transfer_report,0.487817,xgboost,0.01,0.6314,0.5546,0.6876,20,20,9.537e-07,PASS,0.372,0.133
+INP,Inferior neuropils,13480,105222,3,0.75064,0.583077,0.326,transfer_report,0.580463,xgboost,0.01,0.8677,0.6826,1.0666,20,20,9.537e-07,PASS,0.447,0.221
+VMNP,Ventromedial neuropils,10737,142711,2,0.716323,0.571133,0.304,transfer_report,0.5419,xgboost,0.01,1.0564,0.8434,1.1817,19,20,2.003e-05,PASS,0.455,0.166
+VLNP,Ventrolateral neuropils,20179,361760,2,0.812145,0.577065,0.389,transfer_report,0.580009,xgboost,0.0,0.5815,0.435,0.6525,19,20,2.003e-05,PASS,0.436,0.176
+PENP,Periesophageal neuropils,7337,68078,2,0.71494,0.540979,0.361,transfer_report,0.532001,xgboost,0.02,0.5076,0.3296,0.594,18,20,0.0002012,PASS,0.42,0.188
+GNG,Gnathal ganglia,8873,118094,3,0.627925,0.555627,0.301521,gate_rows,0.579243,logreg,0.02,0.966,0.7935,1.4626,20,20,9.537e-07,PASS,0.48,0.21
+OL,Optic lobe,93270,1466840,4,0.91203,0.569201,0.449,transfer_report,0.586944,xgboost,0.0,0.4123,0.3426,0.5443,20,20,9.537e-07,PASS,0.175,0.122

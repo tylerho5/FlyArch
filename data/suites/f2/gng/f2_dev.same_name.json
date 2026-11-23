@@ -1,0 +1,23 @@
+{
+  "name": "f2_dev",
+  "instances": {
+    "f2-gng-T-s1003": {
+      "cell_type": "CB0581",
+      "size": 2,
+      "single_masked_positives": 49,
+      "same_name_unmasked": 0
+    },
+    "f2-gng-T-s1008": {
+      "cell_type": "CB2516",
+      "size": 3,
+      "single_masked_positives": 158,
+      "same_name_unmasked": 0
+    },
+    "f2-gng-T-s1013": {
+      "cell_type": "TPMN2",
+      "size": 48,
+      "single_masked_positives": 503,
+      "same_name_unmasked": 0
+    }
+  }
+}

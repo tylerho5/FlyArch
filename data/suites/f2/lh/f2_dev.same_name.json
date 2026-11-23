@@ -1,0 +1,23 @@
+{
+  "name": "f2_dev",
+  "instances": {
+    "f2-lh-T-s1003": {
+      "cell_type": "CB4220",
+      "size": 1,
+      "single_masked_positives": 5,
+      "same_name_unmasked": 0
+    },
+    "f2-lh-T-s1008": {
+      "cell_type": "LHPV6r1",
+      "size": 6,
+      "single_masked_positives": 160,
+      "same_name_unmasked": 0
+    },
+    "f2-lh-T-s1013": {
+      "cell_type": "M_l2PNm15",
+      "size": 2,
+      "single_masked_positives": 325,
+      "same_name_unmasked": 0
+    }
+  }
+}

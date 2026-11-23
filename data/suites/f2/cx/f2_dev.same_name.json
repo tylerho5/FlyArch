@@ -1,0 +1,23 @@
+{
+  "name": "f2_dev",
+  "instances": {
+    "f2-cx-T-s1003": {
+      "cell_type": "SMP092",
+      "size": 1,
+      "single_masked_positives": 1,
+      "same_name_unmasked": 0
+    },
+    "f2-cx-T-s1008": {
+      "cell_type": "CRE012",
+      "size": 1,
+      "single_masked_positives": 1,
+      "same_name_unmasked": 0
+    },
+    "f2-cx-T-s1013": {
+      "cell_type": "FB5AB",
+      "size": 2,
+      "single_masked_positives": 514,
+      "same_name_unmasked": 0
+    }
+  }
+}

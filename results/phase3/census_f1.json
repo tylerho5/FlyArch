@@ -1,0 +1,5616 @@
+{
+  "git_commit": null,
+  "git_dirty": false,
+  "inputs": {
+    "proofread_connections_783.feather": {
+      "bytes": 852022274,
+      "sha256": "24f960ae3e7d4f8cd30db3b62e99fb5179cc3d1e76d8c155bfb441e9737d3faf"
+    }
+  },
+  "gates": [
+    {
+      "gate": "global edges",
+      "expected": 2700513,
+      "found": 2700513,
+      "pass": true
+    },
+    {
+      "gate": "global in_a_region_graph",
+      "expected": 2589381,
+      "found": 2589381,
+      "pass": true
+    },
+    {
+      "gate": "global boundary",
+      "expected": 111132,
+      "found": 111132,
+      "pass": true
+    },
+    {
+      "gate": "global registered_labels_only",
+      "expected": 110373,
+      "found": 110373,
+      "pass": true
+    },
+    {
+      "gate": "global needs_excluded_labels",
+      "expected": 759,
+      "found": 759,
+      "pass": true
+    },
+    {
+      "gate": "global region_graph_neurons",
+      "expected": 133844,
+      "found": 133844,
+      "pass": true
+    },
+    {
+      "gate": "global in_two_or_more",
+      "expected": 33047,
+      "found": 33047,
+      "pass": true
+    },
+    {
+      "gate": "UNION12 edges",
+      "expected": 2699754,
+      "found": 2699754,
+      "pass": true
+    },
+    {
+      "gate": "UNION12 nodes",
+      "expected": 133910,
+      "found": 133910,
+      "pass": true
+    },
+    {
+      "gate": "UNION12 boundary = global registered-labels-only",
+      "expected": 110373,
+      "found": 110373,
+      "pass": true
+    },
+    {
+      "gate": "UNION11 edges",
+      "expected": 1232549,
+      "found": 1232549,
+      "pass": true
+    },
+    {
+      "gate": "UNION11 nodes",
+      "expected": 48586,
+      "found": 48586,
+      "pass": true
+    },
+    {
+      "gate": "block union edges",
+      "expected": 666840,
+      "found": 666840,
+      "pass": true
+    },
+    {
+      "gate": "block boundary edges",
+      "expected": 45492,
+      "found": 45492,
+      "pass": true
+    },
+    {
+      "gate": "CX adds boundary edges",
+      "expected": 745,
+      "found": 745,
+      "pass": true
+    },
+    {
+      "gate": "pairwise boundary INP-VLNP",
+      "expected": 15274,
+      "found": 15274,
+      "pass": true
+    },
+    {
+      "gate": "pairwise boundary VLNP-VMNP",
+      "expected": 14846,
+      "found": 14846,
+      "pass": true
+    },
+    {
+      "gate": "pairwise boundary INP-VMNP",
+      "expected": 11404,
+      "found": 11404,
+      "pass": true
+    },
+    {
+      "gate": "pairwise boundary PENP-VMNP",
+      "expected": 5672,
+      "found": 5672,
+      "pass": true
+    },
+    {
+      "gate": "AL digest = experts.csv graph_digest",
+      "expected": "3e89ab66cc8f8e4323ab3e61918a58d7bc62fcfa40bc6fee28e2707f9dbeec8e",
+      "found": "3e89ab66cc8f8e4323ab3e61918a58d7bc62fcfa40bc6fee28e2707f9dbeec8e",
+      "pass": true
+    },
+    {
+      "gate": "CX digest = experts.csv graph_digest",
+      "expected": "9ea04d04c25cedbe1d4fe6bc1527976e784c8078dce4f993f3335e9d1935be6f",
+      "found": "9ea04d04c25cedbe1d4fe6bc1527976e784c8078dce4f993f3335e9d1935be6f",
+      "pass": true
+    },
+    {
+      "gate": "GNG digest = experts.csv graph_digest",
+      "expected": "b090e614eea92b8953a877fb2f575e0c15ac9379d80db0744890dbc211edd827",
+      "found": "b090e614eea92b8953a877fb2f575e0c15ac9379d80db0744890dbc211edd827",
+      "pass": true
+    },
+    {
+      "gate": "INP digest = experts.csv graph_digest",
+      "expected": "d3216463b1df02c14c4d670f04ef1cfc67b49218592f050b30ea0f9506fad6c2",
+      "found": "d3216463b1df02c14c4d670f04ef1cfc67b49218592f050b30ea0f9506fad6c2",
+      "pass": true
+    },
+    {
+      "gate": "LH digest = experts.csv graph_digest",
+      "expected": "f90da2447e3a118f54c166f9766818d8d23c1115feb3d1cb7b437bb75e0c1319",
+      "found": "f90da2447e3a118f54c166f9766818d8d23c1115feb3d1cb7b437bb75e0c1319",
+      "pass": true
+    },
+    {
+      "gate": "LX digest = experts.csv graph_digest",
+      "expected": "412cff170e832b3c6cf5bc5e195f5e7b4d2f26078302f2620c0a815249cb8eda",
+      "found": "412cff170e832b3c6cf5bc5e195f5e7b4d2f26078302f2620c0a815249cb8eda",
+      "pass": true
+    },
+    {
+      "gate": "MB digest = experts.csv graph_digest",
+      "expected": "ea930e432b351c5cfe35e3ccceb51affa4738fc4d78cb3acc11eb14d2cef163e",
+      "found": "ea930e432b351c5cfe35e3ccceb51affa4738fc4d78cb3acc11eb14d2cef163e",
+      "pass": true
+    },
+    {
+      "gate": "OL digest = experts.csv graph_digest",
+      "expected": "124ed669cac56f970a0a718866f882c1462c499e3a8cffa25cad35ba6fe3902a",
+      "found": "124ed669cac56f970a0a718866f882c1462c499e3a8cffa25cad35ba6fe3902a",
+      "pass": true
+    },
+    {
+      "gate": "PENP digest = experts.csv graph_digest",
+      "expected": "9fa0b8cc7067e9de858e4ee724168c591469a437b20b944c1dc051db854a3cc2",
+      "found": "9fa0b8cc7067e9de858e4ee724168c591469a437b20b944c1dc051db854a3cc2",
+      "pass": true
+    },
+    {
+      "gate": "SNP digest = experts.csv graph_digest",
+      "expected": "141fccf3a0a36043c610aa8e8993c5dcdedb80c5423cbf3febe9931ed5d3570d",
+      "found": "141fccf3a0a36043c610aa8e8993c5dcdedb80c5423cbf3febe9931ed5d3570d",
+      "pass": true
+    },
+    {
+      "gate": "VLNP digest = experts.csv graph_digest",
+      "expected": "bab5ee6e2cda220082686d4a124f7f8a9554502b2e183c2911d2031b06bdf76b",
+      "found": "bab5ee6e2cda220082686d4a124f7f8a9554502b2e183c2911d2031b06bdf76b",
+      "pass": true
+    },
+    {
+      "gate": "VMNP digest = experts.csv graph_digest",
+      "expected": "99933d06d25c01d55d0bdcec619fc3ad25e82776c379fb45e82a8483f4754f9d",
+      "found": "99933d06d25c01d55d0bdcec619fc3ad25e82776c379fb45e82a8483f4754f9d",
+      "pass": true
+    }
+  ],
+  "sets": {
+    "UNION12": {
+      "regions": [
+        "AL",
+        "CX",
+        "GNG",
+        "INP",
+        "LH",
+        "LX",
+        "MB",
+        "OL",
+        "PENP",
+        "SNP",
+        "VLNP",
+        "VMNP"
+      ],
+      "threshold": 5,
+      "union": {
+        "name": "UNION12",
+        "edges": 2699754,
+        "nodes": 133910,
+        "synapses": 34145300,
+        "digest": "1b9ae7d9318d749377ef776c2d99ac9b8a80e203c81be869298a57d5064b7626"
+      },
+      "boundary": {
+        "edges": 110373,
+        "edge_share": 0.04088261374925271,
+        "synapses": 646856,
+        "synapse_share": 0.01894421779864286,
+        "support_sets": 349,
+        "support": [
+          {
+            "regions": "INP+SNP",
+            "edges": 11988,
+            "edge_share": 0.10861351961077437,
+            "synapses": 67163,
+            "synapse_share": 0.10382990959347985
+          },
+          {
+            "regions": "VLNP+VMNP",
+            "edges": 9239,
+            "edge_share": 0.08370706603970174,
+            "synapses": 51908,
+            "synapse_share": 0.08024660820955513
+          },
+          {
+            "regions": "INP+VLNP",
+            "edges": 7602,
+            "edge_share": 0.0688755402136392,
+            "synapses": 42470,
+            "synapse_share": 0.06565603472797656
+          },
+          {
+            "regions": "INP+VMNP",
+            "edges": 7315,
+            "edge_share": 0.06627526659599721,
+            "synapses": 41281,
+            "synapse_share": 0.06381791310585354
+          },
+          {
+            "regions": "GNG+PENP",
+            "edges": 7232,
+            "edge_share": 0.06552327108984987,
+            "synapses": 40697,
+            "synapse_share": 0.0629150846556266
+          },
+          {
+            "regions": "INP+MB",
+            "edges": 4935,
+            "edge_share": 0.044712021961892855,
+            "synapses": 27336,
+            "synapse_share": 0.042259791978431056
+          },
+          {
+            "regions": "LH+SNP",
+            "edges": 4896,
+            "edge_share": 0.04435867467587182,
+            "synapses": 27088,
+            "synapse_share": 0.041876399074910024
+          },
+          {
+            "regions": "INP+VLNP+VMNP",
+            "edges": 3468,
+            "edge_share": 0.0314207278954092,
+            "synapses": 22710,
+            "synapse_share": 0.03510827757646215
+          },
+          {
+            "regions": "SNP+VLNP",
+            "edges": 3424,
+            "edge_share": 0.031022079675282904,
+            "synapses": 19071,
+            "synapse_share": 0.02948260509294186
+          },
+          {
+            "regions": "LX+VMNP",
+            "edges": 3323,
+            "edge_share": 0.030107000806356626,
+            "synapses": 18579,
+            "synapse_share": 0.0287220030424082
+          },
+          {
+            "regions": "INP+SNP+VLNP",
+            "edges": 3087,
+            "edge_share": 0.027968796716588296,
+            "synapses": 20192,
+            "synapse_share": 0.031215602854422004
+          },
+          {
+            "regions": "GNG+VMNP",
+            "edges": 3051,
+            "edge_share": 0.027642629991030416,
+            "synapses": 17121,
+            "synapse_share": 0.026468023795095046
+          },
+          {
+            "regions": "PENP+VMNP",
+            "edges": 2783,
+            "edge_share": 0.025214499922988413,
+            "synapses": 15587,
+            "synapse_share": 0.024096553174122216
+          },
+          {
+            "regions": "INP+LX",
+            "edges": 2661,
+            "edge_share": 0.024109157130820038,
+            "synapses": 15053,
+            "synapse_share": 0.023271021680250317
+          },
+          {
+            "regions": "LH+VLNP",
+            "edges": 2601,
+            "edge_share": 0.023565545921556904,
+            "synapses": 14441,
+            "synapse_share": 0.02232490693446455
+          },
+          {
+            "regions": "PENP+VLNP",
+            "edges": 2595,
+            "edge_share": 0.02351118480063059,
+            "synapses": 14560,
+            "synapse_share": 0.02250887369058956
+          },
+          {
+            "regions": "MB+SNP",
+            "edges": 2495,
+            "edge_share": 0.022605166118525363,
+            "synapses": 13776,
+            "synapse_share": 0.02129685741494243
+          },
+          {
+            "regions": "GNG+PENP+VMNP",
+            "edges": 2305,
+            "edge_share": 0.020883730622525437,
+            "synapses": 15438,
+            "synapse_share": 0.023866208244184176
+          },
+          {
+            "regions": "INP+MB+SNP",
+            "edges": 2078,
+            "edge_share": 0.018827068214146574,
+            "synapses": 13514,
+            "synapse_share": 0.020891821363641986
+          },
+          {
+            "regions": "LX+VLNP+VMNP",
+            "edges": 1655,
+            "edge_share": 0.014994609188841474,
+            "synapses": 10962,
+            "synapse_share": 0.01694658471128041
+          },
+          {
+            "regions": "OL+VLNP",
+            "edges": 1621,
+            "edge_share": 0.014686562836925697,
+            "synapses": 8934,
+            "synapse_share": 0.01381142016151972
+          },
+          {
+            "regions": "INP+LH+VLNP",
+            "edges": 1307,
+            "edge_share": 0.01184166417511529,
+            "synapses": 8590,
+            "synapse_share": 0.013279617101797
+          },
+          {
+            "regions": "INP+MB+VLNP",
+            "edges": 1209,
+            "edge_share": 0.010953765866652171,
+            "synapses": 7890,
+            "synapse_share": 0.012197459712826347
+          },
+          {
+            "regions": "INP+LH+SNP",
+            "edges": 1157,
+            "edge_share": 0.010482636151957454,
+            "synapses": 7465,
+            "synapse_share": 0.011540435583808451
+          },
+          {
+            "regions": "PENP+VLNP+VMNP",
+            "edges": 845,
+            "edge_share": 0.007655857863789152,
+            "synapses": 5520,
+            "synapse_share": 0.008533583981597141
+          },
+          {
+            "regions": "LX+VLNP",
+            "edges": 826,
+            "edge_share": 0.007483714314189159,
+            "synapses": 4553,
+            "synapse_share": 0.00703866084569054
+          },
+          {
+            "regions": "MB+VLNP",
+            "edges": 823,
+            "edge_share": 0.007456533753726002,
+            "synapses": 4437,
+            "synapse_share": 0.006859331906946832
+          },
+          {
+            "regions": "INP+LH+SNP+VLNP",
+            "edges": 771,
+            "edge_share": 0.006985404039031285,
+            "synapses": 6286,
+            "synapse_share": 0.009717773352956455
+          },
+          {
+            "regions": "LH+SNP+VLNP",
+            "edges": 711,
+            "edge_share": 0.00644179282976815,
+            "synapses": 4578,
+            "synapse_share": 0.007077309323868063
+          },
+          {
+            "regions": "GNG+VLNP+VMNP",
+            "edges": 694,
+            "edge_share": 0.0062877696538102615,
+            "synapses": 4544,
+            "synapse_share": 0.0070247473935466315
+          },
+          {
+            "regions": "INP+LH",
+            "edges": 562,
+            "edge_share": 0.005091824993431365,
+            "synapses": 3048,
+            "synapse_share": 0.004712022459403638
+          },
+          {
+            "regions": "GNG+PENP+VLNP",
+            "edges": 545,
+            "edge_share": 0.004937801817473476,
+            "synapses": 3598,
+            "synapse_share": 0.005562288979309151
+          },
+          {
+            "regions": "PENP+SNP",
+            "edges": 540,
+            "edge_share": 0.004892500883368215,
+            "synapses": 2987,
+            "synapse_share": 0.004617720172650482
+          },
+          {
+            "regions": "GNG+VLNP",
+            "edges": 537,
+            "edge_share": 0.004865320322905058,
+            "synapses": 2976,
+            "synapse_share": 0.004600714842252372
+          },
+          {
+            "regions": "INP+SNP+VMNP",
+            "edges": 521,
+            "edge_share": 0.004720357333768222,
+            "synapses": 3370,
+            "synapse_share": 0.005209814858330138
+          },
+          {
+            "regions": "INP+LX+VMNP",
+            "edges": 520,
+            "edge_share": 0.00471129714694717,
+            "synapses": 3455,
+            "synapse_share": 0.005341219684133718
+          },
+          {
+            "regions": "INP+MB+SNP+VLNP",
+            "edges": 446,
+            "edge_share": 0.004040843322189304,
+            "synapses": 3544,
+            "synapse_share": 0.0054788082664457005
+          },
+          {
+            "regions": "INP+LX+SNP",
+            "edges": 346,
+            "edge_share": 0.0031348246400840787,
+            "synapses": 2244,
+            "synapse_share": 0.0034690874012144896
+          },
+          {
+            "regions": "MB+SNP+VLNP",
+            "edges": 345,
+            "edge_share": 0.003125764453263026,
+            "synapses": 2183,
+            "synapse_share": 0.003374785114461333
+          },
+          {
+            "regions": "CX+INP",
+            "edges": 340,
+            "edge_share": 0.003080463519157765,
+            "synapses": 1836,
+            "synapse_share": 0.0028383442373573096
+          },
+          {
+            "regions": "GNG+PENP+VLNP+VMNP",
+            "edges": 318,
+            "edge_share": 0.0028811394090946154,
+            "synapses": 2474,
+            "synapse_share": 0.003824653400447704
+          },
+          {
+            "regions": "INP+LX+MB",
+            "edges": 309,
+            "edge_share": 0.0027995977277051453,
+            "synapses": 1989,
+            "synapse_share": 0.0030748729238037524
+          },
+          {
+            "regions": "LH+MB",
+            "edges": 241,
+            "edge_share": 0.0021835050238735924,
+            "synapses": 1359,
+            "synapse_share": 0.0021009312737301656
+          },
+          {
+            "regions": "INP+SNP+VLNP+VMNP",
+            "edges": 225,
+            "edge_share": 0.0020385420347367564,
+            "synapses": 1797,
+            "synapse_share": 0.0027780526114003735
+          },
+          {
+            "regions": "OL+VMNP",
+            "edges": 221,
+            "edge_share": 0.002002301287452547,
+            "synapses": 1202,
+            "synapse_share": 0.0018582188307753194
+          },
+          {
+            "regions": "INP+PENP+VMNP",
+            "edges": 209,
+            "edge_share": 0.0018935790455999204,
+            "synapses": 1334,
+            "synapse_share": 0.0020622827955526423
+          },
+          {
+            "regions": "OL+VLNP+VMNP",
+            "edges": 187,
+            "edge_share": 0.0016942549355367707,
+            "synapses": 1211,
+            "synapse_share": 0.0018721322829192279
+          },
+          {
+            "regions": "AL+VMNP",
+            "edges": 166,
+            "edge_share": 0.0015039910122946736,
+            "synapses": 919,
+            "synapse_share": 0.001420718057805756
+          },
+          {
+            "regions": "GNG+LX+VMNP",
+            "edges": 156,
+            "edge_share": 0.001413389144084151,
+            "synapses": 978,
+            "synapse_share": 0.0015119284663047108
+          },
+          {
+            "regions": "INP+MB+VMNP",
+            "edges": 151,
+            "edge_share": 0.0013680882099788897,
+            "synapses": 927,
+            "synapse_share": 0.0014330855708225632
+          },
+          {
+            "regions": "AL+LX+VMNP",
+            "edges": 146,
+            "edge_share": 0.0013227872758736286,
+            "synapses": 987,
+            "synapse_share": 0.0015258419184486192
+          },
+          {
+            "regions": "AL+LX",
+            "edges": 142,
+            "edge_share": 0.0012865465285894196,
+            "synapses": 776,
+            "synapse_share": 0.0011996487626303226
+          },
+          {
+            "regions": "LH+MB+VLNP",
+            "edges": 139,
+            "edge_share": 0.0012593659681262627,
+            "synapses": 869,
+            "synapse_share": 0.0013434211014507092
+          },
+          {
+            "regions": "SNP+VMNP",
+            "edges": 134,
+            "edge_share": 0.0012140650340210016,
+            "synapses": 733,
+            "synapse_share": 0.0011331733801649825
+          },
+          {
+            "regions": "LH+MB+SNP",
+            "edges": 124,
+            "edge_share": 0.001123463165810479,
+            "synapses": 785,
+            "synapse_share": 0.001213562214774231
+          },
+          {
+            "regions": "CX+INP+SNP",
+            "edges": 118,
+            "edge_share": 0.0010691020448841656,
+            "synapses": 761,
+            "synapse_share": 0.0011764596757238086
+          },
+          {
+            "regions": "CX+INP+VMNP",
+            "edges": 115,
+            "edge_share": 0.0010419214844210089,
+            "synapses": 736,
+            "synapse_share": 0.0011378111975462854
+          },
+          {
+            "regions": "CX+SNP",
+            "edges": 114,
+            "edge_share": 0.0010328612975999565,
+            "synapses": 605,
+            "synapse_share": 0.0009352931718960634
+          },
+          {
+            "regions": "INP+MB+VLNP+VMNP",
+            "edges": 110,
+            "edge_share": 0.0009966205503157475,
+            "synapses": 887,
+            "synapse_share": 0.001371248005738526
+          },
+          {
+            "regions": "SNP+VLNP+VMNP",
+            "edges": 105,
+            "edge_share": 0.0009513196162104862,
+            "synapses": 643,
+            "synapse_share": 0.0009940388587258988
+          },
+          {
+            "regions": "INP+LH+MB+VLNP",
+            "edges": 100,
+            "edge_share": 0.000906018682105225,
+            "synapses": 752,
+            "synapse_share": 0.0011625462235799002
+          },
+          {
+            "regions": "CX+LX",
+            "edges": 100,
+            "edge_share": 0.000906018682105225,
+            "synapses": 545,
+            "synapse_share": 0.0008425368242700076
+          },
+          {
+            "regions": "LX+PENP+VMNP",
+            "edges": 96,
+            "edge_share": 0.000869777934821016,
+            "synapses": 607,
+            "synapse_share": 0.0009383850501502653
+          },
+          {
+            "regions": "CX+MB",
+            "edges": 94,
+            "edge_share": 0.0008516575611789115,
+            "synapses": 501,
+            "synapse_share": 0.0007745155026775666
+          },
+          {
+            "regions": "GNG+LX+VLNP+VMNP",
+            "edges": 93,
+            "edge_share": 0.0008425973743578592,
+            "synapses": 725,
+            "synapse_share": 0.0011208058671481752
+          },
+          {
+            "regions": "INP+LX+VLNP+VMNP",
+            "edges": 92,
+            "edge_share": 0.000833537187536807,
+            "synapses": 701,
+            "synapse_share": 0.0010837033280977528
+          },
+          {
+            "regions": "INP+LX+VLNP",
+            "edges": 92,
+            "edge_share": 0.000833537187536807,
+            "synapses": 576,
+            "synapse_share": 0.0008904609372101365
+          },
+          {
+            "regions": "INP+LH+MB",
+            "edges": 90,
+            "edge_share": 0.0008154168138947025,
+            "synapses": 568,
+            "synapse_share": 0.0008780934241933289
+          },
+          {
+            "regions": "INP+LX+MB+SNP",
+            "edges": 89,
+            "edge_share": 0.0008063566270736502,
+            "synapses": 709,
+            "synapse_share": 0.0010960708411145604
+          },
+          {
+            "regions": "AL+LH",
+            "edges": 74,
+            "edge_share": 0.0006704538247578665,
+            "synapses": 401,
+            "synapse_share": 0.0006199215899674735
+          },
+          {
+            "regions": "INP+LH+MB+SNP",
+            "edges": 71,
+            "edge_share": 0.0006432732642947098,
+            "synapses": 533,
+            "synapse_share": 0.0008239855547447964
+          },
+          {
+            "regions": "CX+VMNP",
+            "edges": 71,
+            "edge_share": 0.0006432732642947098,
+            "synapses": 381,
+            "synapse_share": 0.0005890028074254548
+          },
+          {
+            "regions": "AL+PENP",
+            "edges": 69,
+            "edge_share": 0.0006251528906526053,
+            "synapses": 371,
+            "synapse_share": 0.0005735434161544455
+          },
+          {
+            "regions": "LX+SNP",
+            "edges": 61,
+            "edge_share": 0.0005526713960841873,
+            "synapses": 323,
+            "synapse_share": 0.0004993383380536008
+          },
+          {
+            "regions": "LH+VLNP+VMNP",
+            "edges": 58,
+            "edge_share": 0.0005254908356210305,
+            "synapses": 358,
+            "synapse_share": 0.0005534462075021334
+          },
+          {
+            "regions": "CX+INP+LX",
+            "edges": 57,
+            "edge_share": 0.0005164306487999783,
+            "synapses": 380,
+            "synapse_share": 0.0005874568682983539
+          },
+          {
+            "regions": "GNG+INP+PENP+VMNP",
+            "edges": 56,
+            "edge_share": 0.000507370461978926,
+            "synapses": 441,
+            "synapse_share": 0.0006817591550515107
+          },
+          {
+            "regions": "LH+MB+SNP+VLNP",
+            "edges": 56,
+            "edge_share": 0.000507370461978926,
+            "synapses": 406,
+            "synapse_share": 0.0006276512856029781
+          },
+          {
+            "regions": "LX+MB",
+            "edges": 54,
+            "edge_share": 0.0004892500883368215,
+            "synapses": 295,
+            "synapse_share": 0.0004560520424947747
+          },
+          {
+            "regions": "GNG+INP+VMNP",
+            "edges": 53,
+            "edge_share": 0.00048018990151576927,
+            "synapses": 316,
+            "synapse_share": 0.0004885167641638943
+          },
+          {
+            "regions": "CX+INP+MB",
+            "edges": 48,
+            "edge_share": 0.000434888967410508,
+            "synapses": 289,
+            "synapse_share": 0.0004467764077321691
+          },
+          {
+            "regions": "AL+PENP+VMNP",
+            "edges": 47,
+            "edge_share": 0.00042582878058945576,
+            "synapses": 290,
+            "synapse_share": 0.00044832234685927006
+          },
+          {
+            "regions": "AL+PENP+SNP",
+            "edges": 46,
+            "edge_share": 0.0004167685937684035,
+            "synapses": 293,
+            "synapse_share": 0.0004529601642405729
+          },
+          {
+            "regions": "INP+LX+SNP+VMNP",
+            "edges": 42,
+            "edge_share": 0.0003805278464841945,
+            "synapses": 330,
+            "synapse_share": 0.0005101599119433074
+          },
+          {
+            "regions": "INP+OL+VLNP",
+            "edges": 42,
+            "edge_share": 0.0003805278464841945,
+            "synapses": 264,
+            "synapse_share": 0.00040812792955464587
+          },
+          {
+            "regions": "INP+LH+MB+SNP+VLNP",
+            "edges": 41,
+            "edge_share": 0.00037146765966314225,
+            "synapses": 401,
+            "synapse_share": 0.0006199215899674735
+          },
+          {
+            "regions": "PENP+SNP+VMNP",
+            "edges": 41,
+            "edge_share": 0.00037146765966314225,
+            "synapses": 269,
+            "synapse_share": 0.0004158576251901505
+          },
+          {
+            "regions": "AL+INP",
+            "edges": 38,
+            "edge_share": 0.0003442870991999855,
+            "synapses": 205,
+            "synapse_share": 0.0003169175210556909
+          },
+          {
+            "regions": "INP+PENP+VLNP+VMNP",
+            "edges": 37,
+            "edge_share": 0.00033522691237893325,
+            "synapses": 291,
+            "synapse_share": 0.000449868285986371
+          },
+          {
+            "regions": "LX+SNP+VLNP",
+            "edges": 35,
+            "edge_share": 0.00031710653873682874,
+            "synapses": 213,
+            "synapse_share": 0.00032928503407249837
+          },
+          {
+            "regions": "GNG+INP+VLNP+VMNP",
+            "edges": 33,
+            "edge_share": 0.00029898616509472424,
+            "synapses": 260,
+            "synapse_share": 0.00040194417304624216
+          },
+          {
+            "regions": "INP+LH+VLNP+VMNP",
+            "edges": 33,
+            "edge_share": 0.00029898616509472424,
+            "synapses": 257,
+            "synapse_share": 0.00039730635566493933
+          },
+          {
+            "regions": "LX+PENP+VLNP+VMNP",
+            "edges": 33,
+            "edge_share": 0.00029898616509472424,
+            "synapses": 250,
+            "synapse_share": 0.0003864847817752328
+          },
+          {
+            "regions": "CX+INP+VLNP+VMNP",
+            "edges": 33,
+            "edge_share": 0.00029898616509472424,
+            "synapses": 245,
+            "synapse_share": 0.00037875508613972815
+          },
+          {
+            "regions": "CX+PENP+VMNP",
+            "edges": 32,
+            "edge_share": 0.000289925978273672,
+            "synapses": 212,
+            "synapse_share": 0.0003277390949453974
+          },
+          {
+            "regions": "CX+INP+LX+VMNP",
+            "edges": 30,
+            "edge_share": 0.0002718056046315675,
+            "synapses": 254,
+            "synapse_share": 0.00039266853828363657
+          },
+          {
+            "regions": "INP+PENP",
+            "edges": 29,
+            "edge_share": 0.00026274541781051524,
+            "synapses": 153,
+            "synapse_share": 0.00023652868644644248
+          },
+          {
+            "regions": "INP+OL",
+            "edges": 28,
+            "edge_share": 0.000253685230989463,
+            "synapses": 146,
+            "synapse_share": 0.00022570711255673597
+          },
+          {
+            "regions": "INP+PENP+SNP+VMNP",
+            "edges": 26,
+            "edge_share": 0.0002355648573473585,
+            "synapses": 201,
+            "synapse_share": 0.0003107337645472872
+          },
+          {
+            "regions": "GNG+PENP+SNP",
+            "edges": 26,
+            "edge_share": 0.0002355648573473585,
+            "synapses": 174,
+            "synapse_share": 0.00026899340811556205
+          },
+          {
+            "regions": "CX+INP+VLNP",
+            "edges": 26,
+            "edge_share": 0.0002355648573473585,
+            "synapses": 170,
+            "synapse_share": 0.00026280965160715834
+          },
+          {
+            "regions": "AL+GNG+PENP+VMNP",
+            "edges": 25,
+            "edge_share": 0.00022650467052630626,
+            "synapses": 209,
+            "synapse_share": 0.00032310127756409466
+          },
+          {
+            "regions": "INP+LX+MB+VMNP",
+            "edges": 25,
+            "edge_share": 0.00022650467052630626,
+            "synapses": 199,
+            "synapse_share": 0.0003076418862930853
+          },
+          {
+            "regions": "GNG+INP+PENP",
+            "edges": 25,
+            "edge_share": 0.00022650467052630626,
+            "synapses": 152,
+            "synapse_share": 0.00023498274731934156
+          },
+          {
+            "regions": "GNG+LX+VLNP",
+            "edges": 25,
+            "edge_share": 0.00022650467052630626,
+            "synapses": 149,
+            "synapse_share": 0.00023034492993803877
+          },
+          {
+            "regions": "AL+GNG+VMNP",
+            "edges": 24,
+            "edge_share": 0.000217444483705254,
+            "synapses": 163,
+            "synapse_share": 0.0002519880777174518
+          },
+          {
+            "regions": "INP+LX+SNP+VLNP",
+            "edges": 22,
+            "edge_share": 0.0001993241100631495,
+            "synapses": 177,
+            "synapse_share": 0.0002736312254968648
+          },
+          {
+            "regions": "LX+SNP+VMNP",
+            "edges": 22,
+            "edge_share": 0.0001993241100631495,
+            "synapses": 135,
+            "synapse_share": 0.00020870178215862573
+          },
+          {
+            "regions": "LX+SNP+VLNP+VMNP",
+            "edges": 21,
+            "edge_share": 0.00019026392324209725,
+            "synapses": 166,
+            "synapse_share": 0.0002566258950987546
+          },
+          {
+            "regions": "OL+SNP+VLNP",
+            "edges": 21,
+            "edge_share": 0.00019026392324209725,
+            "synapses": 143,
+            "synapse_share": 0.00022106929517543318
+          },
+          {
+            "regions": "MB+VLNP+VMNP",
+            "edges": 21,
+            "edge_share": 0.00019026392324209725,
+            "synapses": 135,
+            "synapse_share": 0.00020870178215862573
+          },
+          {
+            "regions": "LX+OL+VLNP",
+            "edges": 21,
+            "edge_share": 0.00019026392324209725,
+            "synapses": 128,
+            "synapse_share": 0.0001978802082689192
+          },
+          {
+            "regions": "INP+LX+PENP+VMNP",
+            "edges": 20,
+            "edge_share": 0.000181203736421045,
+            "synapses": 151,
+            "synapse_share": 0.00023343680819224062
+          },
+          {
+            "regions": "INP+PENP+VLNP",
+            "edges": 20,
+            "edge_share": 0.000181203736421045,
+            "synapses": 125,
+            "synapse_share": 0.0001932423908876164
+          },
+          {
+            "regions": "GNG+LX",
+            "edges": 20,
+            "edge_share": 0.000181203736421045,
+            "synapses": 107,
+            "synapse_share": 0.00016541548659979965
+          },
+          {
+            "regions": "INP+MB+SNP+VMNP",
+            "edges": 18,
+            "edge_share": 0.0001630833627789405,
+            "synapses": 139,
+            "synapse_share": 0.00021488553866702944
+          },
+          {
+            "regions": "LH+OL+VLNP",
+            "edges": 17,
+            "edge_share": 0.00015402317595788825,
+            "synapses": 113,
+            "synapse_share": 0.00017469112136240524
+          },
+          {
+            "regions": "AL+GNG+PENP",
+            "edges": 17,
+            "edge_share": 0.00015402317595788825,
+            "synapses": 112,
+            "synapse_share": 0.0001731451822353043
+          },
+          {
+            "regions": "CX+VLNP+VMNP",
+            "edges": 17,
+            "edge_share": 0.00015402317595788825,
+            "synapses": 109,
+            "synapse_share": 0.0001685073648540015
+          },
+          {
+            "regions": "AL+GNG",
+            "edges": 17,
+            "edge_share": 0.00015402317595788825,
+            "synapses": 92,
+            "synapse_share": 0.00014222639969328567
+          },
+          {
+            "regions": "GNG+INP+PENP+VLNP+VMNP",
+            "edges": 15,
+            "edge_share": 0.00013590280231578374,
+            "synapses": 133,
+            "synapse_share": 0.00020560990390442385
+          },
+          {
+            "regions": "MB+PENP+SNP",
+            "edges": 15,
+            "edge_share": 0.00013590280231578374,
+            "synapses": 100,
+            "synapse_share": 0.00015459391271009312
+          },
+          {
+            "regions": "AL+LH+MB",
+            "edges": 15,
+            "edge_share": 0.00013590280231578374,
+            "synapses": 97,
+            "synapse_share": 0.00014995609532879032
+          },
+          {
+            "regions": "GNG+INP+VLNP",
+            "edges": 15,
+            "edge_share": 0.00013590280231578374,
+            "synapses": 93,
+            "synapse_share": 0.00014377233882038662
+          },
+          {
+            "regions": "CX+LX+VMNP",
+            "edges": 15,
+            "edge_share": 0.00013590280231578374,
+            "synapses": 90,
+            "synapse_share": 0.00013913452143908382
+          },
+          {
+            "regions": "AL+VLNP",
+            "edges": 15,
+            "edge_share": 0.00013590280231578374,
+            "synapses": 80,
+            "synapse_share": 0.0001236751301680745
+          },
+          {
+            "regions": "INP+MB+SNP+VLNP+VMNP",
+            "edges": 14,
+            "edge_share": 0.0001268426154947315,
+            "synapses": 138,
+            "synapse_share": 0.00021333959953992852
+          },
+          {
+            "regions": "INP+LX+SNP+VLNP+VMNP",
+            "edges": 14,
+            "edge_share": 0.0001268426154947315,
+            "synapses": 123,
+            "synapse_share": 0.00019015051263341455
+          },
+          {
+            "regions": "INP+OL+VMNP",
+            "edges": 14,
+            "edge_share": 0.0001268426154947315,
+            "synapses": 85,
+            "synapse_share": 0.00013140482580357917
+          },
+          {
+            "regions": "LX+MB+SNP",
+            "edges": 14,
+            "edge_share": 0.0001268426154947315,
+            "synapses": 84,
+            "synapse_share": 0.00012985888667647823
+          },
+          {
+            "regions": "CX+INP+SNP+VLNP",
+            "edges": 13,
+            "edge_share": 0.00011778242867367925,
+            "synapses": 101,
+            "synapse_share": 0.00015613985183719406
+          },
+          {
+            "regions": "CX+INP+SNP+VMNP",
+            "edges": 13,
+            "edge_share": 0.00011778242867367925,
+            "synapses": 100,
+            "synapse_share": 0.00015459391271009312
+          },
+          {
+            "regions": "CX+LX+MB",
+            "edges": 13,
+            "edge_share": 0.00011778242867367925,
+            "synapses": 89,
+            "synapse_share": 0.00013758858231198288
+          },
+          {
+            "regions": "INP+PENP+SNP",
+            "edges": 13,
+            "edge_share": 0.00011778242867367925,
+            "synapses": 87,
+            "synapse_share": 0.00013449670405778102
+          },
+          {
+            "regions": "GNG+LX+PENP+VMNP",
+            "edges": 13,
+            "edge_share": 0.00011778242867367925,
+            "synapses": 87,
+            "synapse_share": 0.00013449670405778102
+          },
+          {
+            "regions": "GNG+INP",
+            "edges": 13,
+            "edge_share": 0.00011778242867367925,
+            "synapses": 67,
+            "synapse_share": 0.0001035779215157624
+          },
+          {
+            "regions": "LX+PENP+VLNP",
+            "edges": 12,
+            "edge_share": 0.000108722241852627,
+            "synapses": 70,
+            "synapse_share": 0.00010821573889706519
+          },
+          {
+            "regions": "LX+MB+VMNP",
+            "edges": 12,
+            "edge_share": 0.000108722241852627,
+            "synapses": 70,
+            "synapse_share": 0.00010821573889706519
+          },
+          {
+            "regions": "AL+VLNP+VMNP",
+            "edges": 12,
+            "edge_share": 0.000108722241852627,
+            "synapses": 70,
+            "synapse_share": 0.00010821573889706519
+          },
+          {
+            "regions": "GNG+LX+PENP+VLNP+VMNP",
+            "edges": 11,
+            "edge_share": 9.966205503157475e-05,
+            "synapses": 106,
+            "synapse_share": 0.0001638695474726987
+          },
+          {
+            "regions": "INP+OL+VLNP+VMNP",
+            "edges": 11,
+            "edge_share": 9.966205503157475e-05,
+            "synapses": 89,
+            "synapse_share": 0.00013758858231198288
+          },
+          {
+            "regions": "CX+VLNP",
+            "edges": 11,
+            "edge_share": 9.966205503157475e-05,
+            "synapses": 61,
+            "synapse_share": 9.43022867531568e-05
+          },
+          {
+            "regions": "OL+SNP",
+            "edges": 11,
+            "edge_share": 9.966205503157475e-05,
+            "synapses": 60,
+            "synapse_share": 9.275634762605588e-05
+          },
+          {
+            "regions": "INP+LX+MB+SNP+VMNP",
+            "edges": 10,
+            "edge_share": 9.06018682105225e-05,
+            "synapses": 111,
+            "synapse_share": 0.00017159924310820336
+          },
+          {
+            "regions": "AL+INP+MB",
+            "edges": 10,
+            "edge_share": 9.06018682105225e-05,
+            "synapses": 64,
+            "synapse_share": 9.89401041344596e-05
+          },
+          {
+            "regions": "CX+SNP+VMNP",
+            "edges": 10,
+            "edge_share": 9.06018682105225e-05,
+            "synapses": 59,
+            "synapse_share": 9.121040849895495e-05
+          },
+          {
+            "regions": "AL+INP+LX",
+            "edges": 10,
+            "edge_share": 9.06018682105225e-05,
+            "synapses": 57,
+            "synapse_share": 8.811853024475308e-05
+          },
+          {
+            "regions": "AL+SNP",
+            "edges": 10,
+            "edge_share": 9.06018682105225e-05,
+            "synapses": 55,
+            "synapse_share": 8.502665199055122e-05
+          },
+          {
+            "regions": "CX+INP+LX+MB",
+            "edges": 9,
+            "edge_share": 8.154168138947025e-05,
+            "synapses": 70,
+            "synapse_share": 0.00010821573889706519
+          },
+          {
+            "regions": "CX+LX+VLNP",
+            "edges": 9,
+            "edge_share": 8.154168138947025e-05,
+            "synapses": 67,
+            "synapse_share": 0.0001035779215157624
+          },
+          {
+            "regions": "LX+PENP",
+            "edges": 9,
+            "edge_share": 8.154168138947025e-05,
+            "synapses": 51,
+            "synapse_share": 7.88428954821475e-05
+          },
+          {
+            "regions": "GNG+SNP",
+            "edges": 9,
+            "edge_share": 8.154168138947025e-05,
+            "synapses": 47,
+            "synapse_share": 7.265913897374376e-05
+          },
+          {
+            "regions": "AL+INP+LX+VMNP",
+            "edges": 8,
+            "edge_share": 7.2481494568418e-05,
+            "synapses": 63,
+            "synapse_share": 9.739416500735867e-05
+          },
+          {
+            "regions": "LH+PENP+VLNP",
+            "edges": 8,
+            "edge_share": 7.2481494568418e-05,
+            "synapses": 54,
+            "synapse_share": 8.348071286345028e-05
+          },
+          {
+            "regions": "AL+LH+VLNP",
+            "edges": 8,
+            "edge_share": 7.2481494568418e-05,
+            "synapses": 52,
+            "synapse_share": 8.038883460924843e-05
+          },
+          {
+            "regions": "AL+MB",
+            "edges": 8,
+            "edge_share": 7.2481494568418e-05,
+            "synapses": 44,
+            "synapse_share": 6.802132159244098e-05
+          },
+          {
+            "regions": "INP+LH+SNP+VLNP+VMNP",
+            "edges": 7,
+            "edge_share": 6.342130774736575e-05,
+            "synapses": 67,
+            "synapse_share": 0.0001035779215157624
+          },
+          {
+            "regions": "MB+SNP+VLNP+VMNP",
+            "edges": 7,
+            "edge_share": 6.342130774736575e-05,
+            "synapses": 58,
+            "synapse_share": 8.966446937185402e-05
+          },
+          {
+            "regions": "AL+LX+VLNP+VMNP",
+            "edges": 7,
+            "edge_share": 6.342130774736575e-05,
+            "synapses": 50,
+            "synapse_share": 7.729695635504656e-05
+          },
+          {
+            "regions": "MB+OL+VLNP",
+            "edges": 7,
+            "edge_share": 6.342130774736575e-05,
+            "synapses": 45,
+            "synapse_share": 6.956726071954191e-05
+          },
+          {
+            "regions": "GNG+LH+SNP",
+            "edges": 7,
+            "edge_share": 6.342130774736575e-05,
+            "synapses": 43,
+            "synapse_share": 6.647538246534004e-05
+          },
+          {
+            "regions": "AL+LH+SNP",
+            "edges": 7,
+            "edge_share": 6.342130774736575e-05,
+            "synapses": 42,
+            "synapse_share": 6.492944333823911e-05
+          },
+          {
+            "regions": "MB+VMNP",
+            "edges": 7,
+            "edge_share": 6.342130774736575e-05,
+            "synapses": 37,
+            "synapse_share": 5.7199747702734457e-05
+          },
+          {
+            "regions": "INP+LX+PENP+SNP+VMNP",
+            "edges": 6,
+            "edge_share": 5.43611209263135e-05,
+            "synapses": 57,
+            "synapse_share": 8.811853024475308e-05
+          },
+          {
+            "regions": "CX+PENP+SNP+VMNP",
+            "edges": 6,
+            "edge_share": 5.43611209263135e-05,
+            "synapses": 53,
+            "synapse_share": 8.193477373634936e-05
+          },
+          {
+            "regions": "AL+INP+LX+SNP",
+            "edges": 6,
+            "edge_share": 5.43611209263135e-05,
+            "synapses": 48,
+            "synapse_share": 7.42050781008447e-05
+          },
+          {
+            "regions": "INP+OL+SNP+VLNP",
+            "edges": 6,
+            "edge_share": 5.43611209263135e-05,
+            "synapses": 48,
+            "synapse_share": 7.42050781008447e-05
+          },
+          {
+            "regions": "LX+OL+VLNP+VMNP",
+            "edges": 6,
+            "edge_share": 5.43611209263135e-05,
+            "synapses": 44,
+            "synapse_share": 6.802132159244098e-05
+          },
+          {
+            "regions": "GNG+LH+VLNP",
+            "edges": 6,
+            "edge_share": 5.43611209263135e-05,
+            "synapses": 34,
+            "synapse_share": 5.256193032143166e-05
+          },
+          {
+            "regions": "LX+MB+VLNP",
+            "edges": 6,
+            "edge_share": 5.43611209263135e-05,
+            "synapses": 33,
+            "synapse_share": 5.101599119433073e-05
+          },
+          {
+            "regions": "INP+LH+VMNP",
+            "edges": 6,
+            "edge_share": 5.43611209263135e-05,
+            "synapses": 33,
+            "synapse_share": 5.101599119433073e-05
+          },
+          {
+            "regions": "GNG+INP+PENP+SNP+VMNP",
+            "edges": 5,
+            "edge_share": 4.530093410526125e-05,
+            "synapses": 50,
+            "synapse_share": 7.729695635504656e-05
+          },
+          {
+            "regions": "CX+INP+LX+VLNP",
+            "edges": 5,
+            "edge_share": 4.530093410526125e-05,
+            "synapses": 45,
+            "synapse_share": 6.956726071954191e-05
+          },
+          {
+            "regions": "INP+LX+MB+VLNP",
+            "edges": 5,
+            "edge_share": 4.530093410526125e-05,
+            "synapses": 45,
+            "synapse_share": 6.956726071954191e-05
+          },
+          {
+            "regions": "GNG+INP+SNP+VLNP",
+            "edges": 5,
+            "edge_share": 4.530093410526125e-05,
+            "synapses": 39,
+            "synapse_share": 6.029162595693632e-05
+          },
+          {
+            "regions": "AL+LX+PENP+VMNP",
+            "edges": 5,
+            "edge_share": 4.530093410526125e-05,
+            "synapses": 39,
+            "synapse_share": 6.029162595693632e-05
+          },
+          {
+            "regions": "INP+LX+OL+VLNP",
+            "edges": 5,
+            "edge_share": 4.530093410526125e-05,
+            "synapses": 36,
+            "synapse_share": 5.565380857563353e-05
+          },
+          {
+            "regions": "AL+MB+PENP+SNP",
+            "edges": 5,
+            "edge_share": 4.530093410526125e-05,
+            "synapses": 34,
+            "synapse_share": 5.256193032143166e-05
+          },
+          {
+            "regions": "AL+MB+SNP",
+            "edges": 5,
+            "edge_share": 4.530093410526125e-05,
+            "synapses": 33,
+            "synapse_share": 5.101599119433073e-05
+          },
+          {
+            "regions": "INP+LX+OL",
+            "edges": 5,
+            "edge_share": 4.530093410526125e-05,
+            "synapses": 32,
+            "synapse_share": 4.94700520672298e-05
+          },
+          {
+            "regions": "AL+PENP+VLNP",
+            "edges": 5,
+            "edge_share": 4.530093410526125e-05,
+            "synapses": 32,
+            "synapse_share": 4.94700520672298e-05
+          },
+          {
+            "regions": "AL+INP+SNP",
+            "edges": 5,
+            "edge_share": 4.530093410526125e-05,
+            "synapses": 31,
+            "synapse_share": 4.792411294012887e-05
+          },
+          {
+            "regions": "INP+LX+PENP",
+            "edges": 5,
+            "edge_share": 4.530093410526125e-05,
+            "synapses": 27,
+            "synapse_share": 4.174035643172514e-05
+          },
+          {
+            "regions": "CX+INP+SNP+VLNP+VMNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 36,
+            "synapse_share": 5.565380857563353e-05
+          },
+          {
+            "regions": "GNG+INP+SNP+VMNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 35,
+            "synapse_share": 5.4107869448532595e-05
+          },
+          {
+            "regions": "CX+INP+PENP+VMNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 31,
+            "synapse_share": 4.792411294012887e-05
+          },
+          {
+            "regions": "GNG+INP+PENP+SNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 29,
+            "synapse_share": 4.483223468592701e-05
+          },
+          {
+            "regions": "INP+LH+SNP+VMNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 29,
+            "synapse_share": 4.483223468592701e-05
+          },
+          {
+            "regions": "CX+PENP+SNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 27,
+            "synapse_share": 4.174035643172514e-05
+          },
+          {
+            "regions": "GNG+INP+SNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 26,
+            "synapse_share": 4.0194417304624214e-05
+          },
+          {
+            "regions": "AL+INP+LH+VLNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 26,
+            "synapse_share": 4.0194417304624214e-05
+          },
+          {
+            "regions": "AL+MB+PENP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 25,
+            "synapse_share": 3.864847817752328e-05
+          },
+          {
+            "regions": "LH+LX+VLNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 25,
+            "synapse_share": 3.864847817752328e-05
+          },
+          {
+            "regions": "MB+SNP+VMNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 23,
+            "synapse_share": 3.555659992332142e-05
+          },
+          {
+            "regions": "GNG+INP+PENP+VLNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 22,
+            "synapse_share": 3.401066079622049e-05
+          },
+          {
+            "regions": "AL+INP+VMNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 22,
+            "synapse_share": 3.401066079622049e-05
+          },
+          {
+            "regions": "LH+VMNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 22,
+            "synapse_share": 3.401066079622049e-05
+          },
+          {
+            "regions": "CX+MB+SNP",
+            "edges": 4,
+            "edge_share": 3.6240747284209e-05,
+            "synapses": 20,
+            "synapse_share": 3.091878254201862e-05
+          },
+          {
+            "regions": "GNG+INP+LH+SNP+VLNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 35,
+            "synapse_share": 5.4107869448532595e-05
+          },
+          {
+            "regions": "INP+PENP+SNP+VLNP+VMNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 33,
+            "synapse_share": 5.101599119433073e-05
+          },
+          {
+            "regions": "GNG+PENP+SNP+VLNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 28,
+            "synapse_share": 4.3286295558826076e-05
+          },
+          {
+            "regions": "CX+GNG+PENP+VMNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 28,
+            "synapse_share": 4.3286295558826076e-05
+          },
+          {
+            "regions": "LH+PENP+VLNP+VMNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 27,
+            "synapse_share": 4.174035643172514e-05
+          },
+          {
+            "regions": "CX+INP+MB+SNP+VLNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 24,
+            "synapse_share": 3.710253905042235e-05
+          },
+          {
+            "regions": "AL+INP+LH+MB",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 23,
+            "synapse_share": 3.555659992332142e-05
+          },
+          {
+            "regions": "LH+MB+OL+VLNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 23,
+            "synapse_share": 3.555659992332142e-05
+          },
+          {
+            "regions": "PENP+SNP+VLNP+VMNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 22,
+            "synapse_share": 3.401066079622049e-05
+          },
+          {
+            "regions": "AL+LX+VLNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 21,
+            "synapse_share": 3.246472166911956e-05
+          },
+          {
+            "regions": "INP+MB+PENP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 20,
+            "synapse_share": 3.091878254201862e-05
+          },
+          {
+            "regions": "GNG+INP+LH+VLNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 20,
+            "synapse_share": 3.091878254201862e-05
+          },
+          {
+            "regions": "INP+MB+OL+VLNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 20,
+            "synapse_share": 3.091878254201862e-05
+          },
+          {
+            "regions": "INP+PENP+SNP+VLNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 20,
+            "synapse_share": 3.091878254201862e-05
+          },
+          {
+            "regions": "LH+SNP+VLNP+VMNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 20,
+            "synapse_share": 3.091878254201862e-05
+          },
+          {
+            "regions": "AL+INP+LH",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 19,
+            "synapse_share": 2.9372843414917695e-05
+          },
+          {
+            "regions": "AL+INP+VLNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 17,
+            "synapse_share": 2.628096516071583e-05
+          },
+          {
+            "regions": "CX+MB+VLNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 17,
+            "synapse_share": 2.628096516071583e-05
+          },
+          {
+            "regions": "GNG+SNP+VLNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 17,
+            "synapse_share": 2.628096516071583e-05
+          },
+          {
+            "regions": "GNG+LH+VMNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 17,
+            "synapse_share": 2.628096516071583e-05
+          },
+          {
+            "regions": "GNG+LX+PENP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 16,
+            "synapse_share": 2.47350260336149e-05
+          },
+          {
+            "regions": "PENP+SNP+VLNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 16,
+            "synapse_share": 2.47350260336149e-05
+          },
+          {
+            "regions": "LH+PENP+VMNP",
+            "edges": 3,
+            "edge_share": 2.718056046315675e-05,
+            "synapses": 16,
+            "synapse_share": 2.47350260336149e-05
+          },
+          {
+            "regions": "INP+LH+OL+SNP+VLNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 22,
+            "synapse_share": 3.401066079622049e-05
+          },
+          {
+            "regions": "INP+LH+PENP+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 21,
+            "synapse_share": 3.246472166911956e-05
+          },
+          {
+            "regions": "GNG+LH+PENP+VLNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 19,
+            "synapse_share": 2.9372843414917695e-05
+          },
+          {
+            "regions": "INP+MB+PENP+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 19,
+            "synapse_share": 2.9372843414917695e-05
+          },
+          {
+            "regions": "CX+INP+MB+SNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 18,
+            "synapse_share": 2.7826904287816765e-05
+          },
+          {
+            "regions": "INP+LH+PENP+SNP+VLNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 18,
+            "synapse_share": 2.7826904287816765e-05
+          },
+          {
+            "regions": "CX+INP+LX+SNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 18,
+            "synapse_share": 2.7826904287816765e-05
+          },
+          {
+            "regions": "GNG+LH+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 18,
+            "synapse_share": 2.7826904287816765e-05
+          },
+          {
+            "regions": "INP+LH+LX+VLNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 17,
+            "synapse_share": 2.628096516071583e-05
+          },
+          {
+            "regions": "INP+LH+PENP+VLNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 17,
+            "synapse_share": 2.628096516071583e-05
+          },
+          {
+            "regions": "GNG+LX+PENP+VLNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 17,
+            "synapse_share": 2.628096516071583e-05
+          },
+          {
+            "regions": "GNG+LH+PENP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 16,
+            "synapse_share": 2.47350260336149e-05
+          },
+          {
+            "regions": "MB+OL+SNP+VLNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 16,
+            "synapse_share": 2.47350260336149e-05
+          },
+          {
+            "regions": "CX+INP+MB+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 16,
+            "synapse_share": 2.47350260336149e-05
+          },
+          {
+            "regions": "AL+PENP+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 16,
+            "synapse_share": 2.47350260336149e-05
+          },
+          {
+            "regions": "GNG+INP+LX+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 15,
+            "synapse_share": 2.318908690651397e-05
+          },
+          {
+            "regions": "LH+SNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 15,
+            "synapse_share": 2.318908690651397e-05
+          },
+          {
+            "regions": "AL+INP+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 15,
+            "synapse_share": 2.318908690651397e-05
+          },
+          {
+            "regions": "CX+SNP+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 15,
+            "synapse_share": 2.318908690651397e-05
+          },
+          {
+            "regions": "CX+INP+LX+SNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 14,
+            "synapse_share": 2.1643147779413038e-05
+          },
+          {
+            "regions": "CX+INP+LH+VLNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 14,
+            "synapse_share": 2.1643147779413038e-05
+          },
+          {
+            "regions": "AL+GNG+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 14,
+            "synapse_share": 2.1643147779413038e-05
+          },
+          {
+            "regions": "CX+INP+LH+SNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 13,
+            "synapse_share": 2.0097208652312107e-05
+          },
+          {
+            "regions": "INP+OL+SNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 12,
+            "synapse_share": 1.8551269525211176e-05
+          },
+          {
+            "regions": "INP+MB+OL+SNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 12,
+            "synapse_share": 1.8551269525211176e-05
+          },
+          {
+            "regions": "AL+GNG+PENP+VLNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 12,
+            "synapse_share": 1.8551269525211176e-05
+          },
+          {
+            "regions": "INP+MB+PENP+VLNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 12,
+            "synapse_share": 1.8551269525211176e-05
+          },
+          {
+            "regions": "CX+SNP+VLNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 12,
+            "synapse_share": 1.8551269525211176e-05
+          },
+          {
+            "regions": "GNG+LH+PENP+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 12,
+            "synapse_share": 1.8551269525211176e-05
+          },
+          {
+            "regions": "LX+PENP+SNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 12,
+            "synapse_share": 1.8551269525211176e-05
+          },
+          {
+            "regions": "GNG+OL+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 12,
+            "synapse_share": 1.8551269525211176e-05
+          },
+          {
+            "regions": "INP+MB+OL",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 11,
+            "synapse_share": 1.7005330398110246e-05
+          },
+          {
+            "regions": "GNG+INP+LH+PENP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 11,
+            "synapse_share": 1.7005330398110246e-05
+          },
+          {
+            "regions": "AL+GNG+VLNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 11,
+            "synapse_share": 1.7005330398110246e-05
+          },
+          {
+            "regions": "AL+CX",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 10,
+            "synapse_share": 1.545939127100931e-05
+          },
+          {
+            "regions": "CX+PENP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 10,
+            "synapse_share": 1.545939127100931e-05
+          },
+          {
+            "regions": "MB+PENP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 10,
+            "synapse_share": 1.545939127100931e-05
+          },
+          {
+            "regions": "AL+CX+VMNP",
+            "edges": 2,
+            "edge_share": 1.81203736421045e-05,
+            "synapses": 10,
+            "synapse_share": 1.545939127100931e-05
+          },
+          {
+            "regions": "CX+INP+LX+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 17,
+            "synapse_share": 2.628096516071583e-05
+          },
+          {
+            "regions": "INP+MB+OL+SNP+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 13,
+            "synapse_share": 2.0097208652312107e-05
+          },
+          {
+            "regions": "AL+INP+LH+MB+PENP+SNP+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 13,
+            "synapse_share": 2.0097208652312107e-05
+          },
+          {
+            "regions": "GNG+INP+MB+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 13,
+            "synapse_share": 2.0097208652312107e-05
+          },
+          {
+            "regions": "CX+LX+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 13,
+            "synapse_share": 2.0097208652312107e-05
+          },
+          {
+            "regions": "CX+INP+OL+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 12,
+            "synapse_share": 1.8551269525211176e-05
+          },
+          {
+            "regions": "GNG+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 12,
+            "synapse_share": 1.8551269525211176e-05
+          },
+          {
+            "regions": "GNG+INP+LX+PENP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 11,
+            "synapse_share": 1.7005330398110246e-05
+          },
+          {
+            "regions": "CX+INP+LX+MB+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 11,
+            "synapse_share": 1.7005330398110246e-05
+          },
+          {
+            "regions": "CX+INP+LX+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 11,
+            "synapse_share": 1.7005330398110246e-05
+          },
+          {
+            "regions": "LX+PENP+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 11,
+            "synapse_share": 1.7005330398110246e-05
+          },
+          {
+            "regions": "INP+LX+OL+SNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 10,
+            "synapse_share": 1.545939127100931e-05
+          },
+          {
+            "regions": "INP+LX+MB+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 10,
+            "synapse_share": 1.545939127100931e-05
+          },
+          {
+            "regions": "AL+GNG+INP+LH+PENP+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 10,
+            "synapse_share": 1.545939127100931e-05
+          },
+          {
+            "regions": "CX+INP+LH+MB+SNP+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 10,
+            "synapse_share": 1.545939127100931e-05
+          },
+          {
+            "regions": "GNG+INP+LX+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 10,
+            "synapse_share": 1.545939127100931e-05
+          },
+          {
+            "regions": "INP+LX+MB+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 10,
+            "synapse_share": 1.545939127100931e-05
+          },
+          {
+            "regions": "AL+CX+LX+MB",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 9,
+            "synapse_share": 1.3913452143908382e-05
+          },
+          {
+            "regions": "AL+LX+SNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 9,
+            "synapse_share": 1.3913452143908382e-05
+          },
+          {
+            "regions": "AL+GNG+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 9,
+            "synapse_share": 1.3913452143908382e-05
+          },
+          {
+            "regions": "CX+INP+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 9,
+            "synapse_share": 1.3913452143908382e-05
+          },
+          {
+            "regions": "CX+INP+MB+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 9,
+            "synapse_share": 1.3913452143908382e-05
+          },
+          {
+            "regions": "AL+GNG+LH+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 9,
+            "synapse_share": 1.3913452143908382e-05
+          },
+          {
+            "regions": "INP+MB+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 9,
+            "synapse_share": 1.3913452143908382e-05
+          },
+          {
+            "regions": "GNG+OL+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 9,
+            "synapse_share": 1.3913452143908382e-05
+          },
+          {
+            "regions": "CX+INP+PENP+SNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 9,
+            "synapse_share": 1.3913452143908382e-05
+          },
+          {
+            "regions": "INP+LH+PENP+SNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 9,
+            "synapse_share": 1.3913452143908382e-05
+          },
+          {
+            "regions": "MB+PENP+SNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 9,
+            "synapse_share": 1.3913452143908382e-05
+          },
+          {
+            "regions": "GNG+INP+LX+MB+PENP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 9,
+            "synapse_share": 1.3913452143908382e-05
+          },
+          {
+            "regions": "GNG+LH+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 8,
+            "synapse_share": 1.236751301680745e-05
+          },
+          {
+            "regions": "GNG+INP+PENP+SNP+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 8,
+            "synapse_share": 1.236751301680745e-05
+          },
+          {
+            "regions": "AL+CX+INP+LX+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 8,
+            "synapse_share": 1.236751301680745e-05
+          },
+          {
+            "regions": "CX+INP+LX+MB+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 8,
+            "synapse_share": 1.236751301680745e-05
+          },
+          {
+            "regions": "CX+OL+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 8,
+            "synapse_share": 1.236751301680745e-05
+          },
+          {
+            "regions": "LX+MB+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 8,
+            "synapse_share": 1.236751301680745e-05
+          },
+          {
+            "regions": "CX+GNG+INP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 8,
+            "synapse_share": 1.236751301680745e-05
+          },
+          {
+            "regions": "GNG+INP+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 8,
+            "synapse_share": 1.236751301680745e-05
+          },
+          {
+            "regions": "GNG+PENP+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 8,
+            "synapse_share": 1.236751301680745e-05
+          },
+          {
+            "regions": "AL+INP+MB+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 7,
+            "synapse_share": 1.0821573889706519e-05
+          },
+          {
+            "regions": "GNG+INP+LH+PENP+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 7,
+            "synapse_share": 1.0821573889706519e-05
+          },
+          {
+            "regions": "LH+OL+SNP+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 7,
+            "synapse_share": 1.0821573889706519e-05
+          },
+          {
+            "regions": "CX+GNG+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 7,
+            "synapse_share": 1.0821573889706519e-05
+          },
+          {
+            "regions": "AL+LX+MB+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 7,
+            "synapse_share": 1.0821573889706519e-05
+          },
+          {
+            "regions": "LX+OL+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 7,
+            "synapse_share": 1.0821573889706519e-05
+          },
+          {
+            "regions": "INP+MB+OL+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 7,
+            "synapse_share": 1.0821573889706519e-05
+          },
+          {
+            "regions": "CX+LX+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 7,
+            "synapse_share": 1.0821573889706519e-05
+          },
+          {
+            "regions": "INP+OL+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 7,
+            "synapse_share": 1.0821573889706519e-05
+          },
+          {
+            "regions": "GNG+SNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 7,
+            "synapse_share": 1.0821573889706519e-05
+          },
+          {
+            "regions": "LX+MB+SNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 7,
+            "synapse_share": 1.0821573889706519e-05
+          },
+          {
+            "regions": "INP+LX+OL+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 7,
+            "synapse_share": 1.0821573889706519e-05
+          },
+          {
+            "regions": "AL+GNG+PENP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 7,
+            "synapse_share": 1.0821573889706519e-05
+          },
+          {
+            "regions": "CX+INP+LH",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "GNG+INP+LX",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "LH+LX+MB",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "LH+OL",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "CX+LX+SNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "GNG+INP+MB+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "AL+LH+MB+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "GNG+OL+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "CX+INP+OL+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "INP+LH+OL+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "AL+LH+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "INP+LH+MB+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "CX+INP+OL+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "AL+INP+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "AL+GNG+LH+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "GNG+INP+LX+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "AL+LX+MB+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "MB+PENP+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 6,
+            "synapse_share": 9.275634762605588e-06
+          },
+          {
+            "regions": "CX+GNG",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "GNG+LH",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "INP+LH+LX",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "CX+OL",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "INP+LH+OL",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "MB+OL",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "AL+INP+PENP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "LH+PENP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "GNG+MB+PENP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "LH+MB+PENP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "LX+MB+PENP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "CX+LH+SNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "GNG+INP+MB+SNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "LH+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "INP+LH+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "AL+CX+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "MB+PENP+VLNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "LH+LX+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "AL+SNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "OL+SNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          },
+          {
+            "regions": "OL+PENP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.06018682105225e-06,
+            "synapses": 5,
+            "synapse_share": 7.729695635504656e-06
+          }
+        ]
+      },
+      "regional": {
+        "AL": {
+          "edges": 67576,
+          "nodes": 3827,
+          "digest": "3e89ab66cc8f8e4323ab3e61918a58d7bc62fcfa40bc6fee28e2707f9dbeec8e"
+        },
+        "CX": {
+          "edges": 70830,
+          "nodes": 3219,
+          "digest": "9ea04d04c25cedbe1d4fe6bc1527976e784c8078dce4f993f3335e9d1935be6f"
+        },
+        "GNG": {
+          "edges": 118094,
+          "nodes": 8873,
+          "digest": "b090e614eea92b8953a877fb2f575e0c15ac9379d80db0744890dbc211edd827"
+        },
+        "INP": {
+          "edges": 105222,
+          "nodes": 13480,
+          "digest": "d3216463b1df02c14c4d670f04ef1cfc67b49218592f050b30ea0f9506fad6c2"
+        },
+        "LH": {
+          "edges": 59218,
+          "nodes": 5783,
+          "digest": "f90da2447e3a118f54c166f9766818d8d23c1115feb3d1cb7b437bb75e0c1319"
+        },
+        "LX": {
+          "edges": 40508,
+          "nodes": 3694,
+          "digest": "412cff170e832b3c6cf5bc5e195f5e7b4d2f26078302f2620c0a815249cb8eda"
+        },
+        "MB": {
+          "edges": 65557,
+          "nodes": 8660,
+          "digest": "ea930e432b351c5cfe35e3ccceb51affa4738fc4d78cb3acc11eb14d2cef163e"
+        },
+        "OL": {
+          "edges": 1466840,
+          "nodes": 93270,
+          "digest": "124ed669cac56f970a0a718866f882c1462c499e3a8cffa25cad35ba6fe3902a"
+        },
+        "PENP": {
+          "edges": 68078,
+          "nodes": 7337,
+          "digest": "9fa0b8cc7067e9de858e4ee724168c591469a437b20b944c1dc051db854a3cc2"
+        },
+        "SNP": {
+          "edges": 157849,
+          "nodes": 14428,
+          "digest": "141fccf3a0a36043c610aa8e8993c5dcdedb80c5423cbf3febe9931ed5d3570d"
+        },
+        "VLNP": {
+          "edges": 361760,
+          "nodes": 20179,
+          "digest": "bab5ee6e2cda220082686d4a124f7f8a9554502b2e183c2911d2031b06bdf76b"
+        },
+        "VMNP": {
+          "edges": 142711,
+          "nodes": 10737,
+          "digest": "99933d06d25c01d55d0bdcec619fc3ad25e82776c379fb45e82a8483f4754f9d"
+        }
+      },
+      "nodes": {
+        "in_any_region_graph": 133844,
+        "shared": 33047,
+        "shared_share": 0.24690684677684469,
+        "union_only": 66
+      },
+      "shared_nodes": {
+        "AL-CX": 35,
+        "AL-GNG": 235,
+        "AL-INP": 423,
+        "AL-LH": 637,
+        "AL-LX": 290,
+        "AL-MB": 421,
+        "AL-OL": 13,
+        "AL-PENP": 319,
+        "AL-SNP": 433,
+        "AL-VLNP": 421,
+        "AL-VMNP": 404,
+        "CX-GNG": 83,
+        "CX-INP": 1088,
+        "CX-LH": 36,
+        "CX-LX": 566,
+        "CX-MB": 307,
+        "CX-OL": 33,
+        "CX-PENP": 123,
+        "CX-SNP": 786,
+        "CX-VLNP": 291,
+        "CX-VMNP": 311,
+        "GNG-INP": 1206,
+        "GNG-LH": 294,
+        "GNG-LX": 686,
+        "GNG-MB": 225,
+        "GNG-OL": 172,
+        "GNG-PENP": 4335,
+        "GNG-SNP": 660,
+        "GNG-VLNP": 2429,
+        "GNG-VMNP": 3607,
+        "INP-LH": 2096,
+        "INP-LX": 2062,
+        "INP-MB": 4823,
+        "INP-OL": 845,
+        "INP-PENP": 1387,
+        "INP-SNP": 6826,
+        "INP-VLNP": 6926,
+        "INP-VMNP": 4628,
+        "LH-LX": 176,
+        "LH-MB": 1022,
+        "LH-OL": 257,
+        "LH-PENP": 327,
+        "LH-SNP": 4241,
+        "LH-VLNP": 2473,
+        "LH-VMNP": 649,
+        "LX-MB": 572,
+        "LX-OL": 218,
+        "LX-PENP": 629,
+        "LX-SNP": 927,
+        "LX-VLNP": 2195,
+        "LX-VMNP": 2470,
+        "MB-OL": 181,
+        "MB-PENP": 296,
+        "MB-SNP": 3572,
+        "MB-VLNP": 2147,
+        "MB-VMNP": 876,
+        "OL-PENP": 141,
+        "OL-SNP": 350,
+        "OL-VLNP": 7276,
+        "OL-VMNP": 1759,
+        "PENP-SNP": 1469,
+        "PENP-VLNP": 2893,
+        "PENP-VMNP": 3366,
+        "SNP-VLNP": 4757,
+        "SNP-VMNP": 2041,
+        "VLNP-VMNP": 6833
+      },
+      "pairwise_boundary": {
+        "AL-CX": 6,
+        "AL-GNG": 102,
+        "AL-INP": 112,
+        "AL-LH": 98,
+        "AL-LX": 283,
+        "AL-MB": 56,
+        "AL-OL": 0,
+        "AL-PENP": 221,
+        "AL-SNP": 76,
+        "AL-VLNP": 70,
+        "AL-VMNP": 445,
+        "CX-GNG": 11,
+        "CX-INP": 655,
+        "CX-LH": 5,
+        "CX-LX": 202,
+        "CX-MB": 173,
+        "CX-OL": 3,
+        "CX-PENP": 57,
+        "CX-SNP": 303,
+        "CX-VLNP": 126,
+        "CX-VMNP": 305,
+        "GNG-INP": 283,
+        "GNG-LH": 24,
+        "GNG-LX": 398,
+        "GNG-MB": 4,
+        "GNG-OL": 3,
+        "GNG-PENP": 9719,
+        "GNG-SNP": 67,
+        "GNG-VLNP": 2040,
+        "GNG-VMNP": 5585,
+        "INP-LH": 3065,
+        "INP-LX": 3808,
+        "INP-MB": 8103,
+        "INP-OL": 92,
+        "INP-PENP": 493,
+        "INP-SNP": 18294,
+        "INP-VLNP": 15274,
+        "INP-VMNP": 11404,
+        "LH-LX": 8,
+        "LH-MB": 723,
+        "LH-OL": 23,
+        "LH-PENP": 39,
+        "LH-SNP": 6686,
+        "LH-VLNP": 4677,
+        "LH-VMNP": 188,
+        "LX-MB": 447,
+        "LX-OL": 10,
+        "LX-PENP": 273,
+        "LX-SNP": 503,
+        "LX-VLNP": 2554,
+        "LX-VMNP": 5453,
+        "MB-OL": 12,
+        "MB-PENP": 51,
+        "MB-SNP": 4901,
+        "MB-VLNP": 2752,
+        "MB-VMNP": 489,
+        "OL-PENP": 1,
+        "OL-SNP": 39,
+        "OL-VLNP": 1826,
+        "OL-VMNP": 343,
+        "PENP-SNP": 703,
+        "PENP-VLNP": 4160,
+        "PENP-VMNP": 5672,
+        "SNP-VLNP": 7320,
+        "SNP-VMNP": 1058,
+        "VLNP-VMNP": 14846
+      },
+      "global": {
+        "edges": 2700513,
+        "in_a_region_graph": 2589381,
+        "boundary": 111132,
+        "registered_labels_only": 110373,
+        "needs_excluded_labels": 759,
+        "region_graph_neurons": 133844,
+        "in_two_or_more": 33047
+      }
+    },
+    "UNION11": {
+      "regions": [
+        "AL",
+        "CX",
+        "GNG",
+        "INP",
+        "LH",
+        "LX",
+        "MB",
+        "PENP",
+        "SNP",
+        "VLNP",
+        "VMNP"
+      ],
+      "threshold": 5,
+      "union": {
+        "name": "UNION11",
+        "edges": 1232549,
+        "nodes": 48586,
+        "synapses": 18552848,
+        "digest": "a6c78d3037449f1809f19509afa90ecf7ff5c2e4d8ff96bab0cd5e5a9e4efc28"
+      },
+      "boundary": {
+        "edges": 108393,
+        "edge_share": 0.08794214266532203,
+        "synapses": 635622,
+        "synapse_share": 0.03426007694344286,
+        "support_sets": 305,
+        "support": [
+          {
+            "regions": "INP+SNP",
+            "edges": 11989,
+            "edge_share": 0.11060677350013377,
+            "synapses": 67168,
+            "synapse_share": 0.1056728684658492
+          },
+          {
+            "regions": "VLNP+VMNP",
+            "edges": 9402,
+            "edge_share": 0.08673991862943178,
+            "synapses": 52831,
+            "synapse_share": 0.08311700979512981
+          },
+          {
+            "regions": "INP+VLNP",
+            "edges": 7624,
+            "edge_share": 0.07033664535532737,
+            "synapses": 42591,
+            "synapse_share": 0.06700680593182741
+          },
+          {
+            "regions": "INP+VMNP",
+            "edges": 7319,
+            "edge_share": 0.06752281051359404,
+            "synapses": 41304,
+            "synapse_share": 0.06498201761424242
+          },
+          {
+            "regions": "GNG+PENP",
+            "edges": 7232,
+            "edge_share": 0.06672017565709963,
+            "synapses": 40697,
+            "synapse_share": 0.06402704752195487
+          },
+          {
+            "regions": "INP+MB",
+            "edges": 4935,
+            "edge_share": 0.045528770308045724,
+            "synapses": 27336,
+            "synapse_share": 0.043006692656956495
+          },
+          {
+            "regions": "LH+SNP",
+            "edges": 4896,
+            "edge_share": 0.045168968475824085,
+            "synapses": 27088,
+            "synapse_share": 0.042616523657142136
+          },
+          {
+            "regions": "INP+VLNP+VMNP",
+            "edges": 3482,
+            "edge_share": 0.03212384563578829,
+            "synapses": 22795,
+            "synapse_share": 0.035862509478904125
+          },
+          {
+            "regions": "SNP+VLNP",
+            "edges": 3441,
+            "edge_share": 0.031745592427555286,
+            "synapses": 19163,
+            "synapse_share": 0.03014842154613906
+          },
+          {
+            "regions": "LX+VMNP",
+            "edges": 3325,
+            "edge_share": 0.030675412618896055,
+            "synapses": 18592,
+            "synapse_share": 0.029250088889308426
+          },
+          {
+            "regions": "INP+SNP+VLNP",
+            "edges": 3092,
+            "edge_share": 0.028525827313571908,
+            "synapses": 20229,
+            "synapse_share": 0.031825518940502374
+          },
+          {
+            "regions": "GNG+VMNP",
+            "edges": 3052,
+            "edge_share": 0.028156799793344588,
+            "synapses": 17127,
+            "synapse_share": 0.026945259918630886
+          },
+          {
+            "regions": "PENP+VMNP",
+            "edges": 2783,
+            "edge_share": 0.025675089719815854,
+            "synapses": 15587,
+            "synapse_share": 0.02452243629075142
+          },
+          {
+            "regions": "INP+LX",
+            "edges": 2663,
+            "edge_share": 0.024568007159133893,
+            "synapses": 15066,
+            "synapse_share": 0.02370276673872207
+          },
+          {
+            "regions": "LH+VLNP",
+            "edges": 2612,
+            "edge_share": 0.02409749707084406,
+            "synapses": 14500,
+            "synapse_share": 0.022812300392371566
+          },
+          {
+            "regions": "PENP+VLNP",
+            "edges": 2595,
+            "edge_share": 0.023940660374747447,
+            "synapses": 14560,
+            "synapse_share": 0.022906696118133105
+          },
+          {
+            "regions": "MB+SNP",
+            "edges": 2495,
+            "edge_share": 0.023018091574179146,
+            "synapses": 13776,
+            "synapse_share": 0.021673258634849014
+          },
+          {
+            "regions": "GNG+PENP+VMNP",
+            "edges": 2306,
+            "edge_share": 0.021274436541105054,
+            "synapses": 15446,
+            "synapse_share": 0.02430060633521181
+          },
+          {
+            "regions": "INP+MB+SNP",
+            "edges": 2080,
+            "edge_share": 0.01918943105182069,
+            "synapses": 13524,
+            "synapse_share": 0.021276796586650555
+          },
+          {
+            "regions": "LX+VLNP+VMNP",
+            "edges": 1660,
+            "edge_share": 0.01531464208943382,
+            "synapses": 10994,
+            "synapse_share": 0.017296443483705723
+          },
+          {
+            "regions": "INP+LH+VLNP",
+            "edges": 1307,
+            "edge_share": 0.012057974223427713,
+            "synapses": 8590,
+            "synapse_share": 0.01351432140486012
+          },
+          {
+            "regions": "INP+MB+VLNP",
+            "edges": 1210,
+            "edge_share": 0.011163082486876459,
+            "synapses": 7896,
+            "synapse_share": 0.012422477510218338
+          },
+          {
+            "regions": "INP+LH+SNP",
+            "edges": 1157,
+            "edge_share": 0.01067412102257526,
+            "synapses": 7465,
+            "synapse_share": 0.011744401546831294
+          },
+          {
+            "regions": "PENP+VLNP+VMNP",
+            "edges": 845,
+            "edge_share": 0.007795706364802155,
+            "synapses": 5520,
+            "synapse_share": 0.00868440677006145
+          },
+          {
+            "regions": "LX+VLNP",
+            "edges": 834,
+            "edge_share": 0.007694223796739642,
+            "synapses": 4594,
+            "synapse_share": 0.007227566069141722
+          },
+          {
+            "regions": "MB+VLNP",
+            "edges": 825,
+            "edge_share": 0.007611192604688495,
+            "synapses": 4449,
+            "synapse_share": 0.0069994430652180065
+          },
+          {
+            "regions": "INP+LH+SNP+VLNP",
+            "edges": 773,
+            "edge_share": 0.007131456828392977,
+            "synapses": 6304,
+            "synapse_share": 0.009917844253345541
+          },
+          {
+            "regions": "LH+SNP+VLNP",
+            "edges": 712,
+            "edge_share": 0.006568689860046313,
+            "synapses": 4583,
+            "synapse_share": 0.007210260186085441
+          },
+          {
+            "regions": "GNG+VLNP+VMNP",
+            "edges": 695,
+            "edge_share": 0.006411853163949701,
+            "synapses": 4549,
+            "synapse_share": 0.007156769274820569
+          },
+          {
+            "regions": "INP+LH",
+            "edges": 562,
+            "edge_share": 0.005184836659193859,
+            "synapses": 3048,
+            "synapse_share": 0.004795302868686106
+          },
+          {
+            "regions": "GNG+PENP+VLNP",
+            "edges": 545,
+            "edge_share": 0.005027999963097248,
+            "synapses": 3598,
+            "synapse_share": 0.0056605970215002
+          },
+          {
+            "regions": "PENP+SNP",
+            "edges": 540,
+            "edge_share": 0.004981871523068833,
+            "synapses": 2987,
+            "synapse_share": 0.004699333880828543
+          },
+          {
+            "regions": "GNG+VLNP",
+            "edges": 537,
+            "edge_share": 0.004954194459051784,
+            "synapses": 2976,
+            "synapse_share": 0.004682027997772261
+          },
+          {
+            "regions": "INP+SNP+VMNP",
+            "edges": 521,
+            "edge_share": 0.004806583450960855,
+            "synapses": 3370,
+            "synapse_share": 0.0053018932636063575
+          },
+          {
+            "regions": "INP+LX+VMNP",
+            "edges": 520,
+            "edge_share": 0.0047973577629551725,
+            "synapses": 3455,
+            "synapse_share": 0.005435620541768536
+          },
+          {
+            "regions": "INP+MB+SNP+VLNP",
+            "edges": 447,
+            "edge_share": 0.004123882538540312,
+            "synapses": 3553,
+            "synapse_share": 0.005589800227179047
+          },
+          {
+            "regions": "INP+LX+SNP",
+            "edges": 347,
+            "edge_share": 0.0032013137379720094,
+            "synapses": 2251,
+            "synapse_share": 0.0035414129781536825
+          },
+          {
+            "regions": "MB+SNP+VLNP",
+            "edges": 347,
+            "edge_share": 0.0032013137379720094,
+            "synapses": 2198,
+            "synapse_share": 0.0034580300870643245
+          },
+          {
+            "regions": "CX+INP",
+            "edges": 340,
+            "edge_share": 0.003136733921932228,
+            "synapses": 1836,
+            "synapse_share": 0.002888509208303048
+          },
+          {
+            "regions": "GNG+PENP+VLNP+VMNP",
+            "edges": 318,
+            "edge_share": 0.0029337687858072017,
+            "synapses": 2474,
+            "synapse_share": 0.003892250425567397
+          },
+          {
+            "regions": "INP+LX+MB",
+            "edges": 309,
+            "edge_share": 0.002850737593756054,
+            "synapses": 1989,
+            "synapse_share": 0.0031292183089949685
+          },
+          {
+            "regions": "LH+MB",
+            "edges": 241,
+            "edge_share": 0.0022233908093696087,
+            "synapses": 1359,
+            "synapse_share": 0.0021380631884988246
+          },
+          {
+            "regions": "INP+SNP+VLNP+VMNP",
+            "edges": 225,
+            "edge_share": 0.0020757798012786804,
+            "synapses": 1797,
+            "synapse_share": 0.0028271519865580488
+          },
+          {
+            "regions": "INP+PENP+VMNP",
+            "edges": 210,
+            "edge_share": 0.001937394481193435,
+            "synapses": 1340,
+            "synapse_share": 0.002108171208674338
+          },
+          {
+            "regions": "AL+VMNP",
+            "edges": 166,
+            "edge_share": 0.0015314642089433819,
+            "synapses": 919,
+            "synapse_share": 0.0014458278662475496
+          },
+          {
+            "regions": "GNG+LX+VMNP",
+            "edges": 156,
+            "edge_share": 0.0014392073288865517,
+            "synapses": 978,
+            "synapse_share": 0.0015386503299130616
+          },
+          {
+            "regions": "INP+MB+VMNP",
+            "edges": 152,
+            "edge_share": 0.0014023045768638196,
+            "synapses": 933,
+            "synapse_share": 0.0014678535355919084
+          },
+          {
+            "regions": "AL+LX+VMNP",
+            "edges": 146,
+            "edge_share": 0.0013469504488297214,
+            "synapses": 987,
+            "synapse_share": 0.0015528096887772922
+          },
+          {
+            "regions": "LH+MB+VLNP",
+            "edges": 142,
+            "edge_share": 0.0013100476968069894,
+            "synapses": 886,
+            "synapse_share": 0.001393910217078704
+          },
+          {
+            "regions": "AL+LX",
+            "edges": 142,
+            "edge_share": 0.0013100476968069894,
+            "synapses": 776,
+            "synapse_share": 0.0012208513865158853
+          },
+          {
+            "regions": "SNP+VMNP",
+            "edges": 134,
+            "edge_share": 0.001236242192761525,
+            "synapses": 733,
+            "synapse_share": 0.0011532011163867834
+          },
+          {
+            "regions": "LH+MB+SNP",
+            "edges": 124,
+            "edge_share": 0.001143985312704695,
+            "synapses": 785,
+            "synapse_share": 0.0012350107453801158
+          },
+          {
+            "regions": "CX+INP+SNP",
+            "edges": 118,
+            "edge_share": 0.0010886311846705968,
+            "synapses": 761,
+            "synapse_share": 0.001197252455075501
+          },
+          {
+            "regions": "CX+INP+VMNP",
+            "edges": 116,
+            "edge_share": 0.0010701798086592308,
+            "synapses": 741,
+            "synapse_share": 0.0011657872131549884
+          },
+          {
+            "regions": "CX+SNP",
+            "edges": 114,
+            "edge_share": 0.0010517284326478646,
+            "synapses": 605,
+            "synapse_share": 0.0009518235680955033
+          },
+          {
+            "regions": "INP+MB+VLNP+VMNP",
+            "edges": 110,
+            "edge_share": 0.0010148256806251327,
+            "synapses": 887,
+            "synapse_share": 0.0013954834791747297
+          },
+          {
+            "regions": "SNP+VLNP+VMNP",
+            "edges": 105,
+            "edge_share": 0.0009686972405967175,
+            "synapses": 643,
+            "synapse_share": 0.0010116075277444771
+          },
+          {
+            "regions": "INP+LH+MB+VLNP",
+            "edges": 100,
+            "edge_share": 0.0009225688005683024,
+            "synapses": 752,
+            "synapse_share": 0.0011830930962112701
+          },
+          {
+            "regions": "CX+LX",
+            "edges": 100,
+            "edge_share": 0.0009225688005683024,
+            "synapses": 545,
+            "synapse_share": 0.0008574278423339658
+          },
+          {
+            "regions": "LX+PENP+VMNP",
+            "edges": 96,
+            "edge_share": 0.0008856660485455702,
+            "synapses": 607,
+            "synapse_share": 0.0009549700922875545
+          },
+          {
+            "regions": "INP+LX+VLNP",
+            "edges": 94,
+            "edge_share": 0.0008672146725342043,
+            "synapses": 589,
+            "synapse_share": 0.0009266513745590933
+          },
+          {
+            "regions": "CX+MB",
+            "edges": 94,
+            "edge_share": 0.0008672146725342043,
+            "synapses": 501,
+            "synapse_share": 0.0007882043101088383
+          },
+          {
+            "regions": "GNG+LX+VLNP+VMNP",
+            "edges": 93,
+            "edge_share": 0.0008579889845285212,
+            "synapses": 725,
+            "synapse_share": 0.0011406150196185782
+          },
+          {
+            "regions": "INP+LX+VLNP+VMNP",
+            "edges": 93,
+            "edge_share": 0.0008579889845285212,
+            "synapses": 707,
+            "synapse_share": 0.001112296301890117
+          },
+          {
+            "regions": "INP+LH+MB",
+            "edges": 90,
+            "edge_share": 0.0008303119205114722,
+            "synapses": 568,
+            "synapse_share": 0.0008936128705425552
+          },
+          {
+            "regions": "INP+LX+MB+SNP",
+            "edges": 89,
+            "edge_share": 0.0008210862325057891,
+            "synapses": 709,
+            "synapse_share": 0.0011154428260821683
+          },
+          {
+            "regions": "AL+LH",
+            "edges": 74,
+            "edge_share": 0.0006827009124205438,
+            "synapses": 401,
+            "synapse_share": 0.0006308781005062757
+          },
+          {
+            "regions": "CX+VMNP",
+            "edges": 72,
+            "edge_share": 0.0006642495364091777,
+            "synapses": 386,
+            "synapse_share": 0.0006072791690658913
+          },
+          {
+            "regions": "INP+LH+MB+SNP",
+            "edges": 71,
+            "edge_share": 0.0006550238484034947,
+            "synapses": 533,
+            "synapse_share": 0.0008385486971816583
+          },
+          {
+            "regions": "AL+PENP",
+            "edges": 69,
+            "edge_share": 0.0006365724723921286,
+            "synapses": 371,
+            "synapse_share": 0.000583680237625507
+          },
+          {
+            "regions": "LX+SNP",
+            "edges": 61,
+            "edge_share": 0.0005627669683466645,
+            "synapses": 323,
+            "synapse_share": 0.000508163657016277
+          },
+          {
+            "regions": "LH+VLNP+VMNP",
+            "edges": 58,
+            "edge_share": 0.0005350899043296154,
+            "synapses": 358,
+            "synapse_share": 0.0005632278303771738
+          },
+          {
+            "regions": "CX+INP+LX",
+            "edges": 57,
+            "edge_share": 0.0005258642163239323,
+            "synapses": 380,
+            "synapse_share": 0.0005978395964897376
+          },
+          {
+            "regions": "GNG+INP+PENP+VMNP",
+            "edges": 56,
+            "edge_share": 0.0005166385283182493,
+            "synapses": 441,
+            "synapse_share": 0.0006938085843473008
+          },
+          {
+            "regions": "LH+MB+SNP+VLNP",
+            "edges": 56,
+            "edge_share": 0.0005166385283182493,
+            "synapses": 406,
+            "synapse_share": 0.0006387444109864039
+          },
+          {
+            "regions": "LX+MB",
+            "edges": 54,
+            "edge_share": 0.0004981871523068833,
+            "synapses": 295,
+            "synapse_share": 0.00046411231832755944
+          },
+          {
+            "regions": "GNG+INP+VMNP",
+            "edges": 53,
+            "edge_share": 0.0004889614643012002,
+            "synapses": 316,
+            "synapse_share": 0.0004971508223440976
+          },
+          {
+            "regions": "CX+INP+MB",
+            "edges": 48,
+            "edge_share": 0.0004428330242727851,
+            "synapses": 289,
+            "synapse_share": 0.0004546727457514057
+          },
+          {
+            "regions": "AL+PENP+VMNP",
+            "edges": 47,
+            "edge_share": 0.00043360733626710213,
+            "synapses": 290,
+            "synapse_share": 0.00045624600784743136
+          },
+          {
+            "regions": "AL+PENP+SNP",
+            "edges": 46,
+            "edge_share": 0.0004243816482614191,
+            "synapses": 293,
+            "synapse_share": 0.0004609657941355082
+          },
+          {
+            "regions": "INP+LX+SNP+VMNP",
+            "edges": 42,
+            "edge_share": 0.000387478896238687,
+            "synapses": 330,
+            "synapse_share": 0.0005191764916884563
+          },
+          {
+            "regions": "INP+LH+MB+SNP+VLNP",
+            "edges": 41,
+            "edge_share": 0.00037825320823300397,
+            "synapses": 401,
+            "synapse_share": 0.0006308781005062757
+          },
+          {
+            "regions": "PENP+SNP+VMNP",
+            "edges": 41,
+            "edge_share": 0.00037825320823300397,
+            "synapses": 269,
+            "synapse_share": 0.00042320750383089323
+          },
+          {
+            "regions": "AL+INP",
+            "edges": 38,
+            "edge_share": 0.0003505761442159549,
+            "synapses": 205,
+            "synapse_share": 0.0003225187296852532
+          },
+          {
+            "regions": "INP+PENP+VLNP+VMNP",
+            "edges": 37,
+            "edge_share": 0.0003413504562102719,
+            "synapses": 291,
+            "synapse_share": 0.00045781926994345695
+          },
+          {
+            "regions": "LX+SNP+VLNP",
+            "edges": 35,
+            "edge_share": 0.0003228990801989058,
+            "synapses": 213,
+            "synapse_share": 0.0003351048264534582
+          },
+          {
+            "regions": "CX+INP+VLNP+VMNP",
+            "edges": 34,
+            "edge_share": 0.0003136733921932228,
+            "synapses": 253,
+            "synapse_share": 0.0003980353102944832
+          },
+          {
+            "regions": "GNG+INP+VLNP+VMNP",
+            "edges": 33,
+            "edge_share": 0.0003044477041875398,
+            "synapses": 260,
+            "synapse_share": 0.00040904814496666255
+          },
+          {
+            "regions": "INP+LH+VLNP+VMNP",
+            "edges": 33,
+            "edge_share": 0.0003044477041875398,
+            "synapses": 257,
+            "synapse_share": 0.0004043283586785857
+          },
+          {
+            "regions": "LX+PENP+VLNP+VMNP",
+            "edges": 33,
+            "edge_share": 0.0003044477041875398,
+            "synapses": 250,
+            "synapse_share": 0.00039331552400640634
+          },
+          {
+            "regions": "CX+PENP+VMNP",
+            "edges": 32,
+            "edge_share": 0.0002952220161818568,
+            "synapses": 212,
+            "synapse_share": 0.00033353156435743256
+          },
+          {
+            "regions": "CX+INP+LX+VMNP",
+            "edges": 30,
+            "edge_share": 0.0002767706401704907,
+            "synapses": 254,
+            "synapse_share": 0.0003996085723905088
+          },
+          {
+            "regions": "INP+PENP",
+            "edges": 29,
+            "edge_share": 0.0002675449521648077,
+            "synapses": 153,
+            "synapse_share": 0.00024070910069192068
+          },
+          {
+            "regions": "CX+INP+VLNP",
+            "edges": 27,
+            "edge_share": 0.00024909357615344167,
+            "synapses": 175,
+            "synapse_share": 0.00027532086680448443
+          },
+          {
+            "regions": "INP+PENP+SNP+VMNP",
+            "edges": 26,
+            "edge_share": 0.00023986788814775862,
+            "synapses": 201,
+            "synapse_share": 0.0003162256813011507
+          },
+          {
+            "regions": "GNG+PENP+SNP",
+            "edges": 26,
+            "edge_share": 0.00023986788814775862,
+            "synapses": 174,
+            "synapse_share": 0.0002737476047084588
+          },
+          {
+            "regions": "AL+GNG+PENP+VMNP",
+            "edges": 25,
+            "edge_share": 0.0002306422001420756,
+            "synapses": 209,
+            "synapse_share": 0.00032881177806935567
+          },
+          {
+            "regions": "INP+LX+MB+VMNP",
+            "edges": 25,
+            "edge_share": 0.0002306422001420756,
+            "synapses": 199,
+            "synapse_share": 0.00031307915710909945
+          },
+          {
+            "regions": "GNG+INP+PENP",
+            "edges": 25,
+            "edge_share": 0.0002306422001420756,
+            "synapses": 152,
+            "synapse_share": 0.00023913583859589506
+          },
+          {
+            "regions": "GNG+LX+VLNP",
+            "edges": 25,
+            "edge_share": 0.0002306422001420756,
+            "synapses": 149,
+            "synapse_share": 0.00023441605230781817
+          },
+          {
+            "regions": "AL+GNG+VMNP",
+            "edges": 24,
+            "edge_share": 0.00022141651213639256,
+            "synapses": 163,
+            "synapse_share": 0.0002564417216521769
+          },
+          {
+            "regions": "INP+LX+SNP+VLNP",
+            "edges": 22,
+            "edge_share": 0.00020296513612502653,
+            "synapses": 177,
+            "synapse_share": 0.0002784673909965357
+          },
+          {
+            "regions": "LX+SNP+VMNP",
+            "edges": 22,
+            "edge_share": 0.00020296513612502653,
+            "synapses": 135,
+            "synapse_share": 0.0002123903829634594
+          },
+          {
+            "regions": "LX+SNP+VLNP+VMNP",
+            "edges": 21,
+            "edge_share": 0.0001937394481193435,
+            "synapses": 166,
+            "synapse_share": 0.0002611615079402538
+          },
+          {
+            "regions": "MB+VLNP+VMNP",
+            "edges": 21,
+            "edge_share": 0.0001937394481193435,
+            "synapses": 135,
+            "synapse_share": 0.0002123903829634594
+          },
+          {
+            "regions": "INP+LX+PENP+VMNP",
+            "edges": 20,
+            "edge_share": 0.00018451376011366046,
+            "synapses": 151,
+            "synapse_share": 0.0002375625764998694
+          },
+          {
+            "regions": "INP+PENP+VLNP",
+            "edges": 20,
+            "edge_share": 0.00018451376011366046,
+            "synapses": 125,
+            "synapse_share": 0.00019665776200320317
+          },
+          {
+            "regions": "GNG+LX",
+            "edges": 20,
+            "edge_share": 0.00018451376011366046,
+            "synapses": 107,
+            "synapse_share": 0.0001683390442747419
+          },
+          {
+            "regions": "INP+MB+SNP+VMNP",
+            "edges": 18,
+            "edge_share": 0.00016606238410229443,
+            "synapses": 139,
+            "synapse_share": 0.00021868343134756192
+          },
+          {
+            "regions": "AL+GNG+PENP",
+            "edges": 17,
+            "edge_share": 0.0001568366960966114,
+            "synapses": 112,
+            "synapse_share": 0.00017620535475487004
+          },
+          {
+            "regions": "CX+VLNP+VMNP",
+            "edges": 17,
+            "edge_share": 0.0001568366960966114,
+            "synapses": 109,
+            "synapse_share": 0.00017148556846679314
+          },
+          {
+            "regions": "AL+GNG",
+            "edges": 17,
+            "edge_share": 0.0001568366960966114,
+            "synapses": 92,
+            "synapse_share": 0.00014474011283435753
+          },
+          {
+            "regions": "GNG+INP+PENP+VLNP+VMNP",
+            "edges": 15,
+            "edge_share": 0.00013838532008524535,
+            "synapses": 133,
+            "synapse_share": 0.00020924385877140817
+          },
+          {
+            "regions": "MB+PENP+SNP",
+            "edges": 15,
+            "edge_share": 0.00013838532008524535,
+            "synapses": 100,
+            "synapse_share": 0.00015732620960256252
+          },
+          {
+            "regions": "AL+LH+MB",
+            "edges": 15,
+            "edge_share": 0.00013838532008524535,
+            "synapses": 97,
+            "synapse_share": 0.00015260642331448566
+          },
+          {
+            "regions": "GNG+INP+VLNP",
+            "edges": 15,
+            "edge_share": 0.00013838532008524535,
+            "synapses": 93,
+            "synapse_share": 0.00014631337493038315
+          },
+          {
+            "regions": "CX+LX+VMNP",
+            "edges": 15,
+            "edge_share": 0.00013838532008524535,
+            "synapses": 90,
+            "synapse_share": 0.00014159358864230628
+          },
+          {
+            "regions": "AL+VLNP",
+            "edges": 15,
+            "edge_share": 0.00013838532008524535,
+            "synapses": 80,
+            "synapse_share": 0.00012586096768205001
+          },
+          {
+            "regions": "INP+MB+SNP+VLNP+VMNP",
+            "edges": 14,
+            "edge_share": 0.00012915963207956233,
+            "synapses": 138,
+            "synapse_share": 0.0002171101692515363
+          },
+          {
+            "regions": "INP+LX+SNP+VLNP+VMNP",
+            "edges": 14,
+            "edge_share": 0.00012915963207956233,
+            "synapses": 123,
+            "synapse_share": 0.0001935112378111519
+          },
+          {
+            "regions": "LX+MB+SNP",
+            "edges": 14,
+            "edge_share": 0.00012915963207956233,
+            "synapses": 84,
+            "synapse_share": 0.00013215401606615253
+          },
+          {
+            "regions": "CX+INP+SNP+VLNP",
+            "edges": 13,
+            "edge_share": 0.00011993394407387931,
+            "synapses": 101,
+            "synapse_share": 0.00015889947169858815
+          },
+          {
+            "regions": "CX+INP+SNP+VMNP",
+            "edges": 13,
+            "edge_share": 0.00011993394407387931,
+            "synapses": 100,
+            "synapse_share": 0.00015732620960256252
+          },
+          {
+            "regions": "CX+LX+MB",
+            "edges": 13,
+            "edge_share": 0.00011993394407387931,
+            "synapses": 89,
+            "synapse_share": 0.00014002032654628066
+          },
+          {
+            "regions": "INP+PENP+SNP",
+            "edges": 13,
+            "edge_share": 0.00011993394407387931,
+            "synapses": 87,
+            "synapse_share": 0.0001368738023542294
+          },
+          {
+            "regions": "GNG+LX+PENP+VMNP",
+            "edges": 13,
+            "edge_share": 0.00011993394407387931,
+            "synapses": 87,
+            "synapse_share": 0.0001368738023542294
+          },
+          {
+            "regions": "GNG+INP",
+            "edges": 13,
+            "edge_share": 0.00011993394407387931,
+            "synapses": 67,
+            "synapse_share": 0.0001054085604337169
+          },
+          {
+            "regions": "LX+PENP+VLNP",
+            "edges": 12,
+            "edge_share": 0.00011070825606819628,
+            "synapses": 70,
+            "synapse_share": 0.00011012834672179377
+          },
+          {
+            "regions": "LX+MB+VMNP",
+            "edges": 12,
+            "edge_share": 0.00011070825606819628,
+            "synapses": 70,
+            "synapse_share": 0.00011012834672179377
+          },
+          {
+            "regions": "AL+VLNP+VMNP",
+            "edges": 12,
+            "edge_share": 0.00011070825606819628,
+            "synapses": 70,
+            "synapse_share": 0.00011012834672179377
+          },
+          {
+            "regions": "GNG+LX+PENP+VLNP+VMNP",
+            "edges": 11,
+            "edge_share": 0.00010148256806251326,
+            "synapses": 106,
+            "synapse_share": 0.00016676578217871628
+          },
+          {
+            "regions": "CX+VLNP",
+            "edges": 11,
+            "edge_share": 0.00010148256806251326,
+            "synapses": 61,
+            "synapse_share": 9.596898785756314e-05
+          },
+          {
+            "regions": "INP+LX+MB+SNP+VMNP",
+            "edges": 10,
+            "edge_share": 9.225688005683023e-05,
+            "synapses": 111,
+            "synapse_share": 0.00017463209265884441
+          },
+          {
+            "regions": "AL+INP+MB",
+            "edges": 10,
+            "edge_share": 9.225688005683023e-05,
+            "synapses": 64,
+            "synapse_share": 0.00010068877414564002
+          },
+          {
+            "regions": "CX+SNP+VMNP",
+            "edges": 10,
+            "edge_share": 9.225688005683023e-05,
+            "synapses": 59,
+            "synapse_share": 9.28224636655119e-05
+          },
+          {
+            "regions": "AL+INP+LX",
+            "edges": 10,
+            "edge_share": 9.225688005683023e-05,
+            "synapses": 57,
+            "synapse_share": 8.967593947346064e-05
+          },
+          {
+            "regions": "AL+SNP",
+            "edges": 10,
+            "edge_share": 9.225688005683023e-05,
+            "synapses": 55,
+            "synapse_share": 8.65294152814094e-05
+          },
+          {
+            "regions": "CX+INP+LX+MB",
+            "edges": 9,
+            "edge_share": 8.303119205114721e-05,
+            "synapses": 70,
+            "synapse_share": 0.00011012834672179377
+          },
+          {
+            "regions": "CX+LX+VLNP",
+            "edges": 9,
+            "edge_share": 8.303119205114721e-05,
+            "synapses": 67,
+            "synapse_share": 0.0001054085604337169
+          },
+          {
+            "regions": "LX+PENP",
+            "edges": 9,
+            "edge_share": 8.303119205114721e-05,
+            "synapses": 51,
+            "synapse_share": 8.023636689730688e-05
+          },
+          {
+            "regions": "GNG+SNP",
+            "edges": 9,
+            "edge_share": 8.303119205114721e-05,
+            "synapses": 47,
+            "synapse_share": 7.394331851320438e-05
+          },
+          {
+            "regions": "AL+INP+LX+VMNP",
+            "edges": 8,
+            "edge_share": 7.38055040454642e-05,
+            "synapses": 63,
+            "synapse_share": 9.91155120496144e-05
+          },
+          {
+            "regions": "LH+PENP+VLNP",
+            "edges": 8,
+            "edge_share": 7.38055040454642e-05,
+            "synapses": 54,
+            "synapse_share": 8.495615318538376e-05
+          },
+          {
+            "regions": "AL+LH+VLNP",
+            "edges": 8,
+            "edge_share": 7.38055040454642e-05,
+            "synapses": 52,
+            "synapse_share": 8.180962899333252e-05
+          },
+          {
+            "regions": "AL+MB",
+            "edges": 8,
+            "edge_share": 7.38055040454642e-05,
+            "synapses": 44,
+            "synapse_share": 6.92235322251275e-05
+          },
+          {
+            "regions": "INP+LH+SNP+VLNP+VMNP",
+            "edges": 7,
+            "edge_share": 6.457981603978116e-05,
+            "synapses": 67,
+            "synapse_share": 0.0001054085604337169
+          },
+          {
+            "regions": "MB+SNP+VLNP+VMNP",
+            "edges": 7,
+            "edge_share": 6.457981603978116e-05,
+            "synapses": 58,
+            "synapse_share": 9.124920156948626e-05
+          },
+          {
+            "regions": "AL+LX+VLNP+VMNP",
+            "edges": 7,
+            "edge_share": 6.457981603978116e-05,
+            "synapses": 50,
+            "synapse_share": 7.866310480128126e-05
+          },
+          {
+            "regions": "GNG+LH+SNP",
+            "edges": 7,
+            "edge_share": 6.457981603978116e-05,
+            "synapses": 43,
+            "synapse_share": 6.765027012910188e-05
+          },
+          {
+            "regions": "AL+LH+SNP",
+            "edges": 7,
+            "edge_share": 6.457981603978116e-05,
+            "synapses": 42,
+            "synapse_share": 6.607700803307626e-05
+          },
+          {
+            "regions": "MB+VMNP",
+            "edges": 7,
+            "edge_share": 6.457981603978116e-05,
+            "synapses": 37,
+            "synapse_share": 5.8210697552948136e-05
+          },
+          {
+            "regions": "INP+LX+PENP+SNP+VMNP",
+            "edges": 6,
+            "edge_share": 5.535412803409814e-05,
+            "synapses": 57,
+            "synapse_share": 8.967593947346064e-05
+          },
+          {
+            "regions": "CX+PENP+SNP+VMNP",
+            "edges": 6,
+            "edge_share": 5.535412803409814e-05,
+            "synapses": 53,
+            "synapse_share": 8.338289108935814e-05
+          },
+          {
+            "regions": "AL+INP+LX+SNP",
+            "edges": 6,
+            "edge_share": 5.535412803409814e-05,
+            "synapses": 48,
+            "synapse_share": 7.551658060923002e-05
+          },
+          {
+            "regions": "GNG+LH+VLNP",
+            "edges": 6,
+            "edge_share": 5.535412803409814e-05,
+            "synapses": 34,
+            "synapse_share": 5.349091126487126e-05
+          },
+          {
+            "regions": "LX+MB+VLNP",
+            "edges": 6,
+            "edge_share": 5.535412803409814e-05,
+            "synapses": 33,
+            "synapse_share": 5.1917649168845637e-05
+          },
+          {
+            "regions": "INP+LH+VMNP",
+            "edges": 6,
+            "edge_share": 5.535412803409814e-05,
+            "synapses": 33,
+            "synapse_share": 5.1917649168845637e-05
+          },
+          {
+            "regions": "GNG+INP+PENP+SNP+VMNP",
+            "edges": 5,
+            "edge_share": 4.6128440028415116e-05,
+            "synapses": 50,
+            "synapse_share": 7.866310480128126e-05
+          },
+          {
+            "regions": "CX+INP+LX+VLNP",
+            "edges": 5,
+            "edge_share": 4.6128440028415116e-05,
+            "synapses": 45,
+            "synapse_share": 7.079679432115314e-05
+          },
+          {
+            "regions": "INP+LX+MB+VLNP",
+            "edges": 5,
+            "edge_share": 4.6128440028415116e-05,
+            "synapses": 45,
+            "synapse_share": 7.079679432115314e-05
+          },
+          {
+            "regions": "GNG+INP+SNP+VLNP",
+            "edges": 5,
+            "edge_share": 4.6128440028415116e-05,
+            "synapses": 39,
+            "synapse_share": 6.135722174499939e-05
+          },
+          {
+            "regions": "AL+LX+PENP+VMNP",
+            "edges": 5,
+            "edge_share": 4.6128440028415116e-05,
+            "synapses": 39,
+            "synapse_share": 6.135722174499939e-05
+          },
+          {
+            "regions": "AL+MB+PENP+SNP",
+            "edges": 5,
+            "edge_share": 4.6128440028415116e-05,
+            "synapses": 34,
+            "synapse_share": 5.349091126487126e-05
+          },
+          {
+            "regions": "AL+MB+SNP",
+            "edges": 5,
+            "edge_share": 4.6128440028415116e-05,
+            "synapses": 33,
+            "synapse_share": 5.1917649168845637e-05
+          },
+          {
+            "regions": "AL+PENP+VLNP",
+            "edges": 5,
+            "edge_share": 4.6128440028415116e-05,
+            "synapses": 32,
+            "synapse_share": 5.034438707282001e-05
+          },
+          {
+            "regions": "AL+INP+SNP",
+            "edges": 5,
+            "edge_share": 4.6128440028415116e-05,
+            "synapses": 31,
+            "synapse_share": 4.877112497679439e-05
+          },
+          {
+            "regions": "INP+LX+PENP",
+            "edges": 5,
+            "edge_share": 4.6128440028415116e-05,
+            "synapses": 27,
+            "synapse_share": 4.247807659269188e-05
+          },
+          {
+            "regions": "CX+INP+SNP+VLNP+VMNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 36,
+            "synapse_share": 5.663743545692251e-05
+          },
+          {
+            "regions": "GNG+INP+SNP+VMNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 35,
+            "synapse_share": 5.5064173360896886e-05
+          },
+          {
+            "regions": "CX+INP+PENP+VMNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 31,
+            "synapse_share": 4.877112497679439e-05
+          },
+          {
+            "regions": "GNG+INP+PENP+SNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 29,
+            "synapse_share": 4.562460078474313e-05
+          },
+          {
+            "regions": "INP+LH+SNP+VMNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 29,
+            "synapse_share": 4.562460078474313e-05
+          },
+          {
+            "regions": "CX+PENP+SNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 27,
+            "synapse_share": 4.247807659269188e-05
+          },
+          {
+            "regions": "GNG+INP+SNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 26,
+            "synapse_share": 4.090481449666626e-05
+          },
+          {
+            "regions": "AL+INP+LH+VLNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 26,
+            "synapse_share": 4.090481449666626e-05
+          },
+          {
+            "regions": "AL+MB+PENP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 25,
+            "synapse_share": 3.933155240064063e-05
+          },
+          {
+            "regions": "LH+LX+VLNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 25,
+            "synapse_share": 3.933155240064063e-05
+          },
+          {
+            "regions": "MB+SNP+VMNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 23,
+            "synapse_share": 3.618502820858938e-05
+          },
+          {
+            "regions": "GNG+INP+PENP+VLNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 22,
+            "synapse_share": 3.461176611256375e-05
+          },
+          {
+            "regions": "AL+INP+VMNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 22,
+            "synapse_share": 3.461176611256375e-05
+          },
+          {
+            "regions": "LH+VMNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 22,
+            "synapse_share": 3.461176611256375e-05
+          },
+          {
+            "regions": "CX+MB+SNP",
+            "edges": 4,
+            "edge_share": 3.69027520227321e-05,
+            "synapses": 20,
+            "synapse_share": 3.1465241920512504e-05
+          },
+          {
+            "regions": "GNG+INP+LH+SNP+VLNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 35,
+            "synapse_share": 5.5064173360896886e-05
+          },
+          {
+            "regions": "INP+PENP+SNP+VLNP+VMNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 33,
+            "synapse_share": 5.1917649168845637e-05
+          },
+          {
+            "regions": "GNG+PENP+SNP+VLNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 28,
+            "synapse_share": 4.405133868871751e-05
+          },
+          {
+            "regions": "CX+GNG+PENP+VMNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 28,
+            "synapse_share": 4.405133868871751e-05
+          },
+          {
+            "regions": "LH+PENP+VLNP+VMNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 27,
+            "synapse_share": 4.247807659269188e-05
+          },
+          {
+            "regions": "CX+INP+MB+SNP+VLNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 24,
+            "synapse_share": 3.775829030461501e-05
+          },
+          {
+            "regions": "AL+INP+LH+MB",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 23,
+            "synapse_share": 3.618502820858938e-05
+          },
+          {
+            "regions": "PENP+SNP+VLNP+VMNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 22,
+            "synapse_share": 3.461176611256375e-05
+          },
+          {
+            "regions": "AL+LX+VLNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 21,
+            "synapse_share": 3.303850401653813e-05
+          },
+          {
+            "regions": "INP+MB+PENP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 20,
+            "synapse_share": 3.1465241920512504e-05
+          },
+          {
+            "regions": "GNG+INP+LH+VLNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 20,
+            "synapse_share": 3.1465241920512504e-05
+          },
+          {
+            "regions": "INP+PENP+SNP+VLNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 20,
+            "synapse_share": 3.1465241920512504e-05
+          },
+          {
+            "regions": "LH+SNP+VLNP+VMNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 20,
+            "synapse_share": 3.1465241920512504e-05
+          },
+          {
+            "regions": "AL+INP+LH",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 19,
+            "synapse_share": 2.9891979824486882e-05
+          },
+          {
+            "regions": "AL+INP+VLNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 17,
+            "synapse_share": 2.674545563243563e-05
+          },
+          {
+            "regions": "CX+MB+VLNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 17,
+            "synapse_share": 2.674545563243563e-05
+          },
+          {
+            "regions": "GNG+SNP+VLNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 17,
+            "synapse_share": 2.674545563243563e-05
+          },
+          {
+            "regions": "GNG+LH+VMNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 17,
+            "synapse_share": 2.674545563243563e-05
+          },
+          {
+            "regions": "GNG+LX+PENP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 16,
+            "synapse_share": 2.5172193536410004e-05
+          },
+          {
+            "regions": "PENP+SNP+VLNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 16,
+            "synapse_share": 2.5172193536410004e-05
+          },
+          {
+            "regions": "LH+PENP+VMNP",
+            "edges": 3,
+            "edge_share": 2.767706401704907e-05,
+            "synapses": 16,
+            "synapse_share": 2.5172193536410004e-05
+          },
+          {
+            "regions": "INP+LH+PENP+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 21,
+            "synapse_share": 3.303850401653813e-05
+          },
+          {
+            "regions": "GNG+LH+PENP+VLNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 19,
+            "synapse_share": 2.9891979824486882e-05
+          },
+          {
+            "regions": "INP+MB+PENP+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 19,
+            "synapse_share": 2.9891979824486882e-05
+          },
+          {
+            "regions": "CX+INP+MB+SNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 18,
+            "synapse_share": 2.8318717728461254e-05
+          },
+          {
+            "regions": "INP+LH+PENP+SNP+VLNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 18,
+            "synapse_share": 2.8318717728461254e-05
+          },
+          {
+            "regions": "CX+INP+LX+SNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 18,
+            "synapse_share": 2.8318717728461254e-05
+          },
+          {
+            "regions": "GNG+LH+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 18,
+            "synapse_share": 2.8318717728461254e-05
+          },
+          {
+            "regions": "INP+LH+LX+VLNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 17,
+            "synapse_share": 2.674545563243563e-05
+          },
+          {
+            "regions": "INP+LH+PENP+VLNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 17,
+            "synapse_share": 2.674545563243563e-05
+          },
+          {
+            "regions": "GNG+LX+PENP+VLNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 17,
+            "synapse_share": 2.674545563243563e-05
+          },
+          {
+            "regions": "GNG+LH+PENP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 16,
+            "synapse_share": 2.5172193536410004e-05
+          },
+          {
+            "regions": "CX+INP+MB+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 16,
+            "synapse_share": 2.5172193536410004e-05
+          },
+          {
+            "regions": "AL+PENP+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 16,
+            "synapse_share": 2.5172193536410004e-05
+          },
+          {
+            "regions": "GNG+INP+LX+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 15,
+            "synapse_share": 2.359893144038438e-05
+          },
+          {
+            "regions": "LH+SNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 15,
+            "synapse_share": 2.359893144038438e-05
+          },
+          {
+            "regions": "AL+INP+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 15,
+            "synapse_share": 2.359893144038438e-05
+          },
+          {
+            "regions": "CX+SNP+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 15,
+            "synapse_share": 2.359893144038438e-05
+          },
+          {
+            "regions": "CX+INP+LX+SNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 14,
+            "synapse_share": 2.2025669344358755e-05
+          },
+          {
+            "regions": "CX+INP+LH+VLNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 14,
+            "synapse_share": 2.2025669344358755e-05
+          },
+          {
+            "regions": "AL+GNG+VLNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 14,
+            "synapse_share": 2.2025669344358755e-05
+          },
+          {
+            "regions": "CX+INP+LH+SNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 13,
+            "synapse_share": 2.045240724833313e-05
+          },
+          {
+            "regions": "AL+GNG+PENP+VLNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 12,
+            "synapse_share": 1.8879145152307505e-05
+          },
+          {
+            "regions": "INP+MB+PENP+VLNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 12,
+            "synapse_share": 1.8879145152307505e-05
+          },
+          {
+            "regions": "CX+SNP+VLNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 12,
+            "synapse_share": 1.8879145152307505e-05
+          },
+          {
+            "regions": "GNG+LH+PENP+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 12,
+            "synapse_share": 1.8879145152307505e-05
+          },
+          {
+            "regions": "LX+PENP+SNP+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 12,
+            "synapse_share": 1.8879145152307505e-05
+          },
+          {
+            "regions": "GNG+INP+LH+PENP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 11,
+            "synapse_share": 1.7305883056281877e-05
+          },
+          {
+            "regions": "AL+GNG+VLNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 11,
+            "synapse_share": 1.7305883056281877e-05
+          },
+          {
+            "regions": "AL+CX",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 10,
+            "synapse_share": 1.5732620960256252e-05
+          },
+          {
+            "regions": "CX+PENP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 10,
+            "synapse_share": 1.5732620960256252e-05
+          },
+          {
+            "regions": "MB+PENP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 10,
+            "synapse_share": 1.5732620960256252e-05
+          },
+          {
+            "regions": "AL+CX+VMNP",
+            "edges": 2,
+            "edge_share": 1.845137601136605e-05,
+            "synapses": 10,
+            "synapse_share": 1.5732620960256252e-05
+          },
+          {
+            "regions": "CX+INP+LX+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 17,
+            "synapse_share": 2.674545563243563e-05
+          },
+          {
+            "regions": "AL+INP+LH+MB+PENP+SNP+VLNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 13,
+            "synapse_share": 2.045240724833313e-05
+          },
+          {
+            "regions": "GNG+INP+MB+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 13,
+            "synapse_share": 2.045240724833313e-05
+          },
+          {
+            "regions": "CX+LX+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 13,
+            "synapse_share": 2.045240724833313e-05
+          },
+          {
+            "regions": "GNG+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 12,
+            "synapse_share": 1.8879145152307505e-05
+          },
+          {
+            "regions": "GNG+INP+LX+PENP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 11,
+            "synapse_share": 1.7305883056281877e-05
+          },
+          {
+            "regions": "CX+INP+LX+MB+VLNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 11,
+            "synapse_share": 1.7305883056281877e-05
+          },
+          {
+            "regions": "CX+INP+LX+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 11,
+            "synapse_share": 1.7305883056281877e-05
+          },
+          {
+            "regions": "LX+PENP+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 11,
+            "synapse_share": 1.7305883056281877e-05
+          },
+          {
+            "regions": "INP+LX+MB+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 10,
+            "synapse_share": 1.5732620960256252e-05
+          },
+          {
+            "regions": "AL+GNG+INP+LH+PENP+VLNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 10,
+            "synapse_share": 1.5732620960256252e-05
+          },
+          {
+            "regions": "CX+INP+LH+MB+SNP+VLNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 10,
+            "synapse_share": 1.5732620960256252e-05
+          },
+          {
+            "regions": "GNG+INP+LX+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 10,
+            "synapse_share": 1.5732620960256252e-05
+          },
+          {
+            "regions": "INP+LX+MB+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 10,
+            "synapse_share": 1.5732620960256252e-05
+          },
+          {
+            "regions": "AL+CX+LX+MB",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 9,
+            "synapse_share": 1.4159358864230627e-05
+          },
+          {
+            "regions": "AL+LX+SNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 9,
+            "synapse_share": 1.4159358864230627e-05
+          },
+          {
+            "regions": "AL+GNG+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 9,
+            "synapse_share": 1.4159358864230627e-05
+          },
+          {
+            "regions": "CX+INP+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 9,
+            "synapse_share": 1.4159358864230627e-05
+          },
+          {
+            "regions": "CX+INP+MB+VLNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 9,
+            "synapse_share": 1.4159358864230627e-05
+          },
+          {
+            "regions": "AL+GNG+LH+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 9,
+            "synapse_share": 1.4159358864230627e-05
+          },
+          {
+            "regions": "INP+MB+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 9,
+            "synapse_share": 1.4159358864230627e-05
+          },
+          {
+            "regions": "CX+INP+PENP+SNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 9,
+            "synapse_share": 1.4159358864230627e-05
+          },
+          {
+            "regions": "INP+LH+PENP+SNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 9,
+            "synapse_share": 1.4159358864230627e-05
+          },
+          {
+            "regions": "MB+PENP+SNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 9,
+            "synapse_share": 1.4159358864230627e-05
+          },
+          {
+            "regions": "GNG+INP+LX+MB+PENP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 9,
+            "synapse_share": 1.4159358864230627e-05
+          },
+          {
+            "regions": "GNG+LH+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 8,
+            "synapse_share": 1.2586096768205002e-05
+          },
+          {
+            "regions": "GNG+INP+PENP+SNP+VLNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 8,
+            "synapse_share": 1.2586096768205002e-05
+          },
+          {
+            "regions": "AL+CX+INP+LX+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 8,
+            "synapse_share": 1.2586096768205002e-05
+          },
+          {
+            "regions": "CX+INP+LX+MB+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 8,
+            "synapse_share": 1.2586096768205002e-05
+          },
+          {
+            "regions": "LX+MB+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 8,
+            "synapse_share": 1.2586096768205002e-05
+          },
+          {
+            "regions": "CX+GNG+INP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 8,
+            "synapse_share": 1.2586096768205002e-05
+          },
+          {
+            "regions": "GNG+INP+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 8,
+            "synapse_share": 1.2586096768205002e-05
+          },
+          {
+            "regions": "GNG+PENP+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 8,
+            "synapse_share": 1.2586096768205002e-05
+          },
+          {
+            "regions": "AL+INP+MB+VLNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 7,
+            "synapse_share": 1.1012834672179377e-05
+          },
+          {
+            "regions": "GNG+INP+LH+PENP+VLNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 7,
+            "synapse_share": 1.1012834672179377e-05
+          },
+          {
+            "regions": "CX+GNG+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 7,
+            "synapse_share": 1.1012834672179377e-05
+          },
+          {
+            "regions": "AL+LX+MB+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 7,
+            "synapse_share": 1.1012834672179377e-05
+          },
+          {
+            "regions": "CX+LX+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 7,
+            "synapse_share": 1.1012834672179377e-05
+          },
+          {
+            "regions": "GNG+SNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 7,
+            "synapse_share": 1.1012834672179377e-05
+          },
+          {
+            "regions": "LX+MB+SNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 7,
+            "synapse_share": 1.1012834672179377e-05
+          },
+          {
+            "regions": "AL+GNG+PENP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 7,
+            "synapse_share": 1.1012834672179377e-05
+          },
+          {
+            "regions": "CX+INP+LH",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 6,
+            "synapse_share": 9.439572576153752e-06
+          },
+          {
+            "regions": "GNG+INP+LX",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 6,
+            "synapse_share": 9.439572576153752e-06
+          },
+          {
+            "regions": "LH+LX+MB",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 6,
+            "synapse_share": 9.439572576153752e-06
+          },
+          {
+            "regions": "CX+LX+SNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 6,
+            "synapse_share": 9.439572576153752e-06
+          },
+          {
+            "regions": "GNG+INP+MB+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 6,
+            "synapse_share": 9.439572576153752e-06
+          },
+          {
+            "regions": "AL+LH+MB+VLNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 6,
+            "synapse_share": 9.439572576153752e-06
+          },
+          {
+            "regions": "AL+LH+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 6,
+            "synapse_share": 9.439572576153752e-06
+          },
+          {
+            "regions": "INP+LH+MB+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 6,
+            "synapse_share": 9.439572576153752e-06
+          },
+          {
+            "regions": "AL+INP+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 6,
+            "synapse_share": 9.439572576153752e-06
+          },
+          {
+            "regions": "AL+GNG+LH+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 6,
+            "synapse_share": 9.439572576153752e-06
+          },
+          {
+            "regions": "GNG+INP+LX+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 6,
+            "synapse_share": 9.439572576153752e-06
+          },
+          {
+            "regions": "AL+LX+MB+PENP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 6,
+            "synapse_share": 9.439572576153752e-06
+          },
+          {
+            "regions": "MB+PENP+SNP+VLNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 6,
+            "synapse_share": 9.439572576153752e-06
+          },
+          {
+            "regions": "CX+GNG",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "GNG+LH",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "INP+LH+LX",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "AL+INP+PENP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "LH+PENP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "GNG+MB+PENP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "LH+MB+PENP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "LX+MB+PENP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "CX+LH+SNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "GNG+INP+MB+SNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "LH+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "INP+LH+PENP+SNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "AL+CX+VLNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "MB+PENP+VLNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "LH+LX+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          },
+          {
+            "regions": "AL+SNP+VMNP",
+            "edges": 1,
+            "edge_share": 9.225688005683025e-06,
+            "synapses": 5,
+            "synapse_share": 7.866310480128126e-06
+          }
+        ]
+      },
+      "regional": {
+        "AL": {
+          "edges": 67576,
+          "nodes": 3827,
+          "digest": "3e89ab66cc8f8e4323ab3e61918a58d7bc62fcfa40bc6fee28e2707f9dbeec8e"
+        },
+        "CX": {
+          "edges": 70830,
+          "nodes": 3219,
+          "digest": "9ea04d04c25cedbe1d4fe6bc1527976e784c8078dce4f993f3335e9d1935be6f"
+        },
+        "GNG": {
+          "edges": 118094,
+          "nodes": 8873,
+          "digest": "b090e614eea92b8953a877fb2f575e0c15ac9379d80db0744890dbc211edd827"
+        },
+        "INP": {
+          "edges": 105222,
+          "nodes": 13480,
+          "digest": "d3216463b1df02c14c4d670f04ef1cfc67b49218592f050b30ea0f9506fad6c2"
+        },
+        "LH": {
+          "edges": 59218,
+          "nodes": 5783,
+          "digest": "f90da2447e3a118f54c166f9766818d8d23c1115feb3d1cb7b437bb75e0c1319"
+        },
+        "LX": {
+          "edges": 40508,
+          "nodes": 3694,
+          "digest": "412cff170e832b3c6cf5bc5e195f5e7b4d2f26078302f2620c0a815249cb8eda"
+        },
+        "MB": {
+          "edges": 65557,
+          "nodes": 8660,
+          "digest": "ea930e432b351c5cfe35e3ccceb51affa4738fc4d78cb3acc11eb14d2cef163e"
+        },
+        "PENP": {
+          "edges": 68078,
+          "nodes": 7337,
+          "digest": "9fa0b8cc7067e9de858e4ee724168c591469a437b20b944c1dc051db854a3cc2"
+        },
+        "SNP": {
+          "edges": 157849,
+          "nodes": 14428,
+          "digest": "141fccf3a0a36043c610aa8e8993c5dcdedb80c5423cbf3febe9931ed5d3570d"
+        },
+        "VLNP": {
+          "edges": 361760,
+          "nodes": 20179,
+          "digest": "bab5ee6e2cda220082686d4a124f7f8a9554502b2e183c2911d2031b06bdf76b"
+        },
+        "VMNP": {
+          "edges": 142711,
+          "nodes": 10737,
+          "digest": "99933d06d25c01d55d0bdcec619fc3ad25e82776c379fb45e82a8483f4754f9d"
+        }
+      },
+      "nodes": {
+        "in_any_region_graph": 48488,
+        "shared": 27115,
+        "shared_share": 0.5592105263157895,
+        "union_only": 98
+      },
+      "shared_nodes": {
+        "AL-CX": 35,
+        "AL-GNG": 235,
+        "AL-INP": 423,
+        "AL-LH": 637,
+        "AL-LX": 290,
+        "AL-MB": 421,
+        "AL-PENP": 319,
+        "AL-SNP": 433,
+        "AL-VLNP": 421,
+        "AL-VMNP": 404,
+        "CX-GNG": 83,
+        "CX-INP": 1088,
+        "CX-LH": 36,
+        "CX-LX": 566,
+        "CX-MB": 307,
+        "CX-PENP": 123,
+        "CX-SNP": 786,
+        "CX-VLNP": 291,
+        "CX-VMNP": 311,
+        "GNG-INP": 1206,
+        "GNG-LH": 294,
+        "GNG-LX": 686,
+        "GNG-MB": 225,
+        "GNG-PENP": 4335,
+        "GNG-SNP": 660,
+        "GNG-VLNP": 2429,
+        "GNG-VMNP": 3607,
+        "INP-LH": 2096,
+        "INP-LX": 2062,
+        "INP-MB": 4823,
+        "INP-PENP": 1387,
+        "INP-SNP": 6826,
+        "INP-VLNP": 6926,
+        "INP-VMNP": 4628,
+        "LH-LX": 176,
+        "LH-MB": 1022,
+        "LH-PENP": 327,
+        "LH-SNP": 4241,
+        "LH-VLNP": 2473,
+        "LH-VMNP": 649,
+        "LX-MB": 572,
+        "LX-PENP": 629,
+        "LX-SNP": 927,
+        "LX-VLNP": 2195,
+        "LX-VMNP": 2470,
+        "MB-PENP": 296,
+        "MB-SNP": 3572,
+        "MB-VLNP": 2147,
+        "MB-VMNP": 876,
+        "PENP-SNP": 1469,
+        "PENP-VLNP": 2893,
+        "PENP-VMNP": 3366,
+        "SNP-VLNP": 4757,
+        "SNP-VMNP": 2041,
+        "VLNP-VMNP": 6833
+      },
+      "pairwise_boundary": {
+        "AL-CX": 6,
+        "AL-GNG": 102,
+        "AL-INP": 112,
+        "AL-LH": 98,
+        "AL-LX": 283,
+        "AL-MB": 56,
+        "AL-PENP": 221,
+        "AL-SNP": 76,
+        "AL-VLNP": 70,
+        "AL-VMNP": 445,
+        "CX-GNG": 11,
+        "CX-INP": 655,
+        "CX-LH": 5,
+        "CX-LX": 202,
+        "CX-MB": 173,
+        "CX-PENP": 57,
+        "CX-SNP": 303,
+        "CX-VLNP": 126,
+        "CX-VMNP": 305,
+        "GNG-INP": 283,
+        "GNG-LH": 24,
+        "GNG-LX": 398,
+        "GNG-MB": 4,
+        "GNG-PENP": 9719,
+        "GNG-SNP": 67,
+        "GNG-VLNP": 2040,
+        "GNG-VMNP": 5585,
+        "INP-LH": 3065,
+        "INP-LX": 3808,
+        "INP-MB": 8103,
+        "INP-PENP": 493,
+        "INP-SNP": 18294,
+        "INP-VLNP": 15274,
+        "INP-VMNP": 11404,
+        "LH-LX": 8,
+        "LH-MB": 723,
+        "LH-PENP": 39,
+        "LH-SNP": 6686,
+        "LH-VLNP": 4677,
+        "LH-VMNP": 188,
+        "LX-MB": 447,
+        "LX-PENP": 273,
+        "LX-SNP": 503,
+        "LX-VLNP": 2554,
+        "LX-VMNP": 5453,
+        "MB-PENP": 51,
+        "MB-SNP": 4901,
+        "MB-VLNP": 2752,
+        "MB-VMNP": 489,
+        "PENP-SNP": 703,
+        "PENP-VLNP": 4160,
+        "PENP-VMNP": 5672,
+        "SNP-VLNP": 7320,
+        "SNP-VMNP": 1058,
+        "VLNP-VMNP": 14846
+      }
+    },
+    "block": {
+      "regions": [
+        "INP",
+        "PENP",
+        "VLNP",
+        "VMNP"
+      ],
+      "threshold": 5,
+      "union": {
+        "name": "INP+PENP+VLNP+VMNP",
+        "edges": 666840,
+        "nodes": 32690,
+        "synapses": 9693625,
+        "digest": "b4e8a284f75d23d857e725d2a18ade22dd593f23bdd5f24b6da2b0f7a4a22f29"
+      },
+      "boundary": {
+        "edges": 45492,
+        "edge_share": 0.06822026273168975,
+        "synapses": 261744,
+        "synapse_share": 0.027001663464390258,
+        "support_sets": 11,
+        "support": [
+          {
+            "regions": "INP+VLNP",
+            "edges": 12557,
+            "edge_share": 0.27602655411940563,
+            "synapses": 70645,
+            "synapse_share": 0.26990112476312733
+          },
+          {
+            "regions": "VLNP+VMNP",
+            "edges": 11200,
+            "edge_share": 0.24619713356194495,
+            "synapses": 63075,
+            "synapse_share": 0.2409797359251788
+          },
+          {
+            "regions": "INP+VMNP",
+            "edges": 8385,
+            "edge_share": 0.18431812186758112,
+            "synapses": 47336,
+            "synapse_share": 0.18084846261996454
+          },
+          {
+            "regions": "PENP+VMNP",
+            "edges": 4535,
+            "edge_share": 0.09968785720566253,
+            "synapses": 25554,
+            "synapse_share": 0.09762974509444343
+          },
+          {
+            "regions": "INP+VLNP+VMNP",
+            "edges": 4059,
+            "edge_share": 0.08922447902927988,
+            "synapses": 26669,
+            "synapse_share": 0.1018896326181307
+          },
+          {
+            "regions": "PENP+VLNP",
+            "edges": 2981,
+            "edge_share": 0.06552800492394267,
+            "synapses": 16760,
+            "synapse_share": 0.06403203129775659
+          },
+          {
+            "regions": "PENP+VLNP+VMNP",
+            "edges": 1282,
+            "edge_share": 0.028180779038072628,
+            "synapses": 8460,
+            "synapse_share": 0.0323216578030442
+          },
+          {
+            "regions": "INP+PENP+VMNP",
+            "edges": 336,
+            "edge_share": 0.0073859140068583485,
+            "synapses": 2195,
+            "synapse_share": 0.008386056604926952
+          },
+          {
+            "regions": "INP+PENP+VLNP+VMNP",
+            "edges": 63,
+            "edge_share": 0.0013848588762859404,
+            "synapses": 510,
+            "synapse_share": 0.0019484687328076289
+          },
+          {
+            "regions": "INP+PENP",
+            "edges": 60,
+            "edge_share": 0.0013189132155104195,
+            "synapses": 327,
+            "synapse_share": 0.0012493123051531268
+          },
+          {
+            "regions": "INP+PENP+VLNP",
+            "edges": 34,
+            "edge_share": 0.0007473841554559044,
+            "synapses": 213,
+            "synapse_share": 0.0008137722354667156
+          }
+        ]
+      },
+      "regional": {
+        "INP": {
+          "edges": 105222,
+          "nodes": 13480,
+          "digest": "d3216463b1df02c14c4d670f04ef1cfc67b49218592f050b30ea0f9506fad6c2"
+        },
+        "PENP": {
+          "edges": 68078,
+          "nodes": 7337,
+          "digest": "9fa0b8cc7067e9de858e4ee724168c591469a437b20b944c1dc051db854a3cc2"
+        },
+        "VLNP": {
+          "edges": 361760,
+          "nodes": 20179,
+          "digest": "bab5ee6e2cda220082686d4a124f7f8a9554502b2e183c2911d2031b06bdf76b"
+        },
+        "VMNP": {
+          "edges": 142711,
+          "nodes": 10737,
+          "digest": "99933d06d25c01d55d0bdcec619fc3ad25e82776c379fb45e82a8483f4754f9d"
+        }
+      },
+      "nodes": {
+        "in_any_region_graph": 32427,
+        "shared": 13463,
+        "shared_share": 0.41517870910044097,
+        "union_only": 263
+      },
+      "shared_nodes": {
+        "INP-PENP": 1387,
+        "INP-VLNP": 6926,
+        "INP-VMNP": 4628,
+        "PENP-VLNP": 2893,
+        "PENP-VMNP": 3366,
+        "VLNP-VMNP": 6833
+      },
+      "pairwise_boundary": {
+        "INP-PENP": 493,
+        "INP-VLNP": 15274,
+        "INP-VMNP": 11404,
+        "PENP-VLNP": 4160,
+        "PENP-VMNP": 5672,
+        "VLNP-VMNP": 14846
+      }
+    },
+    "block+CX": {
+      "regions": [
+        "CX",
+        "INP",
+        "PENP",
+        "VLNP",
+        "VMNP"
+      ],
+      "threshold": 5,
+      "union": {
+        "name": "CX+INP+PENP+VLNP+VMNP",
+        "edges": 737900,
+        "nodes": 34709,
+        "synapses": 10657820,
+        "digest": "6bd7400717a9f010687bf043c8b432c935f58417fb6c6adf75eabf5b088afdad"
+      },
+      "boundary": {
+        "edges": 46237,
+        "edge_share": 0.0626602520666757,
+        "synapses": 266091,
+        "synapse_share": 0.024966738038360567,
+        "support_sets": 22,
+        "support": [
+          {
+            "regions": "INP+VLNP",
+            "edges": 12522,
+            "edge_share": 0.27082206890585464,
+            "synapses": 70450,
+            "synapse_share": 0.26475904859615695
+          },
+          {
+            "regions": "VLNP+VMNP",
+            "edges": 11189,
+            "edge_share": 0.24199234379393128,
+            "synapses": 63014,
+            "synapse_share": 0.2368137216215505
+          },
+          {
+            "regions": "INP+VMNP",
+            "edges": 8282,
+            "edge_share": 0.1791206176871337,
+            "synapses": 46744,
+            "synapse_share": 0.17566922594150122
+          },
+          {
+            "regions": "PENP+VMNP",
+            "edges": 4508,
+            "edge_share": 0.0974976750221684,
+            "synapses": 25397,
+            "synapse_share": 0.09544479144352871
+          },
+          {
+            "regions": "INP+VLNP+VMNP",
+            "edges": 4026,
+            "edge_share": 0.08707312325626662,
+            "synapses": 26447,
+            "synapse_share": 0.09939080991089515
+          },
+          {
+            "regions": "PENP+VLNP",
+            "edges": 2981,
+            "edge_share": 0.06447217596297337,
+            "synapses": 16760,
+            "synapse_share": 0.06298597096482031
+          },
+          {
+            "regions": "PENP+VLNP+VMNP",
+            "edges": 1282,
+            "edge_share": 0.027726712373207604,
+            "synapses": 8460,
+            "synapse_share": 0.03179363450849521
+          },
+          {
+            "regions": "CX+INP",
+            "edges": 488,
+            "edge_share": 0.010554317970456561,
+            "synapses": 2654,
+            "synapse_share": 0.009974031440371903
+          },
+          {
+            "regions": "INP+PENP+VMNP",
+            "edges": 332,
+            "edge_share": 0.007180396652031923,
+            "synapses": 2163,
+            "synapse_share": 0.00812879804277484
+          },
+          {
+            "regions": "CX+INP+VMNP",
+            "edges": 172,
+            "edge_share": 0.003719964530570755,
+            "synapses": 1106,
+            "synapse_share": 0.00415647278562597
+          },
+          {
+            "regions": "CX+VMNP",
+            "edges": 87,
+            "edge_share": 0.0018816099660445098,
+            "synapses": 464,
+            "synapse_share": 0.0017437643512933545
+          },
+          {
+            "regions": "CX+INP+VLNP",
+            "edges": 64,
+            "edge_share": 0.001384172848584467,
+            "synapses": 402,
+            "synapse_share": 0.001510761356077432
+          },
+          {
+            "regions": "INP+PENP+VLNP+VMNP",
+            "edges": 63,
+            "edge_share": 0.0013625451478253346,
+            "synapses": 510,
+            "synapse_share": 0.0019166375412922646
+          },
+          {
+            "regions": "INP+PENP",
+            "edges": 60,
+            "edge_share": 0.0012976620455479378,
+            "synapses": 327,
+            "synapse_share": 0.0012289028941226874
+          },
+          {
+            "regions": "CX+INP+VLNP+VMNP",
+            "edges": 43,
+            "edge_share": 0.0009299911326426887,
+            "synapses": 321,
+            "synapse_share": 0.0012063542171663077
+          },
+          {
+            "regions": "CX+PENP+VMNP",
+            "edges": 43,
+            "edge_share": 0.0009299911326426887,
+            "synapses": 286,
+            "synapse_share": 0.0010748202682540936
+          },
+          {
+            "regions": "INP+PENP+VLNP",
+            "edges": 34,
+            "edge_share": 0.000735341825810498,
+            "synapses": 213,
+            "synapse_share": 0.0008004780319514753
+          },
+          {
+            "regions": "CX+VLNP",
+            "edges": 26,
+            "edge_share": 0.0005623202197374397,
+            "synapses": 143,
+            "synapse_share": 0.0005374101341270468
+          },
+          {
+            "regions": "CX+VLNP+VMNP",
+            "edges": 21,
+            "edge_share": 0.00045418171594177825,
+            "synapses": 133,
+            "synapse_share": 0.0004998290058664142
+          },
+          {
+            "regions": "CX+INP+PENP+VMNP",
+            "edges": 6,
+            "edge_share": 0.00012976620455479378,
+            "synapses": 52,
+            "synapse_share": 0.00019542186695528974
+          },
+          {
+            "regions": "CX+PENP",
+            "edges": 6,
+            "edge_share": 0.00012976620455479378,
+            "synapses": 32,
+            "synapse_share": 0.00012025961043402446
+          },
+          {
+            "regions": "CX+INP+PENP",
+            "edges": 2,
+            "edge_share": 4.325540151826459e-05,
+            "synapses": 13,
+            "synapse_share": 4.8855466738822435e-05
+          }
+        ]
+      },
+      "regional": {
+        "CX": {
+          "edges": 70830,
+          "nodes": 3219,
+          "digest": "9ea04d04c25cedbe1d4fe6bc1527976e784c8078dce4f993f3335e9d1935be6f"
+        },
+        "INP": {
+          "edges": 105222,
+          "nodes": 13480,
+          "digest": "d3216463b1df02c14c4d670f04ef1cfc67b49218592f050b30ea0f9506fad6c2"
+        },
+        "PENP": {
+          "edges": 68078,
+          "nodes": 7337,
+          "digest": "9fa0b8cc7067e9de858e4ee724168c591469a437b20b944c1dc051db854a3cc2"
+        },
+        "VLNP": {
+          "edges": 361760,
+          "nodes": 20179,
+          "digest": "bab5ee6e2cda220082686d4a124f7f8a9554502b2e183c2911d2031b06bdf76b"
+        },
+        "VMNP": {
+          "edges": 142711,
+          "nodes": 10737,
+          "digest": "99933d06d25c01d55d0bdcec619fc3ad25e82776c379fb45e82a8483f4754f9d"
+        }
+      },
+      "nodes": {
+        "in_any_region_graph": 34433,
+        "shared": 14328,
+        "shared_share": 0.41611245026573346,
+        "union_only": 276
+      },
+      "shared_nodes": {
+        "CX-INP": 1088,
+        "CX-PENP": 123,
+        "CX-VLNP": 291,
+        "CX-VMNP": 311,
+        "INP-PENP": 1387,
+        "INP-VLNP": 6926,
+        "INP-VMNP": 4628,
+        "PENP-VLNP": 2893,
+        "PENP-VMNP": 3366,
+        "VLNP-VMNP": 6833
+      },
+      "pairwise_boundary": {
+        "CX-INP": 655,
+        "CX-PENP": 57,
+        "CX-VLNP": 126,
+        "CX-VMNP": 305,
+        "INP-PENP": 493,
+        "INP-VLNP": 15274,
+        "INP-VMNP": 11404,
+        "PENP-VLNP": 4160,
+        "PENP-VMNP": 5672,
+        "VLNP-VMNP": 14846
+      }
+    }
+  }
+}

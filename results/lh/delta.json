@@ -1,0 +1,14 @@
+{
+  "cohort": "26c50cd7d6baab3b6ad5b42b1edee106002b89a706f741133410d830b7ec3d77",
+  "delta": 0.01,
+  "region": "LH",
+  "run_ids": [
+    "f1-lh-s000-6d78ecc8",
+    "f1-lh-s001-6d78ecc8",
+    "f1-lh-s002-6d78ecc8",
+    "f1-lh-s003-6d78ecc8",
+    "f1-lh-s004-6d78ecc8"
+  ],
+  "s": 0.004431483693001102,
+  "tag": "delta-lh-26c50cd7"
+}

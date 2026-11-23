@@ -1,0 +1,13 @@
+region,model,baseline_mrr
+CX,xgboost,0.386
+AL,xgboost,0.313
+LH,xgboost,0.315
+MB,xgboost,0.304
+LX,xgboost,0.261
+SNP,xgboost,0.36
+INP,xgboost,0.326
+VMNP,xgboost,0.304
+VLNP,xgboost,0.389
+PENP,xgboost,0.361
+GNG,logreg,0.302
+OL,xgboost,0.449

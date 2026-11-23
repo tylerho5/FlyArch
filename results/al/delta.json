@@ -1,0 +1,14 @@
+{
+  "cohort": "94a5924d2df460d57def167877bdd2ce3b9a8ebe0cb44b1a05898c9755263587",
+  "delta": 0.02,
+  "region": "AL",
+  "run_ids": [
+    "f1-al-s000-607e8a0e",
+    "f1-al-s001-607e8a0e",
+    "f1-al-s002-607e8a0e",
+    "f1-al-s003-607e8a0e",
+    "f1-al-s004-607e8a0e"
+  ],
+  "s": 0.007852081041309609,
+  "tag": "delta-al-94a5924d"
+}

@@ -1,0 +1,35 @@
+# M12, Optic Lobe. Started as a copy of cx.toml.
+region = "OL"
+f1_threshold = 5
+f2_threshold = 4
+f3_threshold = 7
+seeds = [0, 1, 2]
+calibration_seeds = [0, 1, 2, 3, 4]
+
+# OL suites never mask lamina-dependent types; min_fraction is the value registered.
+[mask_exclude]
+rule = "lamina_fraction"
+min_fraction = 0.01
+
+[train]
+epochs = 600
+hidden = 128
+layers = 2
+sibling_features = true
+lr = 0.001
+encoder_dropout = 0.1
+decoder_dropout = 0.1
+steps_per_epoch = 8
+patience = 100
+gap_fraction = 0.05
+gap_regimes = ["R"]
+# A masked root's innervation counts its hidden edges, so it reads
+# uniform in training and validation, as it does at scoring.
+masked_innervation = "uniform"
+aux_weight = 0.3
+eval_every = 5
+warmup_epochs = 0
+lr_schedule = "cosine"
+sampling = "full"
+# 4.46 GiB peak per step on a 3090 under an 8 GiB allocator cap.
+pair_batch = 4096

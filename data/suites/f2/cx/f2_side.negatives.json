@@ -1,0 +1,12 @@
+{
+  "digests": {
+    "f2-cx-HL-s4000": "355c6f1db599719539f214f0f98ddcdac1ce94a3e7561cdd8126fdc7f6a65855",
+    "f2-cx-HR-s4001": "25a863fb6dd8691137e926b703cab1fbde7140cbeaf18fae717e18cc161a3cd2"
+  },
+  "name": "f2_side",
+  "spec": {
+    "alpha": 1.0,
+    "k": 100,
+    "master_seed": 20260818
+  }
+}

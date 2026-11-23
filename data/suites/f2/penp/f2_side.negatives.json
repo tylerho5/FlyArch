@@ -1,0 +1,12 @@
+{
+  "digests": {
+    "f2-penp-HL-s4000": "ca49f2ec252e0898712c0c16c4d4615d09a1f9e7e581d37680e1288d9e3a3aaf",
+    "f2-penp-HR-s4001": "1f85581eeb39d062695a0ab3f6c7a41c7363cbca4b29122395333461e157382c"
+  },
+  "name": "f2_side",
+  "spec": {
+    "alpha": 1.0,
+    "k": 100,
+    "master_seed": 20260818
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "f2_confirm",
+  "instances": {
+    "f2-ol-T-s2003": {
+      "cell_type": "MTe01b",
+      "size": 45,
+      "single_masked_positives": 1517,
+      "same_name_unmasked": 3
+    },
+    "f2-ol-T-s2008": {
+      "cell_type": "cL18",
+      "size": 6,
+      "single_masked_positives": 237,
+      "same_name_unmasked": 0
+    },
+    "f2-ol-T-s2013": {
+      "cell_type": "MeMe_e01",
+      "size": 10,
+      "single_masked_positives": 533,
+      "same_name_unmasked": 0
+    },
+    "f2-ol-T-s2018": {
+      "cell_type": "LT63",
+      "size": 4,
+      "single_masked_positives": 159,
+      "same_name_unmasked": 0
+    }
+  }
+}

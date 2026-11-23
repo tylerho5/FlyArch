@@ -1,0 +1,29 @@
+{
+  "name": "f2_confirm",
+  "instances": {
+    "f2-lx-T-s2003": {
+      "cell_type": "AN_VES_GNG_2",
+      "size": 2,
+      "single_masked_positives": 25,
+      "same_name_unmasked": 0
+    },
+    "f2-lx-T-s2008": {
+      "cell_type": "AOTU033",
+      "size": 2,
+      "single_masked_positives": 114,
+      "same_name_unmasked": 0
+    },
+    "f2-lx-T-s2013": {
+      "cell_type": "il3LN6",
+      "size": 2,
+      "single_masked_positives": 8,
+      "same_name_unmasked": 0
+    },
+    "f2-lx-T-s2018": {
+      "cell_type": "CB0021",
+      "size": 2,
+      "single_masked_positives": 65,
+      "same_name_unmasked": 0
+    }
+  }
+}

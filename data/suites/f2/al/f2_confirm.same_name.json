@@ -1,0 +1,29 @@
+{
+  "name": "f2_confirm",
+  "instances": {
+    "f2-al-T-s2003": {
+      "cell_type": "VES047",
+      "size": 1,
+      "single_masked_positives": 1,
+      "same_name_unmasked": 0
+    },
+    "f2-al-T-s2008": {
+      "cell_type": "LAL162",
+      "size": 2,
+      "single_masked_positives": 7,
+      "same_name_unmasked": 0
+    },
+    "f2-al-T-s2013": {
+      "cell_type": "ORN_DM5",
+      "size": 52,
+      "single_masked_positives": 384,
+      "same_name_unmasked": 19
+    },
+    "f2-al-T-s2018": {
+      "cell_type": "DM3_vPN",
+      "size": 3,
+      "single_masked_positives": 9,
+      "same_name_unmasked": 0
+    }
+  }
+}

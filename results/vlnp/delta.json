@@ -1,0 +1,14 @@
+{
+  "cohort": "de35013147484488aec58e329137472bc7dce9be5c2dad7b74ac252e50d4f233",
+  "delta": 0.0,
+  "region": "VLNP",
+  "run_ids": [
+    "f1-vlnp-s000-7bcc5393",
+    "f1-vlnp-s001-7bcc5393",
+    "f1-vlnp-s002-7bcc5393",
+    "f1-vlnp-s003-7bcc5393",
+    "f1-vlnp-s004-7bcc5393"
+  ],
+  "s": 0.002296202342866641,
+  "tag": "delta-vlnp-de350131"
+}

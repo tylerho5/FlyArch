@@ -1,0 +1,14 @@
+{
+  "cohort": "25ae38df51fa6d0900d75edb26762d1c83487440fb66305f96da9f462a0f161b",
+  "delta": 0.01,
+  "region": "VMNP",
+  "run_ids": [
+    "f1-vmnp-s000-006b177a",
+    "f1-vmnp-s001-006b177a",
+    "f1-vmnp-s002-006b177a",
+    "f1-vmnp-s003-006b177a",
+    "f1-vmnp-s004-006b177a"
+  ],
+  "s": 0.0038339479556588397,
+  "tag": "delta-vmnp-25ae38df"
+}

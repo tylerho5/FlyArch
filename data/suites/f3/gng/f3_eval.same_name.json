@@ -1,0 +1,23 @@
+{
+  "name": "f3_eval",
+  "instances": {
+    "f3-gng-T-s3003": {
+      "cell_type": "OA-AL2b2",
+      "size": 4,
+      "single_masked_positives": 77,
+      "same_name_unmasked": 0
+    },
+    "f3-gng-T-s3008": {
+      "cell_type": "CB0157",
+      "size": 2,
+      "single_masked_positives": 155,
+      "same_name_unmasked": 0
+    },
+    "f3-gng-T-s3013": {
+      "cell_type": "DNg94",
+      "size": 2,
+      "single_masked_positives": 9,
+      "same_name_unmasked": 0
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "digests": {
+    "f2-mb-HL-s4000": "2f5905add7c5ac1f488fc9c75e7210e2421f7e3ad2ea60862da72e95c2e281e3",
+    "f2-mb-HR-s4001": "385169f567743056972ccf5af590439ea8c989a2757f45258e0ae5d92f25d9d6"
+  },
+  "name": "f2_side",
+  "spec": {
+    "alpha": 1.0,
+    "k": 100,
+    "master_seed": 20260818
+  }
+}

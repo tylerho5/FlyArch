@@ -1,0 +1,23 @@
+{
+  "name": "f3_eval",
+  "instances": {
+    "f3-vmnp-T-s3003": {
+      "cell_type": "AN_GNG_22",
+      "size": 1,
+      "single_masked_positives": 3,
+      "same_name_unmasked": 0
+    },
+    "f3-vmnp-T-s3008": {
+      "cell_type": "CB0477",
+      "size": 2,
+      "single_masked_positives": 184,
+      "same_name_unmasked": 0
+    },
+    "f3-vmnp-T-s3013": {
+      "cell_type": "LTe64",
+      "size": 12,
+      "single_masked_positives": 384,
+      "same_name_unmasked": 0
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.git
+.worktrees
+.cache
+data
+analysis/figures
+__pycache__
+*.pyc
+*.log
+.env

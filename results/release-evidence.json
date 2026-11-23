@@ -1,0 +1,110 @@
+{
+  "calibrations": [
+    {
+      "cohort": "94a5924d2df460d57def167877bdd2ce3b9a8ebe0cb44b1a05898c9755263587",
+      "delta_sha256": "86f4300b2cb2dbe4af4942f2673c9aa7714a4e38f34b63bf3c582aeb841cfcb1",
+      "path": "results/al/delta.json",
+      "region": "AL",
+      "source_tag_commit": "22d143cc43df6c113e5f0df1632c7dd80f4cb2e5",
+      "tag": "delta-al-94a5924d"
+    },
+    {
+      "cohort": "430268401c16568345f6196cfa7a5d14532bb051f06c02830b4876e3b2b4b2fd",
+      "delta_sha256": "1d1fbd993f09bb6b3b8b0bd25b6f43d90a8c0e9e52438fb6729b4d98eaab0282",
+      "path": "results/cx/delta.json",
+      "region": "CX",
+      "source_tag_commit": "470ac748f0cd6d435c53614ce1de476ef507e6e2",
+      "tag": "delta-cx-43026840"
+    },
+    {
+      "cohort": "c13ac502a9fba9f6c8a2caaf04a3ba6bd7b4c2e902acbe2bfaecb2b60af97fce",
+      "delta_sha256": "1d34421ccea165fa43c3686b7690ee04fe9481d10dcea0679f99093abc6c5d63",
+      "path": "results/gng/delta.json",
+      "region": "GNG",
+      "source_tag_commit": "fb8e6bef56c3186e47683ba241530c13602d9f96",
+      "tag": "delta-gng-c13ac502"
+    },
+    {
+      "cohort": "c9f35a03439d35e8ff4c6e5b7a059834614800a3a2ba2c8f42edd8ba94994526",
+      "delta_sha256": "49185d3f3e11662a7b605ccb5a66ab588ee91a4d63f1157c66df479f54edf7cc",
+      "path": "results/inp/delta.json",
+      "region": "INP",
+      "source_tag_commit": "f58d050450e3a8985ffe5c25c5d934ab0c78d3c9",
+      "tag": "delta-inp-c9f35a03"
+    },
+    {
+      "cohort": "26c50cd7d6baab3b6ad5b42b1edee106002b89a706f741133410d830b7ec3d77",
+      "delta_sha256": "b9d73998162a3c682de0fe22a6ba260594400f3fb0a9d98cd247987530ebcf86",
+      "path": "results/lh/delta.json",
+      "region": "LH",
+      "source_tag_commit": "470ac748f0cd6d435c53614ce1de476ef507e6e2",
+      "tag": "delta-lh-26c50cd7"
+    },
+    {
+      "cohort": "4b8850abf36569366e04156062c80da5b997dde5897f0e83b50075b57816c45d",
+      "delta_sha256": "d766c43b0f0c17d4917520676c8268f5f89495e7405c2d8e15e59058df012806",
+      "path": "results/lx/delta.json",
+      "region": "LX",
+      "source_tag_commit": "470ac748f0cd6d435c53614ce1de476ef507e6e2",
+      "tag": "delta-lx-4b8850ab"
+    },
+    {
+      "cohort": "73627f3bd300bfc60b3a20d3f98c5fcc4015a684b54ce7a474802d245bbd13b8",
+      "delta_sha256": "bed6c8a3039e43c33d777a40e122a9cab9feaaeab5e29d60e4dcab4c19540a77",
+      "path": "results/mb/delta.json",
+      "region": "MB",
+      "source_tag_commit": "737112f793463af36d4a0fc13e714431f46e9d3a",
+      "tag": "delta-mb-73627f3b"
+    },
+    {
+      "cohort": "491d589ae4c2ddbd75c5e357b3e095362385965fd1265ddd56064f152d89ee72",
+      "delta_sha256": "d06e9be8108bc07051892562ce9d5f4ef43aa9b604cd53bca0dfbb50870ad215",
+      "path": "results/ol/delta.json",
+      "region": "OL",
+      "source_tag_commit": "5abd6142ec0205502e53760825abc945076f1ff6",
+      "tag": "delta-ol-491d589a"
+    },
+    {
+      "cohort": "bf8522e52f49828bc68ccf2a4103d4d9a0326bbca55f3280504241a7b0141e9d",
+      "delta_sha256": "ccffd28c350b528d6827d1121176a379aa833793ae4fddb039cb10c7e54538a3",
+      "path": "results/penp/delta.json",
+      "region": "PENP",
+      "source_tag_commit": "12842d0a8d95d6eb18f0da834db17692738815a8",
+      "tag": "delta-penp-bf8522e5"
+    },
+    {
+      "cohort": "c2ca46422504e944d18d6719946d2d882955bd9144339cb4597aabc0cc9ef34f",
+      "delta_sha256": "50d58e4614f166f42fd43841463611571b2e2002f8ac925c70a3d9dae8383daa",
+      "path": "results/phase3/delta.json",
+      "region": "PHASE3",
+      "source_tag_commit": "55bf6b7693849c083fb6012959c3cac092130b03",
+      "tag": "delta-phase3-c2ca4642"
+    },
+    {
+      "cohort": "c680f1c420d6998190a311bce40a9ad7fd2f1e735bfcbeb752066a3029b5b4f0",
+      "delta_sha256": "202960d409d78eed986ef430ac01a4e16ee94ab18f0166697336cf1ead9f05a2",
+      "path": "results/snp/delta.json",
+      "region": "SNP",
+      "source_tag_commit": "12842d0a8d95d6eb18f0da834db17692738815a8",
+      "tag": "delta-snp-c680f1c4"
+    },
+    {
+      "cohort": "de35013147484488aec58e329137472bc7dce9be5c2dad7b74ac252e50d4f233",
+      "delta_sha256": "be226e5c404f5e168f72bd1fef3ec39a06f0e2f4d2e4598f8c8cb343699dc54a",
+      "path": "results/vlnp/delta.json",
+      "region": "VLNP",
+      "source_tag_commit": "121b6535838f8b9589f3c154fd3824b23af38063",
+      "tag": "delta-vlnp-de350131"
+    },
+    {
+      "cohort": "25ae38df51fa6d0900d75edb26762d1c83487440fb66305f96da9f462a0f161b",
+      "delta_sha256": "a8d2c1e6051845d59cf174bae4017a9edef8f07456773810c56694e51f276b3c",
+      "path": "results/vmnp/delta.json",
+      "region": "VMNP",
+      "source_tag_commit": "12842d0a8d95d6eb18f0da834db17692738815a8",
+      "tag": "delta-vmnp-25ae38df"
+    }
+  ],
+  "schema_version": 1,
+  "source_snapshot": "5b3ff7dc1df07cb9677b7cf9032d0fb04a85853f"
+}

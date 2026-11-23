@@ -1,0 +1,12 @@
+{
+  "digests": {
+    "f2-al-HL-s4000": "749977406a251e6a0fb6ca3bac4ef3e1ac16ab65680e3a554d4535b173a278de",
+    "f2-al-HR-s4001": "3d03f433a98114f5c9ba1fc48062ec186c9ab62e708343958f9b20d89b8b7e29"
+  },
+  "name": "f2_side",
+  "spec": {
+    "alpha": 1.0,
+    "k": 100,
+    "master_seed": 20260818
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "f2_dev",
+  "instances": {
+    "f2-vlnp-T-s1003": {
+      "cell_type": "AVLP048",
+      "size": 6,
+      "single_masked_positives": 197,
+      "same_name_unmasked": 0
+    },
+    "f2-vlnp-T-s1008": {
+      "cell_type": "AN_AMMC_SAD_2",
+      "size": 1,
+      "single_masked_positives": 9,
+      "same_name_unmasked": 0
+    },
+    "f2-vlnp-T-s1013": {
+      "cell_type": "CB1938",
+      "size": 2,
+      "single_masked_positives": 182,
+      "same_name_unmasked": 0
+    }
+  }
+}

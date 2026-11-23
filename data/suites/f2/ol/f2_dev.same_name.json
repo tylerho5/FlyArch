@@ -1,0 +1,23 @@
+{
+  "name": "f2_dev",
+  "instances": {
+    "f2-ol-T-s1003": {
+      "cell_type": "OA-AL2i1",
+      "size": 2,
+      "single_masked_positives": 179,
+      "same_name_unmasked": 0
+    },
+    "f2-ol-T-s1008": {
+      "cell_type": "Tm8b",
+      "size": 18,
+      "single_masked_positives": 178,
+      "same_name_unmasked": 0
+    },
+    "f2-ol-T-s1013": {
+      "cell_type": "Tm40",
+      "size": 4,
+      "single_masked_positives": 44,
+      "same_name_unmasked": 0
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "f3_eval",
+  "instances": {
+    "f3-al-T-s3003": {
+      "cell_type": "VES027",
+      "size": 2,
+      "single_masked_positives": 24,
+      "same_name_unmasked": 0
+    },
+    "f3-al-T-s3008": {
+      "cell_type": "DL1_adPN",
+      "size": 4,
+      "single_masked_positives": 796,
+      "same_name_unmasked": 0
+    },
+    "f3-al-T-s3013": {
+      "cell_type": "l2LN21",
+      "size": 2,
+      "single_masked_positives": 73,
+      "same_name_unmasked": 0
+    }
+  }
+}

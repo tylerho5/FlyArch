@@ -1,0 +1,15 @@
+{
+  "digests": {
+    "f1-vlnp-R01-s000": "807167643bb80514b4b14ff595c09b25fccec51c80eadd16ed03fd4bf614e734",
+    "f1-vlnp-R05-s001": "1ed1bdaf315a6d953cb6bf0e2425207986589cea96b428128c305168f73439f1",
+    "f1-vlnp-R10-s002": "dd5b3b6d1c87d245e9296e869d68d8c81c490c208c088bbcc4a87d5538831bba",
+    "f1-vlnp-S05-s004": "fd919e68c3b5fdb75137c47416eaa6e2b04d99d7f27fd8f4f40672f096a3dde9",
+    "f1-vlnp-T-s003": "a503eb764fc52d9f7d0d9dd89d6ac108593754306fc66693915482d5a55f110d"
+  },
+  "name": "f1_val",
+  "spec": {
+    "alpha": 1.0,
+    "k": 100,
+    "master_seed": 20260818
+  }
+}

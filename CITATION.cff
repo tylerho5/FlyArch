@@ -1,0 +1,86 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper below."
+title: FlyArch
+type: software
+authors:
+  - family-names: Hassan
+    given-names: Ahmadh
+  - family-names: Ho
+    given-names: Tyler
+  - family-names: Aslam
+    given-names: Ali
+license: MIT
+doi: 10.5281/zenodo.ZENODO_RECORD_TBD
+preferred-citation:
+  type: article
+  title: "Predicting the synaptic partners of masked neurons in a second fly connectome with region-specific graph models"
+  authors:
+    - family-names: Hassan
+      given-names: Ahmadh
+    - family-names: Ho
+      given-names: Tyler
+    - family-names: Aslam
+      given-names: Ali
+  doi: 10.5281/zenodo.ZENODO_RECORD_TBD
+references:
+  - type: article
+    title: "Neuronal wiring diagram of an adult brain"
+    authors:
+      - {family-names: Dorkenwald, given-names: Sven}
+      - {family-names: Matsliah, given-names: Arie}
+      - {family-names: Sterling, given-names: Amy R.}
+      - {family-names: Schlegel, given-names: Philipp}
+      - name: others
+    journal: Nature
+    volume: "634"
+    start: 124
+    end: 138
+    year: 2024
+    doi: 10.1038/s41586-024-07558-y
+    notes: "FlyWire v783 (F1), CC BY-NC 4.0 per https://flywire.ai/guidelines; data at 10.5281/zenodo.10676866."
+  - type: article
+    title: "Whole-brain annotation and multi-connectome cell typing of Drosophila"
+    authors:
+      - {family-names: Schlegel, given-names: Philipp}
+      - {family-names: Yin, given-names: Yijie}
+      - {family-names: Bates, given-names: Alexander S.}
+      - {family-names: Dorkenwald, given-names: Sven}
+      - name: others
+    journal: Nature
+    volume: "634"
+    start: 139
+    end: 152
+    year: 2024
+    doi: 10.1038/s41586-024-07686-5
+    notes: "FlyWire v783 cell-type annotations."
+  - type: article
+    title: "Distributed control circuits across a brain-and-cord connectome"
+    authors:
+      - {family-names: Bates, given-names: Alexander S.}
+      - {family-names: Phelps, given-names: Jasper S.}
+      - {family-names: Kim, given-names: Minsu}
+      - {family-names: Yang, given-names: Helen H.}
+      - name: others
+    journal: Nature
+    volume: "656"
+    start: 957
+    end: 970
+    year: 2026
+    doi: 10.1038/s41586-026-10735-w
+    notes: "BANC v888 (F2), CC BY 4.0; data at 10.7910/DVN/7WTH1N."
+  - type: article
+    title: "Sexual dimorphism in the complete Drosophila male central nervous system connectome"
+    authors:
+      - {family-names: Berg, given-names: Stuart}
+      - {family-names: Beckett, given-names: Isabella R.}
+      - {family-names: Costa, given-names: Marta}
+      - {family-names: Schlegel, given-names: Philipp}
+      - name: others
+    journal: Cell
+    volume: "189"
+    issue: "18"
+    start: 5504
+    end: 5526
+    year: 2026
+    doi: 10.1016/j.cell.2026.08.015
+    notes: "Male CNS v1.0 (F3), CC BY per https://male-cns.janelia.org/download/."

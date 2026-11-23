@@ -1,0 +1,14 @@
+{
+  "cohort": "c13ac502a9fba9f6c8a2caaf04a3ba6bd7b4c2e902acbe2bfaecb2b60af97fce",
+  "delta": 0.02,
+  "region": "GNG",
+  "run_ids": [
+    "f1-gng-s000-36534418",
+    "f1-gng-s001-36534418",
+    "f1-gng-s002-36534418",
+    "f1-gng-s003-36534418",
+    "f1-gng-s004-36534418"
+  ],
+  "s": 0.011891789639920726,
+  "tag": "delta-gng-c13ac502"
+}

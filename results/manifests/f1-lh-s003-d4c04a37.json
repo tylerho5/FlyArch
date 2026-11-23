@@ -1,0 +1,93 @@
+{
+  "best_epoch": 45,
+  "best_val_mrr": 0.6244581912009388,
+  "code_digest": "27e8a5f0500c386545fa6495f6c56e439c315ca92fb277d380b5c9247413d4c81bceae3384510d11db10607a6cf65860c346c695996cb7463ab3d019a34ad219",
+  "config": {
+    "aggregation": "sum",
+    "annotation_groups": false,
+    "aux_weight": 0.3,
+    "branch_norm": true,
+    "decoder_dropout": 0.1,
+    "decoder_product_rank": 64,
+    "edge_weight": "fraction",
+    "ema_decay": 0.0,
+    "encoder_dropout": 0.1,
+    "epochs": 200,
+    "eval_every": 5,
+    "feature_noise": 0.0,
+    "gap_fraction": 0.05,
+    "gap_regimes": [
+      "R"
+    ],
+    "grad_clip": 0.0,
+    "hidden": 128,
+    "holdout_probe": false,
+    "layer_norm": true,
+    "layers": 2,
+    "lr": 0.003,
+    "lr_schedule": "cosine",
+    "masked_innervation": "uniform",
+    "nt_edges": false,
+    "nt_pair_features": false,
+    "pair_batch": 2048,
+    "pair_geometry": true,
+    "patience": 100,
+    "residual": true,
+    "sampling": "full",
+    "sibling_features": true,
+    "sibling_pooling": false,
+    "steps_per_epoch": 8,
+    "suites_dir": "data\\suites",
+    "train_negatives": 0,
+    "type_negatives": 0,
+    "type_pair_features": true,
+    "type_pair_shares": false,
+    "type_profile_rank": 0,
+    "warmup_epochs": 0,
+    "weight_decay": 0.01
+  },
+  "cuda_version": "12.8",
+  "device": "cuda:0",
+  "feature_digest": "e3014ee6c0bc240d496a8a19bd80acaeb237ebc68d1acb20192fc38b8e8817997c806875eba574d9955d58f27ddfd3f1b75247c5645d318c09f3783bfcf6ef3f",
+  "git_commit": "4444f7e3dae4a973391493d46bb21c30de59bf94",
+  "gpu_name": "NVIDIA GeForce RTX 3070 Ti",
+  "graph_digest": "f90da2447e3a118f54c166f9766818d8d23c1115feb3d1cb7b437bb75e0c1319",
+  "image_identifier": null,
+  "invocations": [
+    {
+      "device": "cuda:0",
+      "git": {
+        "commit": "4444f7e3dae4a973391493d46bb21c30de59bf94",
+        "dirty": null
+      },
+      "image_identifier": null,
+      "metadata_unavailable": [
+        "image_identifier"
+      ],
+      "precision": "fp32",
+      "resumed": false,
+      "runtime": {
+        "cuda": "12.8",
+        "cudnn_tf32": true,
+        "deterministic": true,
+        "fused_adamw": true,
+        "gpu": "NVIDIA GeForce RTX 3070 Ti",
+        "tf32": false,
+        "torch": "2.7.0+cu128"
+      },
+      "timestamp_utc": "2026-11-08T01:48:41.466322Z",
+      "title": "Masked-root innervation uniform"
+    }
+  ],
+  "metadata_unavailable": [
+    "image_identifier"
+  ],
+  "precision": "fp32",
+  "region": "LH",
+  "run_id": "f1-lh-s003-d4c04a37",
+  "schema_digest": "548d2ee5fc55a5c58f8b9ae92837e121cdf58f08857221641666fc16140fbc35",
+  "seed": 3,
+  "suite_digest": "df1b2a9586d8456ffd5fec7fd0bb2ef926b8de06980e72c717b67a18808e9f0b",
+  "tf32": false,
+  "torch_version": "2.7.0+cu128"
+}

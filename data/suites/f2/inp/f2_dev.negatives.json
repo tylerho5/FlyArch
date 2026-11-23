@@ -1,0 +1,25 @@
+{
+  "digests": {
+    "f2-inp-R01-s1000": "3dabb10be6b06288dceaca6b3b480bb8283ab31a6ede4591c7531e8f4478ce0c",
+    "f2-inp-R01-s1005": "864aef0f5e0dbac00a943284e194c069f720f391e61e4498e26dad2e49a2fc48",
+    "f2-inp-R01-s1010": "f8a0d5c371ea461bc55bc02a72215a7efbdd9bec5c6862167bfcbbaf597a7808",
+    "f2-inp-R05-s1001": "fae44e131667eda473e33c26d652ead78e8032e6cb31e0f8e914feeff27b4844",
+    "f2-inp-R05-s1006": "a5e1eec4092607130ad17cdcd2bb6149f40a84de8dc1cf7ac5f1365ad00515b5",
+    "f2-inp-R05-s1011": "a92d5f6698ee732b36912f71d2a2a47b03fd1536080e222072adbaee945ebc8c",
+    "f2-inp-R10-s1002": "42e9f073de4eae0d438a15afdf8f7733d58b907bee00c521ecf6d7e6fed0f259",
+    "f2-inp-R10-s1007": "3e0d5ea58d2db808b70ff25bbdaec50e89a266987df5e7f7725caeeaf228dff6",
+    "f2-inp-R10-s1012": "aa124d1958f28d387a1b39b26f09cda130aca316fd4efb5a7901edac8ef7e6c5",
+    "f2-inp-S05-s1004": "b55d5a79fa7b0e2bb4643949373ca8a4d82dbe5542ba1b0f87c1747b24e39dcf",
+    "f2-inp-S05-s1009": "8fbd8145ef21c377e56aca4297eec7dfe14312001bbf8f215351c485ceed300e",
+    "f2-inp-S05-s1014": "d4bae8c13f77fc7395ea5b02e8f811d04aebfcebe92bcf3d800fcbdb05cc4a11",
+    "f2-inp-T-s1003": "53a811bf936973922da405af35e612171a1094051a9968957373c09a6827fcd9",
+    "f2-inp-T-s1008": "af20dae67b73cb449caa677b851353d5d0492afd752232b8cca219e4070f0c75",
+    "f2-inp-T-s1013": "1d36f105ccf64deaa5858be05544da5fddbdcd1097f27b61717b161e2ef19981"
+  },
+  "name": "f2_dev",
+  "spec": {
+    "alpha": 1.0,
+    "k": 100,
+    "master_seed": 20260818
+  }
+}

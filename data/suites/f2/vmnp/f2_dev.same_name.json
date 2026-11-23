@@ -1,0 +1,23 @@
+{
+  "name": "f2_dev",
+  "instances": {
+    "f2-vmnp-T-s1003": {
+      "cell_type": "CB1748",
+      "size": 2,
+      "single_masked_positives": 26,
+      "same_name_unmasked": 0
+    },
+    "f2-vmnp-T-s1008": {
+      "cell_type": "CB1754",
+      "size": 3,
+      "single_masked_positives": 40,
+      "same_name_unmasked": 0
+    },
+    "f2-vmnp-T-s1013": {
+      "cell_type": "AN_multi_107",
+      "size": 1,
+      "single_masked_positives": 94,
+      "same_name_unmasked": 0
+    }
+  }
+}

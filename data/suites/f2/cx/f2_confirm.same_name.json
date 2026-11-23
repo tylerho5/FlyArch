@@ -1,0 +1,29 @@
+{
+  "name": "f2_confirm",
+  "instances": {
+    "f2-cx-T-s2003": {
+      "cell_type": "CB0584",
+      "size": 2,
+      "single_masked_positives": 11,
+      "same_name_unmasked": 0
+    },
+    "f2-cx-T-s2008": {
+      "cell_type": "vDeltaJ",
+      "size": 13,
+      "single_masked_positives": 323,
+      "same_name_unmasked": 0
+    },
+    "f2-cx-T-s2013": {
+      "cell_type": "ER4d",
+      "size": 28,
+      "single_masked_positives": 1117,
+      "same_name_unmasked": 0
+    },
+    "f2-cx-T-s2018": {
+      "cell_type": "CB3348",
+      "size": 1,
+      "single_masked_positives": 1,
+      "same_name_unmasked": 0
+    }
+  }
+}

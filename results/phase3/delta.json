@@ -1,0 +1,15 @@
+{
+  "cohort": "c2ca46422504e944d18d6719946d2d882955bd9144339cb4597aabc0cc9ef34f",
+  "delta": 0.01,
+  "region": "PHASE3",
+  "run_ids": [
+    "f1-union12-s000-76efea1e",
+    "f1-union12-s001-76efea1e",
+    "f1-union12-s002-76efea1e",
+    "f1-union12-s003-76efea1e",
+    "f1-union12-s004-76efea1e"
+  ],
+  "s": 0.0038517532621147495,
+  "system": "A",
+  "tag": "delta-phase3-c2ca4642"
+}

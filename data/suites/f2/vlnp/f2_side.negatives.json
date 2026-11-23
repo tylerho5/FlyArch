@@ -1,0 +1,12 @@
+{
+  "digests": {
+    "f2-vlnp-HL-s4000": "9898273537d6293548bbaa56214c908e6a036bb9705b7653ad36f75fce2bad6e",
+    "f2-vlnp-HR-s4001": "ed5e53cc9af4e7d9a6a6de5c1fb4ea701e7079b58c0170fc9a90433de2a905aa"
+  },
+  "name": "f2_side",
+  "spec": {
+    "alpha": 1.0,
+    "k": 100,
+    "master_seed": 20260818
+  }
+}

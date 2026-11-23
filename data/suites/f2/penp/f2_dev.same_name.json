@@ -1,0 +1,23 @@
+{
+  "name": "f2_dev",
+  "instances": {
+    "f2-penp-T-s1003": {
+      "cell_type": "AN_GNG_SAD_34",
+      "size": 2,
+      "single_masked_positives": 6,
+      "same_name_unmasked": 0
+    },
+    "f2-penp-T-s1008": {
+      "cell_type": "CB1476",
+      "size": 6,
+      "single_masked_positives": 61,
+      "same_name_unmasked": 0
+    },
+    "f2-penp-T-s1013": {
+      "cell_type": "CB0398",
+      "size": 1,
+      "single_masked_positives": 4,
+      "same_name_unmasked": 0
+    }
+  }
+}

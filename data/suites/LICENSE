@@ -1,0 +1,65 @@
+Licensing of the files under data/suites/
+
+The files in this directory are released under the Creative Commons
+Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0):
+https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+The repository's code is under the MIT license (../../LICENSE). That license
+does not cover these files.
+
+What the files are
+------------------
+Each file is a selection derived from one of three public connectome datasets:
+root IDs of neurons chosen for masking, cell-type names, neuropil names,
+sha256 digests, counts and sampling parameters. No connectivity, synapse,
+morphology or coordinate data is included. The root IDs, cell-type names and
+neuropil names are taken from the source datasets and are not changed.
+
+The source datasets are released under CC BY or CC BY-NC terms. CC BY 4.0
+allows adapted material to be shared under more restrictive terms, so one
+CC BY-NC 4.0 license covers all three directories. You must also credit each
+source dataset as listed below.
+
+Source datasets
+---------------
+f1/  FlyWire v783 (F1)
+     License:  CC BY-NC 4.0, per https://flywire.ai/guidelines
+               ("FlyWire's public release data is made available under
+               license CC BY-NC 4.0"). The Zenodo record
+               https://zenodo.org/records/10676866 is tagged CC BY 4.0; the
+               stricter FlyWire statement is applied here because the
+               cell-type names come from FlyWire's annotations.
+     Data:     https://doi.org/10.5281/zenodo.10676866
+     Cite:     Dorkenwald, S., Matsliah, A., Sterling, A.R., Schlegel, P.,
+               et al. Neuronal wiring diagram of an adult brain. Nature 634,
+               124-138 (2024). https://doi.org/10.1038/s41586-024-07558-y
+               Schlegel, P., Yin, Y., Bates, A.S., Dorkenwald, S., et al.
+               Whole-brain annotation and multi-connectome cell typing of
+               Drosophila. Nature 634, 139-152 (2024).
+               https://doi.org/10.1038/s41586-024-07686-5
+
+f2/  BANC v888 (F2)
+     License:  CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
+     Data:     https://doi.org/10.7910/DVN/7WTH1N (Harvard Dataverse)
+     Cite:     Bates, A.S., Phelps, J.S., Kim, M., Yang, H.H., et al.
+               Distributed control circuits across a brain-and-cord
+               connectome. Nature 656, 957-970 (2026).
+               https://doi.org/10.1038/s41586-026-10735-w
+
+f3/  Male CNS v1.0 (F3)
+     License:  CC BY, as stated at https://male-cns.janelia.org/download/
+               ("The Male CNS is licensed under CC-BY"). The page does not
+               name a license version.
+     Data:     https://male-cns.janelia.org/
+     Cite:     Berg, S., Beckett, I.R., Costa, M., Schlegel, P., et al.
+               Sexual dimorphism in the complete Drosophila male central
+               nervous system connectome. Cell 189(18), 5504-5526.e15 (2026).
+               https://doi.org/10.1016/j.cell.2026.08.015
+
+Changes made
+------------
+The files select and record a subset of each dataset's neuron IDs and names for
+the experiments in this repository, and add sampling parameters and digests.
+
+This is a reading of the sources' published license statements, not legal
+advice. For FlyWire licensing questions, contact flywire@princeton.edu.
